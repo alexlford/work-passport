@@ -302,6 +302,24 @@
       ],
       "evidenceLimits": "Training program and capture phase are related professionally; exact sequencing and dates are not established. Technical content of proposal not disclosed.",
       "nextQuestion": "What was the biggest challenge as you shifted from RF technical-volume authorship on the capture team to SEIT leadership during RGS-A execution?"
+    },
+    {
+      "id": "boulder-rgs-a-two-guam-trips",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman — RGS-A",
+      "question": "Did you travel to Guam in support of the program?",
+      "answer": "I went to Guam twice in support of the program.",
+      "publicSummary": "Made two trips to Guam in support of Relay Ground Station–Asia (RGS-A).",
+      "linkedProgramIds": [
+        "rgs-a"
+      ],
+      "linkedMapPlaceIds": [
+        "guam-general"
+      ],
+      "sourceType": "Direct first-person interview",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Visit count confirmed; dates, duration, particular installations, activities and companions not yet established.",
+      "nextQuestion": "What do you remember most from the two trips to Guam?"
     }
   ]
 }

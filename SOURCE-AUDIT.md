@@ -67,8 +67,12 @@ Additional files were supplied directly for the Work Passport interview. The pub
 
 ### Open evidence questions
 
-- Whether the 2021 Innovation Award for an ultra-small ultra-wideband high-shock/high-temperature antenna refers to the projectile-tip patch antenna described in the CV; strong contextual overlap, **not yet confirmed identical**.
+- The user explicitly confirmed (2026-10-27) the 2021 Innovation Award for a wideband high-shock/high-temperature antenna **is** the projectile-tip antenna described in the CV. Do not publish nonpublic technical details.
 - Whether the October 2024 IEEE AP-S Industry Panel invitation led to attendance/participation.
-- Context and rights for the Chesapeake Bay Oyster photograph.
+- The user explicitly approved uploading and displaying supplied project photos on the public website (2026-10-27). A resized, EXIF-stripped WebP copy of the Chesapeake Bay boat photograph is now used for the oyster-monitoring project card; exact photo date and activity should not be inferred.
 - Current meaning of the 2025 Technical Fellow listing following the 2023–2024 initial selection; renewal is possible but not yet documented.
 
+
+### Image publication policy
+
+The user confirmed on October 27, 2026 that images they provide may be uploaded and displayed in Work Passport. The oyster card currently uses `assets/cbf-oyster.webp`, an optimized copy of a personally supplied photograph (no original EXIF metadata or full-size source redistributed). This confirms permission for this supplied photo, not a blanket license for every image elsewhere on the web. External imagery should be linked with source attribution, and downloaded/rehosted only if a suitable license or permission to redistribute can be established. Do not misidentify general illustrative imagery as a personal project artifact.

@@ -13,7 +13,21 @@
       "sourceType": "Direct first-person recollection",
       "sourceDate": "2026-10-27",
       "releaseBoundary": "High-level professional description only; no nonpublic methods, implementation, results, customers or requirements.",
-      "nextQuestion": "Was the previously mentioned CEM tool performance gain associated with this first algorithm-development assignment, and what public-safe outcome can be documented?"
+      "nextQuestion": "What was the main computational problem you were trying to solve with the internal CEM toolkit?"
+    },
+    {
+      "id": "baltimore-cem-method-goal",
+      "chapter": "baltimore",
+      "workplace": "Northrop Grumman, Baltimore/BWI",
+      "timeframe": "Early Northrop Grumman period (precise dates not claimed)",
+      "question": "What was the main computational problem you were trying to solve with the internal CEM toolkit?",
+      "answer": "Handle larger electromagnetic problems and execution speed. It was a new computational method.",
+      "publicSummary": "Developed a new computational method within an internal CEM toolkit intended to make larger electromagnetic problems tractable and improve execution speed.",
+      "sourceType": "Direct first-person recollection",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Objective and nature of the work confirmed by interview; quantitative speedups, problem sizes, implementation details, and deployment outcomes not yet established.",
+      "releaseBoundary": "No proprietary algorithm, underlying code, architecture, simulation details or sensitive benchmarks included.",
+      "nextQuestion": "Were there measurable outcomes or an important adoption milestone you can describe publicly? Did the previously mentioned tool speed improvement relate to this method?"
     }
   ]
 }

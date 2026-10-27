@@ -375,6 +375,17 @@
       "sourceDate": "2026-10-27",
       "evidenceLimits": "Personal reflection only; do not infer specific individuals, events, or measurable team outcomes.",
       "nextQuestion": "After RGS-A, what was the next program or leadership responsibility that shaped your Boulder career?"
+    },
+    {
+      "id": "boulder-manager-distributed-people-leadership",
+      "chapter": "boulder",
+      "question": "What defined your senior engineering management experience in Boulder?",
+      "answer": "Hiring and people management; frequent visits to Azusa, with additional trips to Space Park and Dayton; developing knowledge of OPIR; capture and color-team reviews; Space Sector IP team participation.",
+      "publicSummary": "Senior engineering management centered on hiring, people development, distributed teams, OPIR expertise, space capture and technical community participation.",
+      "sourceType": "First-person interview and October 2026 uploaded résumé",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Dayton-based staff supported NASIC at Wright-Patterson. No personal visit to Wright-Patterson confirmed.",
+      "nextQuestion": "Which hiring or people-development moment are you most proud of from managing that distributed organization?"
     }
   ]
 }

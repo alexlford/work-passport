@@ -80,8 +80,8 @@
     "status": "documented",
     "place": "Baltimore / BWI",
     "period": "2018–2019",
-    "role": "Computational electromagnetics (CEM) analysis",
-    "narrative": "Performed computational electromagnetics analysis in support of SEWIP during my early Northrop Grumman period in Baltimore. This analysis was distinct from my algorithmic development work on an internal CEM toolkit. Technical implementation details and specific results are not included in this public archive.",
+    "role": "Installed-performance computational electromagnetics analysis",
+    "narrative": "Performed computational electromagnetics (CEM) analysis focused on installed performance in support of SEWIP during my early Northrop Grumman period in Baltimore. This work was separate from algorithmic development on an internal CEM toolkit. Specific platforms, simulation models, technical results, and internal details are not described in this public archive.",
     "media": "https://cdn.northropgrumman.com/-/media/wp-content/uploads/SEWIP-01.jpg?h=917&iar=0&w=800&rev=955ef1f27d874dd0b1e255ec27bb4eba",
     "mediaCredit": "Northrop Grumman SEWIP anechoic test imagery",
     "links": [
@@ -94,7 +94,7 @@
         "url": "https://investor.northropgrumman.com/news-releases/news-release-details/northrop-grumman-wins-us-navys-surface-electronic-warfare"
       }
     ],
-    "evidence": "Direct interview recollection (2026-10-27); personal résumé listing SEWIP."
+    "evidence": "First-person interview recollections (2026-10-27), specifically confirming installed-performance CEM analysis; personal résumé lists SEWIP."
   },
   {
     "id": "cem",

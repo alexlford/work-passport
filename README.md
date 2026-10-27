@@ -8,17 +8,17 @@ The root `index.html` is a responsive static site requiring no build tools. GitH
 
 ## Pages and content
 
-- Homepage: three geographic career chapters; dated role progression from the June 2026 CV; verified program cards; five innovation/engineering awards and professional distinctions; ten conference/panel/author records; selected publications; and sources.
+- Homepage: three geographic career chapters; dated role progression from the June 2026 CV; verified program cards; seven innovation/engineering award events and professional distinctions; eleven conference/panel/author records; selected publications; and sources.
 - Map: **embedded only**, source of truth remains `alexlford/life-map` with `?embed=1&mode=work`. Do not copy map coordinates or map code here.
 - `data/programs.json`: documented work plus clear unverified candidate programs, including recognition links.
-- `data/awards.json`: five Northrop Grumman awards from the user-supplied Honors & Awards résumé image: CEM (2020, New Technology), RAPTR (2020, Good Engineering), FXR-related filtering aperture (2023, New Technology), high-shock/high-temperature ultra-wideband antenna (2021, Innovation), and Mass Detection Payload (2023, Innovation). The three project connections were confirmed in interview; the two other award workstream associations are not yet established.
-- `data/recognitions.json`: 2022 Frontiers of Engineering nomination, 2023 and 2025 Northrop Grumman Technical Fellow entries, and 2024 IEEE Senior Member distinction; a 2016 KU award is stored only as pre-archive context, not displayed as a Work Passport chapter-era recognition.
-- `data/conferences.json`: papers linked to their venue/session, keeping attendance, authorship, panels, invited talks and organizational roles distinct. The 2024 GSAW panel is corroborated by its public-release Working Group E outbrief, the 2020 AP-S/URSI antenna paper by the released IEEE paper, and the 2027 session-organizer role by the Conference Call for Papers.
+- `data/awards.json`: seven Northrop Grumman award events: five from the user's CV, plus one earlier 2023 FXR Innovation Award and one 2021 disclosure recognition confirmed by original correspondence: CEM (2020, New Technology), RAPTR (2020, Good Engineering), FXR-related filtering aperture (2023, New Technology), high-shock/high-temperature ultra-wideband antenna (2021, Innovation), and Mass Detection Payload (2023, Innovation). The 2023 FXR Innovation and New Technology awards recognize the same work at different stages; the additional 2021 disclosure subject is withheld from the public repository because its underlying invention is a trade secret.
+- `data/recognitions.json`: 2022 Frontiers of Engineering nomination, 2023 initial Technical Fellow selection and 2025 re-nomination/renewal, and 2024 IEEE Senior Member distinction; a 2016 KU award is stored only as pre-archive context, not displayed as a Work Passport chapter-era recognition.
+- `data/conferences.json`: papers linked to their venue/session, keeping attendance, authorship, panels, invited talks and organizational roles distinct. The 2020 IEEE AP-S/URSI paper's *virtual attendance* is independently confirmed by a conference-issued attendance certificate; the 2024 GSAW panel is corroborated by its public-release Working Group E outbrief, the 2020 AP-S/URSI antenna paper by the released IEEE paper, and the 2027 session-organizer role by the Conference Call for Papers.
 - `data/interviews.json`: public-safe, attributed first-person interview recollections; not a repository for nonpublic implementation details.
 - `data/chapters.json`: three geographic post-August-2017 career phases cross-referenced to Life Map, including a separately labeled August-to-October transition before the documented November 2017 Hawkes role.
 - `data/roles.json`: exact employment job titles, dates and sanitized summary of responsibilities from the June 5, 2026 curriculum vitae.
 - `data/academic-affiliations.json`: parallel University of Kansas Adjunct Industrial Research Associate role since November 2023, linked by the user to the December 2023 Astrophysical Journal article. Not an extra geographic career chapter.
-- `data/publications.json`: source-linked publications since August 2017, including two physics journal articles and three engineering conference papers.
+- `data/publications.json`: source-linked publications since August 2017; ApJ appeared online 2023-12-18 in a January 2024 issue, including two physics journal articles and three engineering conference papers.
 - `SOURCE-AUDIT.md`: historical URL replacements and image/source provenance.
 - `assets/cbf-oyster.webp`: optimized personal photo supplied and explicitly approved for public Work Passport use (October 27, 2026). Its exact event/date and what was occurring are not asserted.
 
@@ -48,3 +48,7 @@ Northrop Grumman Boulder remains the **career base from September 2021 through p
 See [SOURCE-AUDIT.md](SOURCE-AUDIT.md).
 
 _Initial editorial seed: 27 October 2026._
+
+## Archive intake — 2020–2029 ZIP (reviewed October 27, 2026)
+
+The uploaded ZIP contains original letters, conference attendance and paper records, the 2023/2024 Astrophysical Journal paper, a 2025 Technical Fellow re-nomination roster, and a set of approved-for-public-release 2020 Chesapeake Bay oyster-testing photographs. The archive and confidential originals were **not copied to this public repository**. Publications link to publisher DOI pages; award event descriptions exclude trade-secret contents, internal identifiers and compensation information. The CV's 2023 ApJ entry reflects online publication on December 18, 2023; the paper appears in the journal's January 2024 issue. The 2020 AP-S/URSI attendance certificate explicitly states **virtual attendance**, not travel to Montréal.

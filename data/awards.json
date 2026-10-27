@@ -14,6 +14,24 @@
     "publicationBoundary": "No classified, controlled or nonpublic payload details."
   },
   {
+    "id": "ng-innovation-fxr-2023",
+    "programId": "fxr",
+    "kind": "Innovation Award",
+    "issuer": "Northrop Grumman",
+    "displayTitle": "Integrated-Filter Aperture · Innovation Award",
+    "officialTitle": "Array Aperture With Low Loss On-Grid Integrated Elemental Filtering For Radar Systems",
+    "awardDate": "2023",
+    "awardMonth": "February",
+    "city": "Not specified in public source",
+    "recognition": "An Innovation Award for integrated-filter aperture development, followed later in 2023 by a separate New Technology Award for the same work.",
+    "sourceType": "Private award correspondence provided directly by the user; title independently appears in user's publicly shared CV",
+    "confirmation": "First-person FXR project link and two separate award notifications; one underlying invention, two different award stages.",
+    "relatedRecognitionIds": [
+      "ng-ntip-fxr"
+    ],
+    "publicationBoundary": "Award title only, as already shown in the CV; original internal letters, private award details and trade-secret invention contents not published."
+  },
+  {
     "id": "ng-ntip-fxr",
     "programId": "fxr",
     "kind": "New Technology Award",
@@ -22,11 +40,30 @@
     "officialTitle": "Array Aperture With Low Loss On-Grid Integrated Elemental Filtering For Radar Systems",
     "awardDate": "2023",
     "city": "Baltimore / BWI",
-    "recognition": "2023 Northrop Grumman New Technology Award for an array aperture with low-loss on-grid integrated elemental filtering, linked by personal recollection to the Navy FXR integrated-filter antenna effort.",
+    "recognition": "2023 New Technology Award for the integrated filtering antenna development. An earlier, separate 2023 Innovation Award was issued for the same underlying invention, followed by an additional award after review.",
     "sourceType": "First-person interview and résumé Honors & Awards image supplied 2026-10-27",
     "confirmation": "Distinct recognition for this specific workstream; user confirmed three separate awards. Classification, title and year transcribed from user-supplied Honors & Awards image.",
     "publicationBoundary": "No proprietary design details, measurements or program selection assertions.",
-    "sourceEvidence": "User-provided résumé excerpt (Honors & Awards, Intellectual Property). Award title/year self-reported; no external issuer verification implied."
+    "sourceEvidence": "User-provided résumé excerpt (Honors & Awards, Intellectual Property). Award title/year self-reported; no external issuer verification implied.",
+    "note": "User-provided 2023 award letters (not posted publicly) document separate Innovation and New Technology recognition stages for the same invention.",
+    "relatedRecognitionIds": [
+      "ng-innovation-fxr-2023"
+    ]
+  },
+  {
+    "id": "ng-disclosure-marine-radar-2021",
+    "programId": null,
+    "kind": "Disclosure Award",
+    "issuer": "Northrop Grumman",
+    "displayTitle": "Additional Technical Disclosure Award",
+    "officialTitle": null,
+    "awardDate": "2021",
+    "awardMonth": "April",
+    "city": "Baltimore period (project location not independently documented)",
+    "recognition": "An additional 2021 recognition for an engineering invention disclosure; the underlying subject and invention description are intentionally withheld from this public archive.",
+    "sourceType": "Private award correspondence supplied by the user; recognition category and date only",
+    "confirmation": "Original recognition letter in user's 2020–2029 archive.",
+    "publicationBoundary": "The underlying invention is designated a trade secret. Do not publish the invention name, proprietary implementation, docket, document, award value, internal correspondence or confidential personnel information."
   },
   {
     "id": "ng-innovation-high-shock-antenna-2021",
@@ -47,21 +84,6 @@
     "projectDescription": "Small wideband patch antenna developed for the tip of a projectile; the curriculum vitae describes a cavity resonance within the projectile. General details derive from the user-provided CV; no unreleased drawings or performance data published."
   },
   {
-    "id": "ng-ntip-cem",
-    "programId": "cem",
-    "kind": "New Technology Award",
-    "issuer": "Northrop Grumman",
-    "displayTitle": "CEM Algorithm · New Technology Award",
-    "officialTitle": "A Novel 1-D Periodic CEM Algorithm Enabling Fast High Fidelity RF Platform Optimization",
-    "awardDate": "2020",
-    "city": "Baltimore / BWI",
-    "recognition": "2020 Northrop Grumman New Technology Award for an innovative one-dimensional periodic CEM algorithm associated with the internal CEM toolkit.",
-    "sourceType": "First-person interview and résumé Honors & Awards image supplied 2026-10-27",
-    "confirmation": "Distinct recognition for this specific workstream; user confirmed three separate awards. Classification, title and year transcribed from user-supplied Honors & Awards image.",
-    "publicationBoundary": "Specific method implementation, code and internal disclosure contents not published.",
-    "sourceEvidence": "User-provided résumé excerpt (Honors & Awards, Intellectual Property). Award title/year self-reported; no external issuer verification implied."
-  },
-  {
     "id": "ng-ntip-raptr",
     "programId": "raptr",
     "kind": "Good Engineering Award",
@@ -74,6 +96,21 @@
     "sourceType": "First-person interview and résumé Honors & Awards image supplied 2026-10-27",
     "confirmation": "Distinct recognition for this specific workstream; user confirmed three separate awards. Classification, title and year transcribed from user-supplied Honors & Awards image.",
     "publicationBoundary": "No internal designs, sensitive performance data or customer-selection claims.",
+    "sourceEvidence": "User-provided résumé excerpt (Honors & Awards, Intellectual Property). Award title/year self-reported; no external issuer verification implied."
+  },
+  {
+    "id": "ng-ntip-cem",
+    "programId": "cem",
+    "kind": "New Technology Award",
+    "issuer": "Northrop Grumman",
+    "displayTitle": "CEM Algorithm · New Technology Award",
+    "officialTitle": "A Novel 1-D Periodic CEM Algorithm Enabling Fast High Fidelity RF Platform Optimization",
+    "awardDate": "2020",
+    "city": "Baltimore / BWI",
+    "recognition": "2020 Northrop Grumman New Technology Award for an innovative one-dimensional periodic CEM algorithm associated with the internal CEM toolkit.",
+    "sourceType": "First-person interview and résumé Honors & Awards image supplied 2026-10-27",
+    "confirmation": "Distinct recognition for this specific workstream; user confirmed three separate awards. Classification, title and year transcribed from user-supplied Honors & Awards image.",
+    "publicationBoundary": "Specific method implementation, code and internal disclosure contents not published.",
     "sourceEvidence": "User-provided résumé excerpt (Honors & Awards, Intellectual Property). Award title/year self-reported; no external issuer verification implied."
   }
 ]

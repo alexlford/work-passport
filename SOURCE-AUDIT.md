@@ -76,3 +76,15 @@ Additional files were supplied directly for the Work Passport interview. The pub
 ### Image publication policy
 
 The user confirmed on October 27, 2026 that images they provide may be uploaded and displayed in Work Passport. The oyster card currently uses `assets/cbf-oyster.webp`, an optimized copy of a personally supplied photograph (no original EXIF metadata or full-size source redistributed). This confirms permission for this supplied photo, not a blanket license for every image elsewhere on the web. External imagery should be linked with source attribution, and downloaded/rehosted only if a suitable license or permission to redistribute can be established. Do not misidentify general illustrative imagery as a personal project artifact.
+
+## Follow-up: 2020–2029 ZIP archive reviewed October 27, 2026
+
+- **2020 IEEE AP-S/URSI virtual certificate** explicitly confirms online attendance, correcting earlier uncertainty; do not show Montréal as a visited city on the user's map based on this record.
+- **2025–2026 PGS Technical Fellows internal announcement** confirms re-nomination for a new term, not initial selection. The roster itself was not made public.
+- **The Astrophysical Journal publisher PDF** lists the article as *960:4, 2024 January 1*, **published online December 18, 2023** (DOI 10.3847/1538-4357/ad07d5). The first page explicitly includes KU and Northrop Grumman affiliations and an adjunct-research footnote.
+- **2023 FXR-related award correspondence** documents two successive awards for the same previously CV-listed invention (Innovation followed by New Technology), not two independent inventions. Original letters contain confidential trade-secret restrictions and were not copied.
+- **2021 engineering disclosure recognition** is preserved as a generic category/year only; subject withheld as trade-secret material.
+- **September 2020 Chesapeake Bay Foundation oyster challenge photo packet** is marked Distribution Statement A, approved for public release. Photo binaries are present in the user's ZIP but are not yet ingested into the repository.
+- **2020 NG Innovation Exchange poster acceptance** establishes selection for a July campus poster; participation itself is not independently confirmed.
+
+Public archival policy: only non-proprietary, user-supplied and public-safe career facts; never expose full invention-disclosure letters, internal IDs, payment values, staff rosters, COVID access documents or licensed PDFs.

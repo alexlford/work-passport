@@ -11,8 +11,8 @@
     "relatedPublicationIds": [
       "apj-2023-pair-plasma"
     ],
-    "source": "User-provided curriculum vitae dated June 5, 2026, page 2. User explicitly requested the ApJ linkage on 2026-10-27.",
-    "evidenceBoundary": "The role and December 2023 research publication are each independently documented in the CV, but the publication's printed author-affiliation line has not been independently checked.",
+    "source": "User-provided curriculum vitae dated June 5, 2026, page 2. User explicitly requested the ApJ linkage on 2026-10-27. Original 2024 Jan 1 ApJ journal issue PDF, first page (published online Dec 18, 2023), DOI 10.3847/1538-4357/ad07d5.",
+    "evidenceBoundary": "Publisher PDF directly lists University of Kansas and Northrop Grumman as the author's affiliations and includes footnote 'Adjunct Research Support'; the 'Adjunct Industrial Research Associate' title comes from the CV. Online publication date December 18, 2023; journal issue date January 1, 2024.",
     "publicStatus": "documented"
   }
 ]

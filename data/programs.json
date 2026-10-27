@@ -225,9 +225,10 @@
       "awardName": "Array Aperture With Low Loss On-Grid Integrated Elemental Filtering For Radar Systems",
       "year": 2023,
       "distinctAwardId": "ng-ntip-fxr",
-      "note": "Title, category, and year transcribed from résumé image; association to project confirmed by user. This does not establish public patents or program production."
+      "note": "Two distinct award stages in 2023 for the same invention: Innovation Award followed by New Technology Award. Separate from the 2020 CEM and RAPTR awards. Source letters contain protected invention information and are not public."
     },
     "awardIds": [
+      "ng-innovation-fxr-2023",
       "ng-ntip-fxr"
     ]
   },
@@ -250,9 +251,10 @@
       }
     ],
     "originalUrl": "https://www.northropgrumman.com/corporate-responsibility-old/technology-for-conservation/chesapeake-bay-oyster-monitoring/",
-    "evidence": "Project listed on alexlford.com; contribution details incomplete. Personal project photograph supplied by user and approved for public website use on 2026-10-27; it does not establish precise project tasks, date or location.",
+    "evidence": "Project listed on alexlford.com; contribution details incomplete. Personal project photograph supplied by user and approved for public website use on 2026-10-27; it does not establish precise project tasks, date or location. A user-provided September 2020 oyster challenge photo clearance packet is approved for public release; individual professional role remains to be confirmed.",
     "mediaAlt": "Personal project photograph: Northrop Grumman team member wearing a mask on a boat",
-    "mediaKind": "User-supplied photo, optimized WebP copy stored in repository"
+    "mediaKind": "User-supplied photo, optimized WebP copy stored in repository",
+    "photoEvidence": "2020 Northrop Grumman Chesapeake Bay Foundation oyster challenge testing photo collection is expressly marked Distribution Statement A / approved for public release on 2020-09-21. Original images are held in the user's supplied 2020–2029 ZIP; no image binaries yet committed here."
   },
   {
     "id": "rmwt",

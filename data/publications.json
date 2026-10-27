@@ -28,13 +28,17 @@
     "authors": "M. C. Sitarz, M. V. Medvedev, and A. L. Ford",
     "venue": "The Astrophysical Journal",
     "publicationType": "Peer-reviewed journal article",
-    "url": "https://www.alexlford.com/pubs",
+    "url": "https://doi.org/10.3847/1538-4357/ad07d5",
     "summary": "Research in plasma cascade processes associated with rotating black-hole magnetospheres.",
-    "evidence": "June 5, 2026 CV, p.4, December 2023. Appointment listed on user-provided June 5, 2026 CV, page 2 (November 2023–present); the user explicitly requested the Work Passport connection on 2026-10-27.",
+    "evidence": "Original publisher PDF contained in user-provided ZIP: published 2023-12-18, issue dated 2024-01-01, DOI 10.3847/1538-4357/ad07d5; first-page author affiliations corroborate KU and industry context. June 2026 CV confirms KU Adjunct Industrial Research Associate position from Nov. 2023.",
     "relatedAffiliationIds": [
       "ku-adjunct-industrial-research-associate"
     ],
-    "affiliationContext": "This December 2023 paper is connected in the Work Passport to the author's University of Kansas Adjunct Industrial Research Associate appointment, which began in November 2023. This records a career/research relationship; it does not assert the affiliation text printed in the journal."
+    "affiliationContext": "This December 2023 paper is connected in the Work Passport to the author's University of Kansas Adjunct Industrial Research Associate appointment, which began in November 2023. This records a career/research relationship; it does not assert the affiliation text printed in the journal.",
+    "publicationDate": "2023-12-18",
+    "issueDate": "2024-01-01",
+    "issueCitation": "The Astrophysical Journal, 960:4 (2024 January 1)",
+    "affiliationEvidence": "First-page author information explicitly lists Department of Physics and Astronomy, University of Kansas (affiliation 1), Northrop Grumman Corporation (affiliation 5), and an 'Adjunct Research Support' footnote (affiliation 6). Exact institutional appointment title 'Adjunct Industrial Research Associate' is sourced independently from the CV."
   },
   {
     "id": "ieee-2020-conformal-array",

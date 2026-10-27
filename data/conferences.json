@@ -64,15 +64,27 @@
   {
     "id": "aps-ursi-2020",
     "title": "IEEE AP-S/URSI Symposium",
-    "where": "Montréal (2020 conference; personal travel not asserted)",
+    "where": "Virtual attendance (2020 symposium hosted from Montréal, Canada)",
     "year": "2020",
-    "type": "Co-author",
+    "type": "Paper co-author · confirmed virtual attendee",
     "status": "documented",
     "work": "Prototyping an S-Band Conformal Line Array Antenna on a Partial Wing Surface",
     "description": "Co-authored an IEEE paper reporting the design, additive fabrication, characterization and laboratory testing of an S-band conformal five-element array on a partial wing surface. The publication reports agreement between measured and modeled RF performance.",
     "url": "https://doi.org/10.1109/IEEECONF35879.2020.9329463",
-    "note": "Paper: Thomas G. Spence, Alexander L. Ford, Christopher C. Roberts; copyright © 2020 Northrop Grumman, Distribution Statement A / public release #20-0020. Authorship documented; in-person attendance not asserted. Full personally licensed IEEE PDF not copied to public repo.",
-    "evidenceType": "2020 IEEE paper supplied by user; explicitly authorized for public release"
+    "note": "2020 APS/URSI Certificate of Attendance explicitly confirms virtual participation and associates this conference paper. Event's Montréal host location must not be presented as personal travel. Paper published; presentation by this author not established.",
+    "evidenceType": "User-provided conference-issued virtual Certificate of Attendance and IEEE paper"
+  },
+  {
+    "id": "ng-innovation-exchange-2020",
+    "title": "Northrop Grumman Innovation Exchange",
+    "where": "Baltimore, Maryland (scheduled campus poster session)",
+    "year": "2020",
+    "type": "Accepted poster (attendance unconfirmed)",
+    "status": "documented",
+    "work": "1-Dimensionally Periodic Multi-Solver Domain Decomposition Method",
+    "description": "A July 2020 acceptance letter selected this engineering-method submission for an on-campus poster session. Inclusion in the work archive is based only on the title and selection; no internal poster or method contents are published.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Original internal acceptance notice reviewed in user's ZIP; poster acceptance established, actual event attendance not established."
   },
   {
     "id": "ieee-past-2019",

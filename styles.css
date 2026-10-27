@@ -362,3 +362,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 .management-places small{display:block;font-size:10px;color:#9bb0b8;margin-top:12px}
 @media(max-width:600px){.management-themes{grid-template-columns:1fr;gap:7px}.management-details{padding:0 13px}}
 
+
+/* First-person reflections distinguish the meaning of a distinction from its formal award details. */
+.recognition-reflection{margin:13px 0 3px;padding:3px 0 3px 16px;border-left:2px solid var(--gold);font:italic 14px/1.7 Georgia,serif;color:#dfd7c7;max-width:680px}
+@media(max-width:640px){.recognition-reflection{font-size:13px;padding-left:12px}}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ng-ntip-cem",
+    "programId": "cem",
+    "kind": "New Technology / IP Award",
+    "issuer": "Northrop Grumman",
+    "displayTitle": "Internal CEM Toolkit",
+    "officialTitle": null,
+    "awardDate": null,
+    "city": "Baltimore / BWI",
+    "recognition": "Distinct New Technology/IP award recognizing work on an internal computational electromagnetics toolkit and a new method designed to address larger models with better execution speed.",
+    "sourceType": "Confirmed firsthand interview, 2026-10-27",
+    "confirmation": "Three separate awards, one for each confirmed workstream.",
+    "publicationBoundary": "Specific method implementation, code and internal disclosure contents not published."
+  },
+  {
+    "id": "ng-ntip-raptr",
+    "programId": "raptr",
+    "kind": "New Technology / IP Award",
+    "issuer": "Northrop Grumman",
+    "displayTitle": "RAPTR Radar Development",
+    "officialTitle": null,
+    "awardDate": null,
+    "city": "Baltimore / BWI",
+    "recognition": "Distinct New Technology/IP award associated with RAPTR, a scalable radar product-line offering targeting Future Vertical Lift and drone radar applications.",
+    "sourceType": "Confirmed firsthand interview, 2026-10-27",
+    "confirmation": "Three separate awards, one for each confirmed workstream.",
+    "publicationBoundary": "No internal designs, sensitive performance data or customer-selection claims."
+  },
+  {
+    "id": "ng-ntip-fxr",
+    "programId": "fxr",
+    "kind": "New Technology / IP Award",
+    "issuer": "Northrop Grumman",
+    "displayTitle": "FXR Integrated-Filter Antenna",
+    "officialTitle": null,
+    "awardDate": null,
+    "city": "Baltimore / BWI",
+    "recognition": "Distinct New Technology/IP award associated with an antenna design using an additively manufactured integrated filter for a proposed Navy FXR offering, subsequently fabricated and laboratory-tested.",
+    "sourceType": "Confirmed firsthand interview, 2026-10-27",
+    "confirmation": "Three separate awards, one for each confirmed workstream.",
+    "publicationBoundary": "No proprietary design details, measurements or program selection assertions."
+  }
+]

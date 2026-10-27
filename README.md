@@ -12,12 +12,16 @@ The root `index.html` is a responsive static site requiring no build tools. GitH
 - Map: **embedded only**, source of truth remains `alexlford/life-map` with `?embed=1&mode=work`. Do not copy map coordinates or map code here.
 - `data/programs.json`: documented work plus clear unverified candidate programs.
 - `data/conferences.json`: papers linked to their venue/session, keeping attendance, authorship, panels, invited talks and organizational roles distinct.
-- `data/chapters.json`: four post-August-2017 career phases cross-referenced to Life Map, including a separately labeled August-to-October transition before the documented November 2017 Hawkes role.
+- `data/chapters.json`: three post-August-2017 career phases cross-referenced to Life Map, including a separately labeled August-to-October transition before the documented November 2017 Hawkes role.
 - `SOURCE-AUDIT.md`: historical URL replacements and image/source provenance.
 
 ## Archive boundary
 
 **Start: August 2017.** The Work Passport deliberately excludes earlier graduate research employment, undergraduate experiences, and pre-August 2017 conferences. Earlier degrees and research may be cited for context, but they are not rendered as Work Passport career or conference records. The separate Life Map retains its earlier work and education history and is not edited or truncated here. According to the current résumé, the Hawkes Learning role started in **November 2017**, not August; August 2017 marks the beginning of this archive, not a new claimed employment date.
+
+## Career-base correction
+
+Northrop Grumman Boulder remains the **career base from September 2021 through present**, across the Systems Engineering Manager and current Senior Staff Engineer / Lead Systems Engineer roles. **There is no separate Aurora career chapter.** The independent Life Map is the source of truth for career geography.
 
 ## Integrity rules
 

@@ -1,5 +1,18 @@
 [
   {
+    "id": "ieee-aero-2027",
+    "title": "IEEE Aerospace Conference · Track 4",
+    "where": "Big Sky, Montana",
+    "year": "2027 · upcoming",
+    "type": "Listed session organizer · upcoming",
+    "status": "planned",
+    "work": "Sessions 4.01 Evolving Space Communication Architectures & 4.02 Communication Protocols and Services for Space Networks",
+    "description": "The 2027 IEEE Aerospace Conference Call for Papers lists Alexander Ford as an organizer for both Track 4 sessions 4.01 and 4.02, alongside Shervin Shambayati; event scheduled March 6–13, 2027, in Big Sky, Montana.",
+    "url": "https://www.aeroconf.org/",
+    "note": "Primary source: user-provided 2027 IEEE Aerospace Call for Papers, page 9. Future conference organizing assignment, not a statement of attendance or accepted paper.",
+    "evidenceType": "Published 2027 Call for Papers provided by user"
+  },
+  {
     "id": "ieee-aero-2026",
     "title": "IEEE Aerospace Conference",
     "where": "Big Sky, Montana",
@@ -10,6 +23,43 @@
     "description": "A comparative analysis of terrestrial MIL-STD baselines and lunar environmental, autonomy, EMI/EMC and communications requirements.",
     "url": "https://www.alexlford.com/pubs",
     "note": "Paper listed on alexlford.com and LinkedIn; presentation specifics may be refined."
+  },
+  {
+    "id": "ku-talk-2026",
+    "title": "University of Kansas Physics & Astronomy Colloquium",
+    "where": "Lawrence, Kansas",
+    "year": "2026",
+    "type": "Invited talk",
+    "status": "documented",
+    "work": "The Value of First Principles Thinking",
+    "description": "Invited department talk, April 2026, connecting theory, technical problem-solving and engineering leadership.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Published LinkedIn / personal site listing."
+  },
+  {
+    "id": "gsaw",
+    "title": "Ground System Architectures Workshop (GSAW)",
+    "where": "Los Angeles, California (Renaissance Los Angeles Airport Hotel)",
+    "year": "2024",
+    "type": "Working Group E panelist",
+    "status": "documented",
+    "work": "Leaping into the Future: How Innovations and Technological Advances Will Enable Economically Sustainable Next Generation Ground and Flight System Architectures",
+    "description": "Named panelist for Working Group E in the February 29, 2024 outbrief. The public-release working group addressed sustainable ground and flight architectures, commercial approaches, interoperability, cloud financial operations, AI/ML, and optical communications.",
+    "url": "https://www.linkedin.com/in/alexlford",
+    "note": "Panelist name and 2024 date explicitly listed in supplied Aerospace Corporation GSAW Working Group E outbrief, marked approved for public release (OTR 2024-00514). Does not attribute every collective working-group conclusion to any one participant.",
+    "evidenceType": "Approved-for-public-release conference outbrief provided by user"
+  },
+  {
+    "id": "incose-la-sd-2024",
+    "title": "INCOSE Los Angeles–San Diego Chapter",
+    "where": "Venue not confirmed",
+    "year": "2024",
+    "type": "Paper co-author (attendance unconfirmed)",
+    "status": "documented",
+    "work": "Extending Descriptive System Models to Requirement Verification",
+    "description": "Conference paper/abstract credited to S. Goodwin, A. Rambo and A. Ford; November 2024.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "June 2026 CV lists this title under conference papers and abstracts; co-authorship is evidence of a scholarly contribution, not in-person attendance."
   },
   {
     "id": "aps-ursi-2020",
@@ -37,41 +87,39 @@
     "note": "Life Map attendance record; sessions and panels still to be added."
   },
   {
-    "id": "gsaw",
-    "title": "Ground System Architectures Workshop (GSAW)",
-    "where": "Los Angeles, California (Renaissance Los Angeles Airport Hotel)",
-    "year": "2024",
-    "type": "Working Group E panelist",
+    "id": "aps-dpp-2018",
+    "title": "APS Division of Plasma Physics",
+    "where": "Venue not confirmed",
+    "year": "2018",
+    "type": "Abstract co-author (attendance unconfirmed)",
     "status": "documented",
-    "work": "Leaping into the Future: How Innovations and Technological Advances Will Enable Economically Sustainable Next Generation Ground and Flight System Architectures",
-    "description": "Named panelist for Working Group E in the February 29, 2024 outbrief. The public-release working group addressed sustainable ground and flight architectures, commercial approaches, interoperability, cloud financial operations, AI/ML, and optical communications.",
-    "url": "https://www.linkedin.com/in/alexlford",
-    "note": "Panelist name and 2024 date explicitly listed in supplied Aerospace Corporation GSAW Working Group E outbrief, marked approved for public release (OTR 2024-00514). Does not attribute every collective working-group conclusion to any one participant.",
-    "evidenceType": "Approved-for-public-release conference outbrief provided by user"
-  },
-  {
-    "id": "ku-talk-2026",
-    "title": "University of Kansas Physics & Astronomy Colloquium",
-    "where": "Lawrence, Kansas",
-    "year": "2026",
-    "type": "Invited talk",
-    "status": "documented",
-    "work": "The Value of First Principles Thinking",
-    "description": "Invited department talk, April 2026, connecting theory, technical problem-solving and engineering leadership.",
+    "work": "Generation of Plasmas Around Spinning Black Holes",
+    "description": "Conference abstract by A. L. Ford, B. D. Keenan and M. V. Medvedev, November 2018.",
     "url": "https://www.alexlford.com/pubs",
-    "note": "Published LinkedIn / personal site listing."
+    "note": "Listed in June 2026 CV; attendance not inferred."
   },
   {
-    "id": "ieee-aero-2027",
-    "title": "IEEE Aerospace Conference · Track 4",
-    "where": "Big Sky, Montana",
-    "year": "2027 · upcoming",
-    "type": "Listed session organizer · upcoming",
-    "status": "planned",
-    "work": "Sessions 4.01 Evolving Space Communication Architectures & 4.02 Communication Protocols and Services for Space Networks",
-    "description": "The 2027 IEEE Aerospace Conference Call for Papers lists Alexander Ford as an organizer for both Track 4 sessions 4.01 and 4.02, alongside Shervin Shambayati; event scheduled March 6–13, 2027, in Big Sky, Montana.",
-    "url": "https://www.aeroconf.org/",
-    "note": "Primary source: user-provided 2027 IEEE Aerospace Call for Papers, page 9. Future conference organizing assignment, not a statement of attendance or accepted paper.",
-    "evidenceType": "Published 2027 Call for Papers provided by user"
+    "id": "aps-april-2018",
+    "title": "APS April Meeting",
+    "where": "Venue not confirmed",
+    "year": "2018",
+    "type": "Abstract co-author (attendance unconfirmed)",
+    "status": "documented",
+    "work": "Electron-Positron Cascade in Magnetospheres of Spinning Black Holes",
+    "description": "Conference abstract by A. L. Ford, B. D. Keenan and M. V. Medvedev, April 2018.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Listed in June 2026 CV; attendance not inferred."
+  },
+  {
+    "id": "aps-dpp-2017",
+    "title": "APS Division of Plasma Physics",
+    "where": "Venue not confirmed",
+    "year": "2017",
+    "type": "Abstract co-author (attendance unconfirmed)",
+    "status": "documented",
+    "work": "Electron-Positron Cascade in Magnetospheres of Spinning Black Holes",
+    "description": "Conference abstract by A. L. Ford, B. D. Keenan and M. V. Medvedev, October 2017, within the Work Passport's August 2017+ coverage.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Listed in June 2026 CV; attendance not inferred."
   }
 ]

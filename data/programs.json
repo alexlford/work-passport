@@ -7,8 +7,8 @@
     "status": "documented",
     "place": "Boulder / Guam",
     "period": "2021–2025",
-    "role": "Systems Engineering, Integration & Test Lead; Scrum Master",
-    "narrative": "RGS-A was my first major space-to-ground communications assignment after moving to Boulder in September 2021. I led systems engineering and integration for six relay ground stations on Guam, from program startup through critical design review, aligning antenna and terminal subsystems, interfaces, verification plans, and customer needs. The work bridged systems architecture, supplier coordination, and real-world ground infrastructure.",
+    "role": "RF technical-volume author on capture team; SEIT lead during program execution; Scrum Master",
+    "narrative": "RGS-A became my first major space-to-ground communications assignment after moving to Boulder. I started with the capture team and wrote the RF content of the technical proposal volume. I continued onto the program as Systems Engineering, Integration & Test (SEIT) lead. That transition took me from applying radar and RF expertise during the pursuit to broader systems engineering leadership as the six relay ground stations on Guam moved through development and critical design review. My 2021 University of Chicago Booth Capture Strategy executive program is linked as relevant professional development, without assuming whether I completed it before or after the proposal.",
     "media": "https://cdn.northropgrumman.com/-/media/NEWS/Imports/Northrop-Grummans-Rapid-Completion-of-Critical-Design-Review-Supports-Future-Missile-Warning-Satellites-in-Pacific-Region_hero.jpg?h=768&hash=CD6422AE0F0EDDEEE3C116ED80D9FCD4&iar=0&w=1280",
     "mediaCredit": "Northrop Grumman public RGS-A program imagery; not a personal project photograph",
     "links": [
@@ -21,7 +21,20 @@
         "url": "https://militaryembedded.com/unmanned/sensors/northrop-grumman-to-develop-next-generation-relay-ground-station-for-us-naval-information-warfare-center-pacific"
       }
     ],
-    "evidence": "First-person interview confirmation (2026-10-27) identifies RGS-A as the first significant assignment after the September 2021 Boulder transition; personal résumé and published Northrop Grumman RGS-A announcement establish scope and role. Precise individual start date for RGS-A is not inferred from the relocation date."
+    "evidence": "User confirmation, October 27, 2026, of RGS-A capture technical-volume RF authorship and subsequent SEIT lead role; June 2026 CV corroborates RGS-A engineering work and 2021 U Chicago Capture Strategy executive program. Course-to-capture timing unverified. No proposal details reproduced.",
+    "phases": [
+      {
+        "label": "Capture",
+        "contribution": "Wrote the RF content of the technical proposal volume"
+      },
+      {
+        "label": "Execution",
+        "contribution": "Continued on RGS-A as SEIT lead, through critical design review"
+      }
+    ],
+    "relatedProfessionalDevelopmentIds": [
+      "uchicago-booth-capture-strategy-2021"
+    ]
   },
   {
     "id": "sbirs",

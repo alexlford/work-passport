@@ -1,0 +1,57 @@
+[
+  {
+    "id": "aeroconf-2026-lunar-relay",
+    "year": 2026,
+    "title": "Lunar Relay Ground Stations",
+    "authors": "Alexander L. Ford",
+    "venue": "IEEE Aerospace Conference",
+    "publicationType": "Conference paper",
+    "url": "https://www.alexlford.com/pubs",
+    "summary": "Explores engineering considerations for lunar relay ground stations, including environmental constraints, interoperability, autonomy and communication architectures.",
+    "evidence": "June 5, 2026 CV, p.4; public professional portfolio; publication and conference record. No extra authors inferred."
+  },
+  {
+    "id": "incose-2024-requirement-verification",
+    "year": 2024,
+    "title": "Extending Descriptive System Models to Requirement Verification",
+    "authors": "S. Goodwin, A. Rambo, and A. Ford",
+    "venue": "INCOSE Los Angeles–San Diego",
+    "publicationType": "Conference paper/abstract",
+    "url": "https://www.alexlford.com/pubs",
+    "summary": "Conference-listed contribution on extending descriptive system models toward requirements verification.",
+    "evidence": "June 5, 2026 CV, p.4; specific technical outcomes not inferred."
+  },
+  {
+    "id": "apj-2023-pair-plasma",
+    "year": 2023,
+    "title": "Pair Plasma Cascade in Rotating Black Hole Magnetospheres with Split Monopole Flux Model",
+    "authors": "M. C. Sitarz, M. V. Medvedev, and A. L. Ford",
+    "venue": "The Astrophysical Journal",
+    "publicationType": "Peer-reviewed journal article",
+    "url": "https://www.alexlford.com/pubs",
+    "summary": "Research in plasma cascade processes associated with rotating black-hole magnetospheres.",
+    "evidence": "June 5, 2026 CV, p.4, December 2023."
+  },
+  {
+    "id": "ieee-2020-conformal-array",
+    "year": 2020,
+    "title": "Prototyping an S-Band Conformal Line Array Antenna on a Partial Wing Surface",
+    "authors": "Thomas G. Spence, Alexander L. Ford, and Christopher C. Roberts",
+    "venue": "IEEE AP-S/URSI Symposium",
+    "publicationType": "Published conference paper",
+    "url": "https://doi.org/10.1109/IEEECONF35879.2020.9329463",
+    "summary": "Design, additive fabrication, and physical testing of a conformal S-band line array prototype. The released paper documents strong agreement between measurements and modeling.",
+    "evidence": "User-provided 2020 IEEE paper, pages 1–2, Northrop Grumman approved for public release (#20-0020). Only bibliographic data and high-level conclusions are reproduced."
+  },
+  {
+    "id": "prd-2018-electron-positron",
+    "year": 2018,
+    "title": "Electron-positron cascade in magnetospheres of spinning black holes",
+    "authors": "A. L. Ford, B. D. Keenan, and M. V. Medvedev",
+    "venue": "Physical Review D",
+    "publicationType": "Peer-reviewed journal article",
+    "url": "https://doi.org/10.1103/PhysRevD.98.063016",
+    "summary": "Research on electron-positron cascade physics in the magnetospheres of rotating black holes.",
+    "evidence": "June 5, 2026 CV, p.4, September 2018; publication identifier already established by CV and earlier archive records."
+  }
+]

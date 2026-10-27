@@ -92,3 +92,59 @@
 .project-phase strong{font-size:13px}
 .project-phase p{font-size:12px;margin:5px 0}
 .project-training{font-size:12px;border-left:2px solid var(--gold);padding:10px 12px;margin-bottom:18px}
+
+/* WORK PASSPORT 2.0 — editorial structure */
+:root{--bg:#091822;--navy:#102530;--navy2:#1b313c;--paper:#f4f0e7;--gold:#cda873;--ink:#162b36;--line:rgba(240,242,237,.14)}
+html{scroll-padding-top:90px}
+body{background:var(--bg);color:var(--paper);letter-spacing:-.008em}
+a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.site-header{position:sticky;top:0;z-index:50;min-height:74px;padding:16px clamp(22px,5.5vw,95px);background:rgba(9,24,34,.965);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-color:rgba(255,255,255,.095)}
+.wordmark{flex-shrink:0;font-size:14px;letter-spacing:.08em}
+.wordmark small{font-size:8px;color:#9eb1b8}
+.logo{width:38px;height:38px}
+.site-header nav{justify-content:flex-end;gap:clamp(11px,1.8vw,29px)}
+.site-header nav a{font-size:10px;letter-spacing:.13em;font-weight:700;white-space:nowrap;color:#c9d2d4}
+.hero{grid-template-columns:1.03fr .97fr;min-height:clamp(610px,75vh,770px)}
+.hero-copy{padding:clamp(70px,7.8vw,122px) clamp(32px,6vw,110px) 78px;background:radial-gradient(ellipse at 2% 95%,#173744 0,transparent 52%)}
+.hero .eyebrow{margin-bottom:40px;font-size:10px;letter-spacing:.16em}
+.hero h1{font-size:clamp(72px,8.5vw,132px);line-height:.98;letter-spacing:-.08em;margin-bottom:35px}
+.hero h1 em{font-size:.96em}
+.hero .lead{font-size:clamp(16px,1.35vw,19px);line-height:1.75;max-width:520px;color:#d1dcdd}
+.hero-actions{margin-top:33px}
+.hero-actions .button{font-size:12px;min-height:49px}
+.hero-actions>a:not(.button){font-size:12px;color:#c9dadd}
+.hero-note{font-size:10px;margin-top:clamp(45px,6vw,86px);color:#89a9b5}
+.hero-visual{min-height:580px}
+.hero-visual img{filter:brightness(.72) saturate(.73);object-position:center 43%}
+.hero-visual:after{background:linear-gradient(90deg,var(--bg),transparent 22%),linear-gradient(0deg,rgba(9,24,34,.85),transparent 52%)}
+.hero-inset{bottom:60px;left:10%;right:12%;padding-top:17px}
+.hero-inset strong{font-size:clamp(26px,2.7vw,40px)}
+.hero-inset small{color:#b6c4c6}
+.career-arc{padding:35px clamp(24px,5.5vw,95px);display:grid;grid-template-columns:1.55fr repeat(3,1fr);gap:0;background:#102731;border-block:1px solid rgba(205,168,115,.23)}
+.arc-lead{padding:4px 37px 5px 0;border-right:1px solid rgba(255,255,255,.13)}
+.arc-lead span,.arc-stage>span{display:block;font-size:10px;color:var(--gold);letter-spacing:.14em;font-weight:700;margin-bottom:12px}
+.arc-lead strong{font:italic clamp(20px,2.1vw,30px)/1.2 Georgia,serif;letter-spacing:-.04em}
+.arc-stage{padding:4px 17px 5px 23px;border-right:1px solid rgba(255,255,255,.12)}
+.arc-stage:last-child{border-right:0}
+.arc-stage strong{display:block;font:700 clamp(15px,1.25vw,19px)/1.2 Manrope,Arial,sans-serif;letter-spacing:-.03em}
+.arc-stage small{display:block;font-size:11px;line-height:1.55;color:#a4babf;margin-top:10px}
+.section{padding:clamp(80px,8vw,122px) clamp(24px,5.5vw,95px);scroll-margin-top:82px}
+.section-heading{margin-bottom:48px;align-items:end;gap:55px}
+.section-heading p{max-width:350px;font-size:13px;line-height:1.75}
+.section h2{font-size:clamp(43px,5vw,72px)}
+.chapter{min-height:310px;padding:29px clamp(18px,2.2vw,34px) 33px}
+.chapter .location{margin:32px 0 12px}
+.chapter h3{font-size:clamp(20px,1.8vw,25px)}
+.chapter p{font-size:12px;line-height:1.8}
+.career-timeline{margin-top:77px}
+.timeline-heading>span{font-size:10px;color:var(--gold);font-weight:700;letter-spacing:.13em}
+.timeline-heading h3{margin-top:9px}
+.role-row{grid-template-columns:minmax(135px,205px) 1fr;padding:23px 5px}
+.role-date{font-size:11px}
+.role-content p{line-height:1.8}
+.story-interlude{position:relative;background:#1b3440;color:#f1ede5;padding:clamp(60px,8vw,115px) clamp(24px,13vw,250px);border-block:1px solid rgba(205,168,115,.24)}
+.story-interlude .story-mark{position:absolute;top:30px;left:max(5vw,24px);font:180px Georgia,serif;line-height:.8;color:rgba(205,168,115,.21);pointer-events:none}
+.story-interlude blockquote{font:italic clamp(29px,3.8vw,55px)/1.3 Georgia,serif;letter-spacing:-.035em;max-width:1000px;margin:0}
+.story-interlude>div{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:36px}
+.story-interlude>div span{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:.12em}
+.story-interlude>div small{font-size:11px;color:#b9c9cc}

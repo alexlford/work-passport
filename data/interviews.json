@@ -357,6 +357,24 @@
         "https://adventures.alexlford.com/record/2022-05-11-mount-jumullong-manglo/"
       ],
       "evidenceLimits": "Exact date of the restaurant stop and work-trip duration remain unknown; the 2022-05-11 date pertains to the recorded hike."
+    },
+    {
+      "id": "boulder-rgs-a-guam-second-trip-friendships",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman / RGS-A",
+      "question": "What stands out most about the time you spent with the team during the second Guam visit?",
+      "answer": "Building friendships, trust, and memories.",
+      "publicSummary": "The strongest memory of the second RGS-A visit to Guam was building friendships, trust, and memories with colleagues, beyond the technical work.",
+      "linkedProgramIds": [
+        "rgs-a"
+      ],
+      "linkedMapPlaceIds": [
+        "guam-general"
+      ],
+      "sourceType": "Direct first-person recollection",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Personal reflection only; do not infer specific individuals, events, or measurable team outcomes.",
+      "nextQuestion": "After RGS-A, what was the next program or leadership responsibility that shaped your Boulder career?"
     }
   ]
 }

@@ -239,6 +239,22 @@
       "sourceDate": "2026-10-27",
       "evidenceLimits": "Do not infer Colorado lifestyle, specific mission, compensation, or other motivations.",
       "nextQuestion": "What was the scope of the team and mission you inherited when you became Systems Engineering Manager 3 in Boulder?"
+    },
+    {
+      "id": "save-the-bay-2020-field-participation",
+      "chapter": "baltimore",
+      "question": "Did you personally participate in on-water field testing in 2020?",
+      "answer": "Yes",
+      "publicSummary": "Personally participated in the Save the Bay field-testing activities in 2020.",
+      "sourceDate": "2026-10-27"
+    },
+    {
+      "id": "save-the-bay-community-memory",
+      "chapter": "baltimore",
+      "question": "What was memorable about the Save the Bay mission?",
+      "answer": "A very cool mission and fun use of our expertise to help solve problem for the community",
+      "publicSummary": "Remembered the mission as a fun, meaningful chance to use engineering expertise to solve a problem for the community.",
+      "sourceDate": "2026-10-27"
     }
   ]
 }

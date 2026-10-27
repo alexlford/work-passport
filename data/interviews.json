@@ -148,9 +148,34 @@
         "raptr",
         "cem"
       ],
-      "evidenceLimits": "This answer establishes three connections to internal recognition but does not establish three distinct awards, which award covers which workstream, award titles, or dates.",
+      "evidenceLimits": "Three distinct internal New Technology/IP awards confirmed by direct follow-up, one each for FXR, RAPTR and CEM toolkit. Official award titles and dates remain unverified.",
       "releaseBoundary": "High-level internal recognition only. Do not publish sensitive invention disclosures, patent details or proprietary designs without an approved public record.",
-      "nextQuestion": "Were these three separate New Technology/IP awards, or were some of the projects recognized together?"
+      "nextQuestion": "What were the approximate years of your three New Technology/IP awards?",
+      "followUpConfirmation": "Three separate awards."
+    },
+    {
+      "id": "baltimore-three-separate-ntip-awards",
+      "chapter": "baltimore",
+      "workplace": "Northrop Grumman, Baltimore / BWI",
+      "timeframe": "2018–2021 period; exact dates not yet confirmed",
+      "question": "Were these three separate New Technology/IP awards, or were some projects recognized under the same award?",
+      "answer": "Three separate awards.",
+      "publicSummary": "Received three separate internal Northrop Grumman New Technology/IP awards, respectively associated with the internal CEM toolkit, RAPTR radar development, and the FXR additively manufactured integrated-filter antenna.",
+      "linkedProgramIds": [
+        "cem",
+        "raptr",
+        "fxr"
+      ],
+      "linkedAwardIds": [
+        "ng-ntip-cem",
+        "ng-ntip-raptr",
+        "ng-ntip-fxr"
+      ],
+      "sourceType": "Direct first-person confirmation",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Three separate awards confirmed; award certificates, official titles, dates and exact recipient credit not yet documented.",
+      "releaseBoundary": "Avoid naming unreleased inventions, sensitive specifications, confidential disclosure identifiers or protected intellectual property.",
+      "nextQuestion": "Do you remember approximately which year each of the three awards was received?"
     }
   ]
 }

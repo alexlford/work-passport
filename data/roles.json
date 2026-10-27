@@ -1,0 +1,57 @@
+[
+  {
+    "id": "hawkes-physics-pm",
+    "chapter": "charleston",
+    "employer": "Hawkes Learning",
+    "title": "Physics Project Manager",
+    "start": "2017-11-01",
+    "end": "2018-01-19",
+    "location": "Mount Pleasant, South Carolina",
+    "summary": "Led creation of college-level physics courseware and coordinated university and subcontractor contributions.",
+    "evidence": "User-supplied CV dated June 5, 2026, page 1"
+  },
+  {
+    "id": "ng-baltimore-principal-rf",
+    "chapter": "baltimore",
+    "employer": "Northrop Grumman Mission Systems",
+    "title": "Principal Engineer, RF Microwave Design",
+    "start": "2018-01-22",
+    "end": "2019-09-14",
+    "location": "Baltimore, Maryland",
+    "summary": "Developed computational electromagnetic tools, advanced RF and antenna designs and contributed to active phased-array architecture.",
+    "evidence": "User-supplied CV dated June 5, 2026, page 1; technical specifics refined by first-person interview"
+  },
+  {
+    "id": "ng-baltimore-hardware-manager",
+    "chapter": "baltimore",
+    "employer": "Northrop Grumman Mission Systems",
+    "title": "Hardware Engineering Manager 2",
+    "start": "2019-09-15",
+    "end": "2021-09-10",
+    "location": "Baltimore, Maryland",
+    "summary": "Managed a 16-engineer computational electromagnetics group, oversaw modeling IRAD and contributed to RF hardware development.",
+    "evidence": "User-supplied CV dated June 5, 2026, page 1"
+  },
+  {
+    "id": "ng-boulder-se-manager",
+    "chapter": "boulder",
+    "employer": "Northrop Grumman Space Systems",
+    "title": "Systems Engineering Manager 3",
+    "start": "2021-09-11",
+    "end": "2025-11-14",
+    "location": "Boulder, Colorado",
+    "summary": "Led a systems engineering organization of approximately 50 engineers across four managers focused on ground processing and associated systems engineering work.",
+    "evidence": "User-supplied CV dated June 5, 2026, page 1"
+  },
+  {
+    "id": "ng-boulder-senior-staff",
+    "chapter": "boulder",
+    "employer": "Northrop Grumman Space Systems",
+    "title": "Senior Staff Chief Engineer",
+    "start": "2025-11-15",
+    "end": null,
+    "location": "Boulder, Colorado",
+    "summary": "Chief engineering, ground-station systems engineering and technology-development responsibilities across strategic space and ground missions.",
+    "evidence": "User-supplied CV dated June 5, 2026, page 1; current-role dates sourced from that CV"
+  }
+]

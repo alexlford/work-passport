@@ -12,6 +12,7 @@ The root `index.html` is a responsive static site requiring no build tools. GitH
 - Map: **embedded only**, source of truth remains `alexlford/life-map` with `?embed=1&mode=work`. Do not copy map coordinates or map code here.
 - `data/programs.json`: documented work plus clear unverified candidate programs.
 - `data/conferences.json`: papers linked to their venue/session, keeping attendance, authorship, panels, invited talks and organizational roles distinct.
+- `data/interviews.json`: public-safe, attributed first-person interview recollections; not a repository for nonpublic implementation details.
 - `data/chapters.json`: three post-August-2017 career phases cross-referenced to Life Map, including a separately labeled August-to-October transition before the documented November 2017 Hawkes role.
 - `SOURCE-AUDIT.md`: historical URL replacements and image/source provenance.
 

@@ -80,8 +80,8 @@
     "status": "documented",
     "place": "Baltimore / BWI",
     "period": "2018–2019",
-    "role": "RF engineering / computational electromagnetics",
-    "narrative": "Contributed RF and antenna engineering expertise while developing active-array architectures, installed-performance analysis and computational electromagnetics tools. The public work record names SEWIP; it does not claim personal ownership of the complete naval system.",
+    "role": "Computational electromagnetics (CEM) analysis",
+    "narrative": "Performed computational electromagnetics analysis in support of SEWIP during my early Northrop Grumman period in Baltimore. This analysis was distinct from my algorithmic development work on an internal CEM toolkit. Technical implementation details and specific results are not included in this public archive.",
     "media": "https://cdn.northropgrumman.com/-/media/wp-content/uploads/SEWIP-01.jpg?h=917&iar=0&w=800&rev=955ef1f27d874dd0b1e255ec27bb4eba",
     "mediaCredit": "Northrop Grumman SEWIP anechoic test imagery",
     "links": [
@@ -94,18 +94,18 @@
         "url": "https://investor.northropgrumman.com/news-releases/news-release-details/northrop-grumman-wins-us-navys-surface-electronic-warfare"
       }
     ],
-    "evidence": "Personal CV, directly named SEWIP."
+    "evidence": "Direct interview recollection (2026-10-27); personal résumé listing SEWIP."
   },
   {
     "id": "cem",
-    "title": "Computational Electromagnetics & Additive Antennas",
+    "title": "Internal CEM Toolkit & RF Modeling",
     "label": "CEM / RF R&D",
     "group": "Research & Innovation",
     "status": "documented",
     "place": "Baltimore / BWI",
     "period": "2018–2021",
-    "role": "Principal RF Engineer → Hardware Engineering Manager",
-    "narrative": "Developed and modernized modeling capabilities for demanding RF environments; led a 16-person computational electromagnetics group, simulation-tool roadmaps and internal research. Explored additively manufactured antennas, conformal arrays and high-performance optimization.",
+    "role": "Algorithm development / computational electromagnetics → hardware engineering management",
+    "narrative": "One of my first assignments after joining Northrop Grumman in Baltimore was algorithmic development for an internal computational electromagnetics (CEM) toolkit. This was a distinct workstream from the CEM analysis I performed in support of SEWIP. Later responsibilities expanded into RF modeling, simulation-tool development and engineering management.",
     "media": "https://cdn.northropgrumman.com/-/media/Project/Northrop-Grumman/ngc/what-we-do/mission-solutions/radars/sabr-scalable-agile-beam-radar/sabr-scalable-agile-beam-radar-hero.jpg?h=1000&hash=A2F971BADDDC4F4A84D0C88E8761F891&iar=0&w=2000",
     "mediaCredit": "Northrop Grumman AESA technology image, used illustratively",
     "links": [
@@ -118,7 +118,7 @@
         "url": "https://doi.org/10.1109/IEEECONF35879.2020.9329463"
       }
     ],
-    "evidence": "CV, public website, authored IEEE paper."
+    "evidence": "Direct interview recollection (2026-10-27); professional résumé for subsequent engineering-management work."
   },
   {
     "id": "oysters",

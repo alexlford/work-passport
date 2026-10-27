@@ -1,0 +1,19 @@
+{
+  "updated": "2026-10-27",
+  "scope": "Public-safe summaries of directly supplied recollections; not a confidential engineering log.",
+  "entries": [
+    {
+      "id": "baltimore-initial-assignment-2018",
+      "chapter": "baltimore",
+      "workplace": "Northrop Grumman, Baltimore/BWI",
+      "timeframe": "Beginning January 2018 (first assignments; precise dates not claimed)",
+      "question": "When you first joined Northrop Grumman in Baltimore, what was the first significant program or technical project you worked on, and what were you personally responsible for?",
+      "answer": "Algorithmic development for an internal CEM toolkit, and CEM analysis on SEWIP.",
+      "publicSummary": "Initially developed algorithms for an internal computational electromagnetics toolkit while separately supporting the Surface Electronic Warfare Improvement Program through CEM analysis.",
+      "sourceType": "Direct first-person recollection",
+      "sourceDate": "2026-10-27",
+      "releaseBoundary": "High-level professional description only; no nonpublic methods, implementation, results, customers or requirements.",
+      "nextQuestion": "Was the previously mentioned CEM tool performance gain associated with this first algorithm-development assignment, and what public-safe outcome can be documented?"
+    }
+  ]
+}

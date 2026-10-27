@@ -8,7 +8,7 @@
     "place": "Boulder / Guam",
     "period": "2021–2025",
     "role": "RF technical-volume author on capture team; SEIT lead during program execution; Scrum Master",
-    "narrative": "RGS-A became my first major space-to-ground communications assignment after moving to Boulder. I joined the capture team and authored the RF content of the technical proposal volume before continuing as Systems Engineering, Integration & Test (SEIT) lead. During execution, my biggest challenges were coordinating multiple engineering disciplines and standing up the program's systems engineering processes from scratch. This work supported the development of six relay ground stations on Guam through critical design review. My 2021 University of Chicago Booth Capture Strategy executive program is linked as relevant professional development, without assuming the certificate preceded capture. I also traveled to Guam twice in support of RGS-A, connecting the engineering work to the program's island setting.",
+    "narrative": "RGS-A became my first major space-to-ground communications assignment after moving to Boulder. I joined the capture team and authored the RF content of the technical proposal volume before continuing as Systems Engineering, Integration & Test (SEIT) lead. During execution, my biggest challenges were coordinating multiple engineering disciplines and standing up the program's systems engineering processes from scratch. This work supported the development of six relay ground stations on Guam through critical design review. My 2021 University of Chicago Booth Capture Strategy executive program is linked as relevant professional development, without assuming the certificate preceded capture. Two Guam support trips added a more personal side to the experience: an initial site survey with a wrong-turn mountain adventure, followed by a second trip with more colleagues and a successful summit of Mount Lamlam.",
     "media": "https://cdn.northropgrumman.com/-/media/NEWS/Imports/Northrop-Grummans-Rapid-Completion-of-Critical-Design-Review-Supports-Future-Missile-Warning-Satellites-in-Pacific-Region_hero.jpg?h=768&hash=CD6422AE0F0EDDEEE3C116ED80D9FCD4&iar=0&w=1280",
     "mediaCredit": "Northrop Grumman public RGS-A program imagery; not a personal project photograph",
     "links": [
@@ -19,9 +19,17 @@
       {
         "label": "2022 contract announcement · preserved reporting",
         "url": "https://militaryembedded.com/unmanned/sensors/northrop-grumman-to-develop-next-generation-relay-ground-station-for-us-naval-information-warfare-center-pacific"
+      },
+      {
+        "label": "Adventures · first trip, Mount Jumullong Manglo hike",
+        "url": "https://adventures.alexlford.com/record/2022-05-11-mount-jumullong-manglo/"
+      },
+      {
+        "label": "Adventures · second trip, Mount Lamlam summit",
+        "url": "https://adventures.alexlford.com/record/2023-03-09-mount-lamlam/"
       }
     ],
-    "evidence": "First-person interview, October 27, 2026: RGS-A RF technical-volume authorship during capture, continuation as SEIT lead, and the two main execution challenges of multidisciplinary coordination and establishing systems engineering processes from scratch. June 2026 CV corroborates the program role and 2021 U Chicago Capture Strategy executive program; precise sequencing of training and capture is unverified. Direct first-person statement on October 27, 2026 confirms two trips to Guam in support of RGS-A; dates and visited installations not yet established.",
+    "evidence": "First-person interview, October 27, 2026: RGS-A RF technical-volume authorship during capture, continuation as SEIT lead, and the two main execution challenges of multidisciplinary coordination and establishing systems engineering processes from scratch. June 2026 CV corroborates the program role and 2021 U Chicago Capture Strategy executive program; precise sequencing of training and capture is unverified. Direct first-person statement on October 27, 2026 confirms two trips to Guam in support of RGS-A; dates and visited installations not yet established. New firsthand interview (October 27, 2026) distinguishes the initial site survey and a later visit with more colleagues, including a wrong-turn ascent of Mount Jumullong Manglo, a difficult return before sunset, a German pub encounter, and a successful Mount Lamlam hike. Adventures records document related hiking activities on 2022-05-11 and 2023-03-09, not exact work trip dates.",
     "phases": [
       {
         "label": "Capture",
@@ -39,10 +47,42 @@
       "confirmedTrips": 2,
       "location": "Guam, United States",
       "visitDates": null,
-      "specificSites": "not confirmed",
-      "purpose": "Support of the RGS-A program",
-      "source": "Direct first-person statement on October 27, 2026"
-    }
+      "purposes": [
+        "First trip: initial RGS-A site survey",
+        "Second trip: RGS-A support, accompanied by a larger Northrop Grumman group"
+      ],
+      "specificWorkSites": "not confirmed",
+      "linkedHikeDates": [
+        "2022-05-11",
+        "2023-03-09"
+      ],
+      "source": "October 27, 2026 firsthand interview and pre-existing Adventures records; hike dates do not establish exact work trip durations"
+    },
+    "travelStories": [
+      {
+        "sequence": 1,
+        "title": "First Guam trip · the site survey",
+        "purpose": "Initial RGS-A site survey",
+        "narrative": "During the first trip, I tried to climb Guam's highest point, Mount Lamlam, but took the wrong way and reached Mount Jumullong Manglo instead. I lost the trail and had to army-crawl through tall grass to find it before sunset. Cut up from the hike, I drove across the island to a gas station to buy hydrogen peroxide and unexpectedly discovered a packed German pub near the beach, serving sausages and imported German beer.",
+        "hike": "Mount Jumullong Manglo",
+        "hikeRecordDate": "2022-05-11",
+        "adventureUrl": "https://adventures.alexlford.com/record/2022-05-11-mount-jumullong-manglo/",
+        "visitDateEvidence": "Date is from the existing linked Adventures hiking record, not a verified date for the site survey or entire work trip.",
+        "pubName": "Unidentified German pub near the beach",
+        "note": "Personal first-person recollection, October 27, 2026. The pub's name, route details and trip dates have not been independently confirmed."
+      },
+      {
+        "sequence": 2,
+        "title": "Second Guam trip · back for the summit",
+        "purpose": "RGS-A program support alongside a larger Northrop Grumman group",
+        "narrative": "I learned a lot on the second visit, traveled with more Northrop Grumman colleagues, and had a great time. This time I gave myself plenty of time for the hike and made it to Mount Lamlam, the highest point on Guam.",
+        "hike": "Mount Lamlam",
+        "hikeRecordDate": "2023-03-09",
+        "adventureUrl": "https://adventures.alexlford.com/record/2023-03-09-mount-lamlam/",
+        "visitDateEvidence": "Date is from the existing linked Adventures hiking record, not a verified date for the whole work trip.",
+        "note": "Personal first-person recollection, October 27, 2026. The linked Adventures hiking record has a probable Strava activity match; the user's interview independently confirms reaching the summit."
+      }
+    ]
   },
   {
     "id": "sbirs",

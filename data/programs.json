@@ -27,9 +27,13 @@
       {
         "label": "Adventures · second trip, Mount Lamlam summit",
         "url": "https://adventures.alexlford.com/record/2023-03-09-mount-lamlam/"
+      },
+      {
+        "label": "McKraut's · first Guam trip",
+        "url": "https://maps.apple.com/place?address=115%20Kalamasa%20Cir,%20Inarajan,%20Guam%20%2096915,%20United%20States&coordinate=13.304852,144.762106&name=MC%20Kraut's%20Restaurant&place-id=IAB4C202910475A6F&map=explore"
       }
     ],
-    "evidence": "First-person interview, October 27, 2026: RGS-A RF technical-volume authorship during capture, continuation as SEIT lead, and the two main execution challenges of multidisciplinary coordination and establishing systems engineering processes from scratch. June 2026 CV corroborates the program role and 2021 U Chicago Capture Strategy executive program; precise sequencing of training and capture is unverified. Direct first-person statement on October 27, 2026 confirms two trips to Guam in support of RGS-A; dates and visited installations not yet established. New firsthand interview (October 27, 2026) distinguishes the initial site survey and a later visit with more colleagues, including a wrong-turn ascent of Mount Jumullong Manglo, a difficult return before sunset, a German pub encounter, and a successful Mount Lamlam hike. Adventures records document related hiking activities on 2022-05-11 and 2023-03-09, not exact work trip dates.",
+    "evidence": "First-person interview, October 27, 2026: RGS-A RF technical-volume authorship during capture, continuation as SEIT lead, and the two main execution challenges of multidisciplinary coordination and establishing systems engineering processes from scratch. June 2026 CV corroborates the program role and 2021 U Chicago Capture Strategy executive program; precise sequencing of training and capture is unverified. Direct first-person statement on October 27, 2026 confirms two trips to Guam in support of RGS-A; dates and visited installations not yet established. New firsthand interview (October 27, 2026) distinguishes the initial site survey and a later visit with more colleagues, including a wrong-turn ascent of Mount Jumullong Manglo, a difficult return before sunset, a German pub encounter, and a successful Mount Lamlam hike. Adventures records document related hiking activities on 2022-05-11 and 2023-03-09, not exact work trip dates. User supplied a direct Apple Maps place link identifying the previously unnamed German pub as McKraut's, 115 Kalamasa Circle, Inalåhan/Inarajan, Guam; supported by local directory and Guam tourism listings.",
     "phases": [
       {
         "label": "Capture",
@@ -63,13 +67,16 @@
         "sequence": 1,
         "title": "First Guam trip · the site survey",
         "purpose": "Initial RGS-A site survey",
-        "narrative": "During the first trip, I tried to climb Guam's highest point, Mount Lamlam, but took the wrong way and reached Mount Jumullong Manglo instead. I lost the trail and had to army-crawl through tall grass to find it before sunset. Cut up from the hike, I drove across the island to a gas station to buy hydrogen peroxide and unexpectedly discovered a packed German pub near the beach, serving sausages and imported German beer.",
+        "narrative": "During the first trip, I tried to climb Guam's highest point, Mount Lamlam, but took the wrong way and reached Mount Jumullong Manglo instead. I lost the trail and had to army-crawl through tall grass to find it before sunset. Cut up from the hike, I drove across the island to a gas station to buy hydrogen peroxide and unexpectedly discovered McKraut's, a packed German restaurant and bar near the beach, where people were enjoying sausages and imported German beer.",
         "hike": "Mount Jumullong Manglo",
         "hikeRecordDate": "2022-05-11",
         "adventureUrl": "https://adventures.alexlford.com/record/2022-05-11-mount-jumullong-manglo/",
         "visitDateEvidence": "Date is from the existing linked Adventures hiking record, not a verified date for the site survey or entire work trip.",
-        "pubName": "Unidentified German pub near the beach",
-        "note": "Personal first-person recollection, October 27, 2026. The pub's name, route details and trip dates have not been independently confirmed."
+        "pubName": "McKraut's Bar & Restaurant",
+        "note": "First-person memory, 2026-10-27; restaurant identity subsequently identified by the user using Apple Maps. Hiking record date 2022-05-11 is not proof of the exact restaurant visit date or work trip duration.",
+        "pubAddress": "115 Kalamasa Circle, Malojloj, Inalåhan (Inarajan), Guam",
+        "pubMapsUrl": "https://maps.apple.com/place?address=115%20Kalamasa%20Cir,%20Inarajan,%20Guam%20%2096915,%20United%20States&coordinate=13.304852,144.762106&name=MC%20Kraut's%20Restaurant&place-id=IAB4C202910475A6F&map=explore",
+        "pubVerification": "User identified the venue with an Apple Maps place URL on 2026-10-27. Address and restaurant identity corroborated by Inalåhan local business directory and Visit Guam tourist coverage. Name styling varies (Mc Kraut's / McKraut's)."
       },
       {
         "sequence": 2,

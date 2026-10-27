@@ -40,18 +40,82 @@
     "start": "2021-09-11",
     "end": "2025-11-14",
     "location": "Boulder, Colorado",
-    "summary": "Advanced from Manager 2 in Baltimore to Manager 3 in Boulder, moving from a large site and small team into leadership of a larger geographically distributed organization while shifting from radar specialization into space-to-ground communications systems engineering. The organization included approximately 50 engineers across four managers and supported OPIR ground processing. Alongside functional management, supported RGS-A first by authoring RF content for its capture technical volume and then as program SEIT lead.",
-    "evidence": "User-supplied June 5, 2026 CV, page 1, for job title, dates, and team size; first-person interview on October 27, 2026 for site, team-scale, leadership and technical-domain transitions. A first-person interview on October 27, 2026 establishes the RGS-A capture-to-SEIT sequence."
+    "summary": "As Systems Engineering Manager 3 in Boulder, led a geographically distributed OPIR ground-processing systems engineering section of approximately 50 engineers across four managers. The role emphasized recruiting, performance management, promotions, skills development and building trust across sites. Traveled frequently to Azusa, where the director and senior director worked, and visited Northrop Grumman's Space Park and Dayton campuses. A Dayton-based manager and several team members supported NASIC at Wright-Patterson AFB; personal travel to that base is not confirmed. Developed a broader understanding of OPIR technology while supporting major space-program capture efforts, technical-volume and basis-of-estimate work, and color-team reviews. Participated in Space Sector intellectual-property activities and technical communities. Also supported RGS-A from RF capture-volume authorship through SEIT leadership.",
+    "evidence": "User-supplied June 5, 2026 CV, page 1, for job title, dates, and team size; first-person interview on October 27, 2026 for site, team-scale, leadership and technical-domain transitions. A first-person interview on October 27, 2026 establishes the RGS-A capture-to-SEIT sequence. New 2026-10-27 user-uploaded Ford_Resume_Saab.pdf, page 1, Manager 3 description; 2026-10-27 direct interview on people management, Azusa leadership, Space Park and Dayton trips, NASIC team presence, color-team reviews and Space Sector IP involvement. No employee names, unreleased proposal content, or facility details published.",
+    "managementThemes": [
+      {
+        "title": "Hiring & growing people",
+        "detail": "Recruitment, performance management, promotions and engineering skills strategy for a geographically distributed 50-engineer section across four managers"
+      },
+      {
+        "title": "Distributed leadership",
+        "detail": "Frequent collaboration at Azusa, where director and senior director were based; visits to Space Park and Dayton; Dayton-based management and employees supported NASIC at Wright-Patterson AFB"
+      },
+      {
+        "title": "Space-system fluency",
+        "detail": "Developed OPIR ground-processing knowledge while managing systems engineers and contributing to major space-program capture activities"
+      },
+      {
+        "title": "Capture & technical reviews",
+        "detail": "Contributed to technical volumes and BOEs, participating in internal and color-team proposal reviews"
+      },
+      {
+        "title": "Technical community",
+        "detail": "Participated in Space Sector intellectual-property activities and Payload and Ground Systems Technology Council; facilitated the Lead Systems Engineer Program"
+      }
+    ],
+    "relatedMapPlaces": [
+      {
+        "id": "ng-azusa",
+        "label": "Azusa campus",
+        "visit": "frequent personal visits"
+      },
+      {
+        "id": "ng-space-park",
+        "label": "Space Park",
+        "visit": "personal visits"
+      },
+      {
+        "id": "ng-dayton",
+        "label": "Dayton campus",
+        "visit": "personal visits"
+      },
+      {
+        "id": "wright-patterson-afb",
+        "label": "Wright-Patterson AFB",
+        "visit": "site of NASIC work by Dayton-based team; personal visit unconfirmed"
+      }
+    ],
+    "personnelLimits": "Employees' individual identities are not documented. Assignment at Wright-Patterson by team members does not independently establish a personal visit."
   },
   {
     "id": "ng-boulder-senior-staff",
     "chapter": "boulder",
     "employer": "Northrop Grumman Space Systems",
-    "title": "Senior Staff Chief Engineer",
+    "title": "Senior Staff Engineer, Systems",
     "start": "2025-11-15",
+    "end": "2026-04",
+    "location": "Boulder, Colorado",
+    "summary": "Transitioned from functional management to a senior technical leadership track, focusing on system architecture and capture. Led technical baselines, CONOPS, proposal technical volumes, RFI responses and white papers for follow-on ground communication programs, including one capture as Chief Engineer.",
+    "evidence": "October 27, 2026 user-uploaded Ford_Resume_Saab.pdf, page 1, separates this role from the subsequent Chief Engineer position and lists November 2025–April 2026. Original November 15 start day is from earlier June 5, 2026 CV; the newer CV provides no exact April transition day.",
+    "datePrecision": {
+      "start": "day from earlier June 2026 CV",
+      "end": "month from October 2026 CV; exact date not established"
+    }
+  },
+  {
+    "id": "ng-boulder-chief-engineer-2026",
+    "chapter": "boulder",
+    "employer": "Northrop Grumman Space Systems",
+    "title": "Senior Staff Chief Engineer",
+    "start": "2026-04",
     "end": null,
     "location": "Boulder, Colorado",
-    "summary": "Chief engineering, ground-station systems engineering and technology-development responsibilities across strategic space and ground missions.",
-    "evidence": "User-supplied CV dated June 5, 2026, page 1; current-role dates sourced from that CV"
+    "datePrecision": {
+      "start": "month supplied in October 2026 CV; day not established"
+    },
+    "summary": "Senior technical lead and Technical Fellow working across ground-based radar, space communications and related captures. Leads architecture and technical trades for missile-defense radar pursuits; contributes to radar investment and prototyping priorities, RF array development and ground communication follow-on programs. Mentors RF and systems engineers and participates in technical working groups and color-team reviews.",
+    "evidence": "User-uploaded Ford_Resume_Saab.pdf (October 27, 2026), page 1, Senior Staff Chief Engineer Apr 2026–present. Professional Technical Fellow distinction began in 2023 and is separately recorded under recognitions; not described as a newly acquired April 2026 title.",
+    "publicSafety": "High-level professional summary only; no unreleased program details, customer briefings, supplier pricing, clearance information or proprietary technical dimensions."
   }
 ]

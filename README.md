@@ -8,9 +8,10 @@ The root `index.html` is a responsive static site requiring no build tools. GitH
 
 ## Pages and content
 
-- Homepage: career chapters, verified program cards, evidence labels, publications/conferences and external source links.
+- Homepage: career chapters, verified program cards, a three-award recognition section, evidence labels, publications/conferences and external source links.
 - Map: **embedded only**, source of truth remains `alexlford/life-map` with `?embed=1&mode=work`. Do not copy map coordinates or map code here.
-- `data/programs.json`: documented work plus clear unverified candidate programs.
+- `data/programs.json`: documented work plus clear unverified candidate programs, including recognition links.
+- `data/awards.json`: **three separate** user-confirmed Northrop Grumman New Technology / IP award records (one each for the CEM toolkit, RAPTR and FXR). Official award titles and dates are not yet verified.
 - `data/conferences.json`: papers linked to their venue/session, keeping attendance, authorship, panels, invited talks and organizational roles distinct.
 - `data/interviews.json`: public-safe, attributed first-person interview recollections; not a repository for nonpublic implementation details.
 - `data/chapters.json`: three post-August-2017 career phases cross-referenced to Life Map, including a separately labeled August-to-October transition before the documented November 2017 Hawkes role.
@@ -32,6 +33,7 @@ Northrop Grumman Boulder remains the **career base from September 2021 through p
 4. Where a historical NG page returned 403, preserve its original URL and cite functioning contemporary reporting or an official replacement. **No invented Wayback snapshots.**
 5. Photos may be illustrative: captions must say so. Remote CDN image URLs are linked rather than claimed as original owned media.
 6. LinkedIn Featured links have not been fully enumerated because the public crawler does not expose the full Featured section.
+7. Three separate internal New Technology/IP awards are confirmed by firsthand interview. Formal titles, dates and certificate images should be added only when verified; award association is not evidence of a public patent grant.
 
 ### Sources
 See [SOURCE-AUDIT.md](SOURCE-AUDIT.md).

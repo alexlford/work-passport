@@ -238,7 +238,7 @@
       "sourceType": "Direct first-person recollection",
       "sourceDate": "2026-10-27",
       "evidenceLimits": "Do not infer Colorado lifestyle, specific mission, compensation, or other motivations.",
-      "nextQuestion": "What was the scope of the team and mission you inherited when you became Systems Engineering Manager 3 in Boulder?"
+      "nextQuestion": "What was the biggest change in your responsibilities when you moved from Manager 2 in Baltimore to Manager 3 in Boulder?"
     },
     {
       "id": "save-the-bay-2020-field-participation",
@@ -255,6 +255,19 @@
       "answer": "A very cool mission and fun use of our expertise to help solve problem for the community",
       "publicSummary": "Remembered the mission as a fun, meaningful chance to use engineering expertise to solve a problem for the community.",
       "sourceDate": "2026-10-27"
+    },
+    {
+      "id": "boulder-manager-3-bigger-distributed-team-technical-pivot",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman, Boulder",
+      "timeframe": "Transition beginning September 2021",
+      "question": "What was the biggest change in your responsibilities when you moved from Manager 2 in Baltimore to Manager 3 in Boulder?",
+      "answer": "Moving from a large site to a small site had all sorts of challenges. Moving from a small team to a large, geographically disperse team was the biggest challenge. And also I was moving from a Radar SME to a systems engineer working on space to ground comms.",
+      "publicSummary": "The 2021 promotion required adapting from a large site to a smaller site, leading a substantially larger geographically dispersed team instead of a small local team, and transitioning from radar subject-matter expertise to systems engineering for space-to-ground communications. The distributed team's scale and organizational differences were the biggest challenges.",
+      "sourceType": "Direct first-person recollection",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "No assumption about individual office locations, particular customer/program at the transition, or dates of specific technical responsibilities.",
+      "nextQuestion": "What was the first specific space-to-ground communications program or assignment that helped you get established after arriving in Boulder?"
     }
   ]
 }

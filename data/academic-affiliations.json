@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ku-adjunct-industrial-research-associate",
+    "institution": "University of Kansas",
+    "department": "Department of Physics & Astronomy",
+    "title": "Adjunct Industrial Research Associate",
+    "start": "2023-11",
+    "end": null,
+    "location": "Lawrence, Kansas · institutional affiliation (not a separate career base)",
+    "summary": "Continued scholarly research on black hole magnetospheres and plasma dynamics while working professionally in space systems engineering.",
+    "relatedPublicationIds": [
+      "apj-2023-pair-plasma"
+    ],
+    "source": "User-provided curriculum vitae dated June 5, 2026, page 2. User explicitly requested the ApJ linkage on 2026-10-27.",
+    "evidenceBoundary": "The role and December 2023 research publication are each independently documented in the CV, but the publication's printed author-affiliation line has not been independently checked.",
+    "publicStatus": "documented"
+  }
+]

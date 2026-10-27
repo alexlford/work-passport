@@ -234,14 +234,14 @@
   },
   {
     "id": "oysters",
-    "title": "Chesapeake Bay Oyster Monitoring",
+    "title": "Save the Bay — Chesapeake Bay Oyster Monitoring",
     "label": "Save the Bay",
     "group": "Technology · Community",
     "status": "documented",
     "place": "Maryland / Chesapeake Bay",
     "period": "Baltimore chapter",
-    "role": "Linked on personal professional project page; specific contribution to be added",
-    "narrative": "A Northrop Grumman technology-for-conservation initiative used remote sensing, imaging, sonar and data analysis to improve reef monitoring. Listed among my projects on alexlford.com; my precise role still needs to be described before making individual achievement claims.",
+    "role": "Principal investigator (PI), sonar-focused internal research and development (IRAD)",
+    "narrative": "Save the Bay was a Chesapeake Bay oyster-monitoring and conservation technology effort. I served as a principal investigator on the internal research and development (IRAD) work specifically focused on sonar. The broader initiative explored technologies for improving oyster-reef monitoring; this record attributes only the sonar IRAD investigator role to me, without claiming that I led the entire conservation initiative or establishing specific technical results. Photographs of a 2020 oyster challenge test exist in the project archive, but my exact activities and participation in that event remain to be confirmed.",
     "media": "./assets/cbf-oyster.webp",
     "mediaCredit": "User-provided personal photograph, shared for Work Passport use (2026-10-27). Shows a Northrop Grumman volunteer or colleague aboard a boat; photo is associated with the oyster-monitoring project archive but no date or activity details are inferred.",
     "links": [
@@ -251,10 +251,10 @@
       }
     ],
     "originalUrl": "https://www.northropgrumman.com/corporate-responsibility-old/technology-for-conservation/chesapeake-bay-oyster-monitoring/",
-    "evidence": "Project listed on alexlford.com; contribution details incomplete. Personal project photograph supplied by user and approved for public website use on 2026-10-27; it does not establish precise project tasks, date or location. A user-provided September 2020 oyster challenge photo clearance packet is approved for public release; individual professional role remains to be confirmed.",
+    "evidence": "First-person interview confirmation (2026-10-27): 'Save the Bay! I was a PI on the IRAD specially for the sonar.' Northrop Grumman's publicly accessible technology-for-conservation page provides program context. Photos and a public-release-approved September 2020 test photo packet support the archive's broader event context, not the specific PI attribution.",
     "mediaAlt": "Personal project photograph: Northrop Grumman team member wearing a mask on a boat",
     "mediaKind": "User-supplied photo, optimized WebP copy stored in repository",
-    "photoEvidence": "2020 Northrop Grumman Chesapeake Bay Foundation oyster challenge testing photo collection is expressly marked Distribution Statement A / approved for public release on 2020-09-21. Original images are held in the user's supplied 2020–2029 ZIP; no image binaries yet committed here."
+    "photoEvidence": "User-supplied personal photo and an approved-for-public-release September 2020 oyster challenge testing photo packet. A processed photo is already referenced by the website at ./assets/cbf-oyster.webp; the user has authorized supplied photographs for website use. Specific photo location and personal participation in the on-water testing are not yet established."
   },
   {
     "id": "rmwt",

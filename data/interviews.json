@@ -284,6 +284,24 @@
       ],
       "evidenceLimits": "Identifies assignment sequence; does not equate relocation month to contractual or personal RGS-A start date.",
       "nextQuestion": "When you first joined RGS-A, what were your initial responsibilities and the biggest problem the team needed to solve?"
+    },
+    {
+      "id": "boulder-rgs-a-capture-to-seit-lead",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman, Boulder",
+      "question": "When you first joined RGS-A, what were your initial responsibilities?",
+      "answer": "I started on the capture team (you can pair this with the U Chicago Booth cert) and wrote the RF content in the tech vol. I then continued on the program as the SEIT lead",
+      "publicSummary": "Started on RGS-A's capture team, authored RF content in the technical volume, then continued as Systems Engineering, Integration & Test lead on the program. The capture phase is linked to the 2021 University of Chicago Booth Capture Strategy executive program.",
+      "sourceType": "Direct first-person recollection and June 2026 CV",
+      "sourceDate": "2026-10-27",
+      "linkedProgramIds": [
+        "rgs-a"
+      ],
+      "linkedProfessionalDevelopmentIds": [
+        "uchicago-booth-capture-strategy-2021"
+      ],
+      "evidenceLimits": "Training program and capture phase are related professionally; exact sequencing and dates are not established. Technical content of proposal not disclosed.",
+      "nextQuestion": "What was the biggest challenge as you shifted from RF technical-volume authorship on the capture team to SEIT leadership during RGS-A execution?"
     }
   ]
 }

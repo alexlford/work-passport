@@ -93,30 +93,24 @@
     "id": "ng-boulder-senior-staff",
     "chapter": "boulder",
     "employer": "Northrop Grumman Space Systems",
-    "title": "Senior Staff Engineer, Systems",
-    "start": "2025-11-15",
-    "end": "2026-04",
-    "location": "Boulder, Colorado",
-    "summary": "Transitioned from functional management to a senior technical leadership track, focusing on system architecture and capture. Led technical baselines, CONOPS, proposal technical volumes, RFI responses and white papers for follow-on ground communication programs, including one capture as Chief Engineer.",
-    "evidence": "October 27, 2026 user-uploaded Ford_Resume_Saab.pdf, page 1, separates this role from the subsequent Chief Engineer position and lists November 2025–April 2026. Original November 15 start day is from earlier June 5, 2026 CV; the newer CV provides no exact April transition day.",
-    "datePrecision": {
-      "start": "day from earlier June 2026 CV",
-      "end": "month from October 2026 CV; exact date not established"
-    }
-  },
-  {
-    "id": "ng-boulder-chief-engineer-2026",
-    "chapter": "boulder",
-    "employer": "Northrop Grumman Space Systems",
     "title": "Senior Staff Chief Engineer",
-    "start": "2026-04",
+    "start": "2025-11-15",
     "end": null,
     "location": "Boulder, Colorado",
+    "summary": "Transitioned from functional management into a continuous Senior Staff technical-leadership role in November 2025, initially as Senior Staff Engineer, Systems and evolving to Senior Staff Chief Engineer in April 2026. Led architecture, concept development and major captures for ground communications and radar programs, including follow-on Ground Entry Point work, technical volumes and system trades. Contributed to radar R&D strategy, prototyping and RF technology development while mentoring engineers and participating in technical working groups and reviews.",
+    "evidence": "Earlier June 5, 2026 CV documents the November 15, 2025 transition into the Senior Staff technical role. October 27, 2026 user-uploaded Ford_Resume_Saab.pdf, page 1, describes Senior Staff Engineer, Systems from Nov 2025 to Apr 2026 and Senior Staff Chief Engineer from Apr 2026 onward. User explicitly requested one continuous timeline role on Oct 27, 2026.",
     "datePrecision": {
-      "start": "month supplied in October 2026 CV; day not established"
+      "start": "November 15 from earlier CV; April 2026 is a title-change month, not a separate website role"
     },
-    "summary": "Senior technical lead and Technical Fellow working across ground-based radar, space communications and related captures. Leads architecture and technical trades for missile-defense radar pursuits; contributes to radar investment and prototyping priorities, RF array development and ground communication follow-on programs. Mentors RF and systems engineers and participates in technical working groups and color-team reviews.",
-    "evidence": "User-uploaded Ford_Resume_Saab.pdf (October 27, 2026), page 1, Senior Staff Chief Engineer Apr 2026–present. Professional Technical Fellow distinction began in 2023 and is separately recorded under recognitions; not described as a newly acquired April 2026 title.",
-    "publicSafety": "High-level professional summary only; no unreleased program details, customer briefings, supplier pricing, clearance information or proprietary technical dimensions."
+    "roleProgression": [
+      {
+        "date": "2025-11",
+        "title": "Senior Staff Engineer, Systems"
+      },
+      {
+        "date": "2026-04",
+        "title": "Senior Staff Chief Engineer"
+      }
+    ]
   }
 ]

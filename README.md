@@ -16,9 +16,11 @@ The root `index.html` is a responsive static site requiring no build tools. GitH
 - `data/conferences.json`: papers linked to their venue/session, keeping attendance, authorship, panels, invited talks and organizational roles distinct. The 2024 GSAW panel is corroborated by its public-release Working Group E outbrief, the 2020 AP-S/URSI antenna paper by the released IEEE paper, and the 2027 session-organizer role by the Conference Call for Papers.
 - `data/interviews.json`: public-safe, attributed first-person interview recollections; not a repository for nonpublic implementation details.
 - `data/chapters.json`: three geographic post-August-2017 career phases cross-referenced to Life Map, including a separately labeled August-to-October transition before the documented November 2017 Hawkes role.
-- `data/roles.json`: exact job titles, dates and sanitized summary of responsibilities from the June 5, 2026 curriculum vitae.
+- `data/roles.json`: exact employment job titles, dates and sanitized summary of responsibilities from the June 5, 2026 curriculum vitae.
+- `data/academic-affiliations.json`: parallel University of Kansas Adjunct Industrial Research Associate role since November 2023, linked by the user to the December 2023 Astrophysical Journal article. Not an extra geographic career chapter.
 - `data/publications.json`: source-linked publications since August 2017, including two physics journal articles and three engineering conference papers.
 - `SOURCE-AUDIT.md`: historical URL replacements and image/source provenance.
+- `assets/cbf-oyster.webp`: optimized personal photo supplied and explicitly approved for public Work Passport use (October 27, 2026). Its exact event/date and what was occurring are not asserted.
 
 ## Archive boundary
 
@@ -40,7 +42,7 @@ Northrop Grumman Boulder remains the **career base from September 2021 through p
 8. A 2022 **Frontiers of Engineering nomination** is not represented as NAE selection/participation. Technical Fellow entries for 2023 and 2025 remain distinct records without assuming two separate appointments.
 
 9. Uploaded files can contain personal contact details, internal employee rosters, controlled/access information or expressly protected trade-secret material. **Do not commit the raw CV, internal correspondence, private letters, licensed publications or draft files**. Only public-safe derived facts and stable public publisher links belong in the website.
-10. An IEEE AP-S industry-panel invitation is not proof of attendance; the 2021 antenna Innovation Award has not yet been explicitly linked to the projectile-tip antenna project; the CBF Oyster photograph's event context and reuse approval remain open.
+10. An IEEE AP-S industry-panel invitation is not proof of attendance; the 2021 antenna Innovation Award has been explicitly linked to the projectile-tip antenna project by firsthand confirmation; the CBF Oyster photograph's event context and reuse approval remain open.
 
 ### Sources
 See [SOURCE-AUDIT.md](SOURCE-AUDIT.md).

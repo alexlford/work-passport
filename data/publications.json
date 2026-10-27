@@ -30,7 +30,11 @@
     "publicationType": "Peer-reviewed journal article",
     "url": "https://www.alexlford.com/pubs",
     "summary": "Research in plasma cascade processes associated with rotating black-hole magnetospheres.",
-    "evidence": "June 5, 2026 CV, p.4, December 2023."
+    "evidence": "June 5, 2026 CV, p.4, December 2023. Appointment listed on user-provided June 5, 2026 CV, page 2 (November 2023–present); the user explicitly requested the Work Passport connection on 2026-10-27.",
+    "relatedAffiliationIds": [
+      "ku-adjunct-industrial-research-associate"
+    ],
+    "affiliationContext": "This December 2023 paper is connected in the Work Passport to the author's University of Kansas Adjunct Industrial Research Associate appointment, which began in November 2023. This records a career/research relationship; it does not assert the affiliation text printed in the journal."
   },
   {
     "id": "ieee-2020-conformal-array",

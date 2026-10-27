@@ -89,6 +89,21 @@
       "evidenceLimits": "Design contribution confirmed by user; precise fabrication status, test results, or deployment not stated.",
       "releaseBoundary": "Retain high-level concept only. No nonpublic design implementation, drawings, specifications or performance data.",
       "nextQuestion": "Did the antenna and integrated filter advance beyond design into fabrication or laboratory testing, or did it remain a design concept?"
+    },
+    {
+      "id": "baltimore-fxr-development-milestone",
+      "chapter": "baltimore",
+      "workplace": "Northrop Grumman, Baltimore/BWI",
+      "timeframe": "Baltimore period; precise dates not established",
+      "question": "Did your FXR antenna design advance into physical fabrication or laboratory testing, or did it remain a design concept?",
+      "answer": "Yes.",
+      "interpretation": "The affirmative response indicates progression beyond the design-only stage through physical fabrication and/or laboratory testing; exactly which one or whether both remains ambiguous.",
+      "publicSummary": "The antenna/integrated-filter work progressed beyond a design-only concept; specific fabrication and test milestones remain to be confirmed.",
+      "sourceType": "Direct first-person recollection",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Do not infer completed fabrication and completed laboratory testing separately. No performance, qualification, production, selection, or deployment evidence claimed.",
+      "releaseBoundary": "No proprietary design, test procedures or results.",
+      "nextQuestion": "For your FXR integrated-filter antenna, was it physically fabricated, laboratory-tested, or both?"
     }
   ]
 }

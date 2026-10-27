@@ -193,6 +193,24 @@
       "evidenceLimits": "Award titles and years are as self-reported in the image; specific project associations arise from the interview, not the text of the awards alone. No independent issuer confirmation.",
       "releaseBoundary": "Only public-safe award names and years; no internal invention disclosures, sensitive implementation detail, or unpublished documents.",
       "nextQuestion": "Would you like to explore the 2021 ultra-wideband, high-shock/high-temperature antenna work, or the 2023 Mass Detection Payload Innovation Award next?"
+    },
+    {
+      "id": "baltimore-question-14-projectile-antenna-award",
+      "chapter": "baltimore",
+      "question": "Was the 2021 ultra-small, ultra-wideband high-shock/high-temperature Innovation Award for the same work as the projectile-tip antenna described in your CV?",
+      "answer": "For question 14, yes those are the same.",
+      "publicSummary": "Confirmed that the 2021 Northrop Grumman Innovation Award for an ultra-small, ultra-wideband antenna corresponded to the projectile-tip antenna work described in the CV.",
+      "linkedAwardIds": [
+        "ng-innovation-high-shock-antenna-2021"
+      ],
+      "linkedWorkIds": [
+        "projectile-tip-antenna"
+      ],
+      "sourceType": "Direct firsthand confirmation and résumé, October 27, 2026",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "No extra testing status, program customer, technical implementation details or performance metrics inferred.",
+      "releaseBoundary": "Only general concept and award linkage; avoid detailed nonpublic antenna geometry or applications.",
+      "nextQuestion": "Would you like to share a public-safe story or memorable milestone from the projectile-tip antenna effort, or move on to your Boulder career chapter?"
     }
   ]
 }

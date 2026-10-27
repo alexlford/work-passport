@@ -145,7 +145,7 @@
     "place": "Baltimore / BWI",
     "period": "Baltimore period · precise dates to confirm",
     "role": "Antenna design — additively manufactured integrated filter",
-    "narrative": "During my Baltimore Northrop Grumman period, I worked on antenna design for the company's proposed U.S. Navy Future X-Band Radar (FXR) offering. My specific design contribution involved an additively manufactured integrated filter. This was part of our proposed offering, not a claim that the radar was selected, the design fielded, or the component entered production. The design's fabrication or testing status and performance characteristics have not yet been established for this public record.",
+    "narrative": "During my Baltimore Northrop Grumman period, I worked on antenna design for the company's proposed U.S. Navy Future X-Band Radar (FXR) offering. My specific design contribution involved an additively manufactured integrated filter. I confirmed that the effort progressed beyond a design-only concept into physical fabrication and/or laboratory testing; the precise milestone or milestones have not yet been distinguished. This was work on a proposed offering, not a claim that the radar was selected, the design fielded or the component entered production.",
     "media": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2204/7149047/1000w_q95.jpg",
     "mediaCredit": "U.S. Navy / NSWC Dahlgren FXR-related test site, photographed in 2022 (DVIDS). Illustrative Navy program context only; not Northrop Grumman equipment, my antenna design, or a personal project photo.",
     "links": [
@@ -162,12 +162,12 @@
         "url": "https://www.navy.mil/Press-Office/News-Stories/Article/2501925/new-nrl-3d-printed-antenna-designs-reduce-cost-weight-and-size/"
       }
     ],
-    "evidence": "Direct first-person interview (2026-10-27) confirming primary focus on the Navy FXR offering and specifically antenna design with an additively manufactured integrated filter. Public Navy program sources establish FXR context but do not independently verify this individual's design.",
+    "evidence": "Direct first-person interview (2026-10-27) confirms the FXR offering focus, integrated-filter antenna design, and progression beyond a design-only stage. Whether fabrication, laboratory testing, or both occurred remains to be clarified. Public Navy program materials provide context but do not independently corroborate the personal contribution.",
     "relatedRecords": [
       "cem",
       "raptr"
     ],
-    "caveat": "No technical dimensions, design construction, manufacturing process, performance metrics, prototype status, program selection or deployment claims without confirmation and appropriate public-release review."
+    "caveat": "Fabrication versus laboratory testing not yet distinguished. No technical dimensions, manufacturing process, test results, performance metrics, selection or deployment claims without corroboration and appropriate release review."
   },
   {
     "id": "oysters",

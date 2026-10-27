@@ -320,6 +320,26 @@
       "sourceDate": "2026-10-27",
       "evidenceLimits": "Visit count confirmed; dates, duration, particular installations, activities and companions not yet established.",
       "nextQuestion": "What do you remember most from the two trips to Guam?"
+    },
+    {
+      "id": "boulder-rgs-a-two-guam-adventures",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman / RGS-A",
+      "timeframe": "Two visits to Guam; related hiking records in 2022 and 2023",
+      "question": "Of your two trips to Guam, which stands out, and what do you remember most?",
+      "answer": "They were both great. The first was for the initial site survey. I tried to climb Guam's highest peak, went the wrong way, reached the second-highest peak, got lost, army-crawled through tall grass to find the trail before sundown, found hydrogen peroxide at a gas station for my cuts, and discovered a busy German pub by the beach with sausages and imported German beer. On my second visit I learned a lot, traveled with more Northrop Grumman people, had a great time, and gave myself enough time to reach Guam's highest point.",
+      "publicSummary": "Two RGS-A Guam trips: first an initial site survey and unexpected Mount Jumullong Manglo adventure, followed by a second visit with a larger Northrop Grumman group and successful Mount Lamlam summit.",
+      "linkedProgramIds": [
+        "rgs-a"
+      ],
+      "relatedAdventureUrls": [
+        "https://adventures.alexlford.com/record/2022-05-11-mount-jumullong-manglo/",
+        "https://adventures.alexlford.com/record/2023-03-09-mount-lamlam/"
+      ],
+      "sourceType": "First-person recollection cross-referenced to existing Strava-backed Adventures hiking records",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Hiking activities have dated records, but user did not date either entire work trip. The first hiking record is a high-confidence match, second is probable, with personal summit confirmation. No precise lost-route geometry, German pub identity, gas station, work site, or program-specific technical details inferred.",
+      "nextQuestion": "Do you remember the name of the German pub you discovered on Guam?"
     }
   ]
 }

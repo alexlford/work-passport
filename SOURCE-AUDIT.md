@@ -46,3 +46,29 @@ The homepage currently **hotlinks** a personal Squarespace image from alexlford.
 - Add precise paper presentation vs authorship vs attendance status for 2013/14/17 APS abstracts and 2020 IEEE AP-S/URSI.
 - Decide which photos from alexlford.com should be mirrored into the repository with appropriate permissions and local copies.
 - Verify technical/organizational descriptions against public-release review before adding any sensitive program detail.
+
+
+## Evidence intake — October 27, 2026
+
+Additional files were supplied directly for the Work Passport interview. The public repository contains **curated, public-safe facts, not copies of the supplied files**.
+
+| Source reviewed | What it supports | Publishing / attribution rule |
+|---|---|---|
+| Curriculum vitae (June 5, 2026; five pages) | Exact post-August-2017 role dates, titles, work summaries, 2020 IEEE paper, honors and panel records | Only selected work and publication facts were transcribed; the original includes personal contact and access/clearance information and **must not be published here** |
+| Ground System Architectures Workshop (February 29, 2024) Working Group E outbrief | Names Alex Ford as a panelist; confirms the workshop's agenda; cover states approved for public release, OTR 2024-00514 | Credit the Aerospace Corporation; do not attribute the group's collective conclusions solely to one person or upload its slides without permission |
+| IEEE AP-S/URSI 2020 paper, DOI 10.1109/IEEECONF35879.2020.9329463 | Authorship; fabricated, measured conformal array; model-to-measurement comparison | Paper bears Distribution Statement A, approved for public release #20-0020; cite publisher DOI, not a user-licensed downloadable PDF |
+| IEEE Aerospace Conference 2027 Call for Papers, page 9 | Named organizer for sessions 4.01 and 4.02 in Track 4; March 2027 conference dates | Future organizational role only; not proof of physical attendance or future paper acceptance |
+| 2023–2024 PGS Division Technical Fellows announcement | Confirms initial selection for the 2023–2024 term | Internal names and the original employee roster are not published |
+| 2024 IEEE AP-S AdCom industry panel invitation | Confirms an invitation; attendance is **not** established | Do not present as participated or attended until directly confirmed |
+| 2020 essential-work travel letter | Context about industry operations during the early pandemic | No original document, personnel names, contact details or work location information published |
+| Internal IP correspondence | Confirms recognition but explicitly restricts disclosure of underlying invention information | **The protected invention/trade-secret information and original letter must not be published**; retain only the general award label already listed in the CV |
+| 2020–2029 LaTeX collection title-page draft | Drafting/project context, not verified publication or institutional appointment | Do not treat title-page affiliations as independent verified employment or appointments; do not publish draft |
+| Personal Chesapeake Bay boating photograph ("CBF Oyster") | A possible personal image for the Oyster Monitoring story | Event, date, participants and reuse preference need confirmation before adding it to a project page |
+
+### Open evidence questions
+
+- Whether the 2021 Innovation Award for an ultra-small ultra-wideband high-shock/high-temperature antenna refers to the projectile-tip patch antenna described in the CV; strong contextual overlap, **not yet confirmed identical**.
+- Whether the October 2024 IEEE AP-S Industry Panel invitation led to attendance/participation.
+- Context and rights for the Chesapeake Bay Oyster photograph.
+- Current meaning of the 2025 Technical Fellow listing following the 2023–2024 initial selection; renewal is possible but not yet documented.
+

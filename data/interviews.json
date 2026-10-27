@@ -74,7 +74,21 @@
       "sourceDate": "2026-10-27",
       "programContext": "Navy FXR is a planned successor to legacy mast-mounted X-band radar; confirmed in public 2022 NAVSEA RFI and 2026 House report. The user’s description of company work is not independently corroborated by those documents.",
       "releaseBoundary": "Do not assert a contract award, fielded system, proprietary antenna implementation, performance data or participation in Navy test programs.",
-      "nextQuestion": "For the FXR antenna effort, what was your primary contribution: concept/design, computational analysis, prototyping, testing or another role?"
+      "nextQuestion": "For the Navy FXR offering, what did you personally design?"
+    },
+    {
+      "id": "baltimore-fxr-integrated-filter",
+      "chapter": "baltimore",
+      "workplace": "Northrop Grumman, Baltimore/BWI",
+      "timeframe": "Baltimore period; precise project dates not confirmed",
+      "question": "What was your primary personal contribution to the additive-manufactured antenna effort?",
+      "answer": "antenna design specifically a additively manufactured integrated filter",
+      "publicSummary": "Designed an antenna concept incorporating an additively manufactured integrated filter for Northrop Grumman's proposed Navy FXR offering.",
+      "sourceType": "Direct first-person recollection",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Design contribution confirmed by user; precise fabrication status, test results, or deployment not stated.",
+      "releaseBoundary": "Retain high-level concept only. No nonpublic design implementation, drawings, specifications or performance data.",
+      "nextQuestion": "Did the antenna and integrated filter advance beyond design into fabrication or laboratory testing, or did it remain a design concept?"
     }
   ]
 }

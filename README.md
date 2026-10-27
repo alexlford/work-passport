@@ -49,6 +49,35 @@ See [SOURCE-AUDIT.md](SOURCE-AUDIT.md).
 
 _Initial editorial seed: 27 October 2026._
 
+## Automated foundation checks
+
+Every pull request and push to `main` runs offline data/reference validation,
+JavaScript syntax checks, and loading-recovery tests. A separate Chromium job
+checks the rendered site at phone (390px), tablet (768px), and desktop (1440px)
+widths, program filters, local anchors, and the actual section retry button.
+Screenshots are retained as Actions artifacts for seven days.
+
+Run the dependency-free checks locally with:
+
+```sh
+python scripts/validate.py
+node --check app.js
+node --test scripts/test_loading.cjs
+```
+
+Each data section loads and recovers independently. An unavailable or malformed
+awards file leaves career history, programs, publications, and the other sections
+available. Its retry button requests only that source. Requests time out after
+15 seconds. Optional training details update in place and never block program
+cards, reset their filter, or close an open field memory.
+
+Browser QA deliberately blocks external images, fonts, and the independent Life
+Map to verify that the archive remains usable without those services. It checks
+the map's embed URL and full-map fallback link; it does not certify live external
+imagery or map-provider availability. This workflow validates changes and does
+not deploy the website.
+
 ## Archive intake — 2020–2029 ZIP (reviewed October 27, 2026)
 
 The uploaded ZIP contains original letters, conference attendance and paper records, the 2023/2024 Astrophysical Journal paper, a 2025 Technical Fellow re-nomination roster, and a set of approved-for-public-release 2020 Chesapeake Bay oyster-testing photographs. The archive and confidential originals were **not copied to this public repository**. Publications link to publisher DOI pages; award event descriptions exclude trade-secret contents, internal identifiers and compensation information. The CV's 2023 ApJ entry reflects online publication on December 18, 2023; the paper appears in the journal's January 2024 issue. The 2020 AP-S/URSI attendance certificate explicitly states **virtual attendance**, not travel to Montréal.
+

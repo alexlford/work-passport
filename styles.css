@@ -29,3 +29,15 @@
 .recognition-row p{font-size:12px;color:#a7b9be;margin:7px 0 0}
 .recognition-issuer{font-size:12px;color:#c7ced0;text-align:right}
 @media(max-width:640px){.honors-heading{display:block}.honors-heading p{margin-top:9px}.recognition-row{grid-template-columns:55px 1fr;gap:14px}.recognition-issuer{grid-column:2;text-align:left;margin-top:-10px}}
+
+/* Chronological appointments keep exact dates separate from place-based chapters. */
+.career-timeline{margin-top:60px;padding-top:35px;border-top:1px solid var(--line)}
+.career-timeline h3{font-size:clamp(24px,3vw,35px);margin:0 0 10px}
+.career-timeline>p{color:#b5c4c8;font-size:13px;max-width:690px;margin-bottom:24px}
+.role-timeline{border-top:1px solid var(--line);max-width:1100px}
+.role-row{display:grid;grid-template-columns:minmax(140px,220px) 1fr;gap:30px;padding:22px 4px;border-bottom:1px solid var(--line)}
+.role-date{font-size:12px;color:var(--gold);font-weight:700;letter-spacing:.06em}
+.role-content h4{font:700 20px 'Manrope',Arial,sans-serif;letter-spacing:-.02em;margin:0 0 5px}
+.role-meta{color:#bdd0d3;font-size:12px}
+.role-content p{font-size:12px;line-height:1.6;color:#aebfc3;margin:8px 0 0;max-width:780px}
+@media(max-width:640px){.role-row{grid-template-columns:1fr;gap:8px}.career-timeline{margin-top:40px}}

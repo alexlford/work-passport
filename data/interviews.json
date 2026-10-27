@@ -140,7 +140,7 @@
       "timeframe": "Baltimore period; exact award dates not recorded",
       "question": "Was the FXR integrated-filter antenna effort connected to a Northrop Grumman New Technology/IP award, or a different effort?",
       "answer": "Yes it was. And so was RAPTR. And so was my work on the internal CEM toolkit.",
-      "publicSummary": "The FXR integrated-filter antenna, RAPTR, and the internal CEM toolkit work were each associated with Northrop Grumman internal New Technology/IP recognition.",
+      "publicSummary": "FXR, RAPTR and internal CEM toolkit development were each associated with distinct Northrop Grumman awards, identified by the supplied résumé image as two New Technology Awards and a Good Engineering Award.",
       "sourceType": "Direct first-person interview statements",
       "sourceDate": "2026-10-27",
       "linkedProgramIds": [
@@ -148,9 +148,9 @@
         "raptr",
         "cem"
       ],
-      "evidenceLimits": "Three distinct internal New Technology/IP awards confirmed by direct follow-up, one each for FXR, RAPTR and CEM toolkit. Official award titles and dates remain unverified.",
+      "evidenceLimits": "Two New Technology Awards (CEM in 2020, FXR-related antenna in 2023) and one Good Engineering Award (RAPTR-related aperture in 2020), according to user-provided Honors & Awards image and confirmed project associations.",
       "releaseBoundary": "High-level internal recognition only. Do not publish sensitive invention disclosures, patent details or proprietary designs without an approved public record.",
-      "nextQuestion": "What were the approximate years of your three New Technology/IP awards?",
+      "nextQuestion": "Are your formal award titles and dates listed in your Honors & Awards résumé image?",
       "followUpConfirmation": "Three separate awards."
     },
     {
@@ -160,7 +160,7 @@
       "timeframe": "2018–2021 period; exact dates not yet confirmed",
       "question": "Were these three separate New Technology/IP awards, or were some projects recognized under the same award?",
       "answer": "Three separate awards.",
-      "publicSummary": "Received three separate internal Northrop Grumman New Technology/IP awards, respectively associated with the internal CEM toolkit, RAPTR radar development, and the FXR additively manufactured integrated-filter antenna.",
+      "publicSummary": "Received three separate Northrop Grumman awards recognizing the internal CEM toolkit (2020 New Technology Award), RAPTR (2020 Good Engineering Award) and integrated-filter aperture work associated with FXR (2023 New Technology Award).",
       "linkedProgramIds": [
         "cem",
         "raptr",
@@ -173,9 +173,26 @@
       ],
       "sourceType": "Direct first-person confirmation",
       "sourceDate": "2026-10-27",
-      "evidenceLimits": "Three separate awards confirmed; award certificates, official titles, dates and exact recipient credit not yet documented.",
+      "evidenceLimits": "Award names, categories and years taken from supplied résumé image; user confirmed the project associations. Exact dates within each award year not supplied.",
       "releaseBoundary": "Avoid naming unreleased inventions, sensitive specifications, confidential disclosure identifiers or protected intellectual property.",
-      "nextQuestion": "Do you remember approximately which year each of the three awards was received?"
+      "nextQuestion": "The award years and official titles were supplied in the Honors & Awards image."
+    },
+    {
+      "id": "baltimore-awards-image-2020-2023",
+      "chapter": "baltimore",
+      "question": "What were the approximate years of your three project-linked awards?",
+      "answer": "The years are in the image.",
+      "publicSummary": "User-provided Honors & Awards image establishes: 2020 New Technology Award, 'A Novel 1-D Periodic CEM Algorithm Enabling Fast High Fidelity RF Platform Optimization' (CEM); 2020 Good Engineering Award, 'A Novel Re-Scalable, Wideband, Common Panel Aperture with Innovative Second Harmonic Suppression' (RAPTR); 2023 New Technology Award, 'Array Aperture With Low Loss On-Grid Integrated Elemental Filtering For Radar Systems' (FXR-associated integrated-filter antenna). The image also lists 2021 and 2023 Innovation Awards and 2022–2025 professional recognitions.",
+      "linkedAwardIds": [
+        "ng-ntip-cem",
+        "ng-ntip-raptr",
+        "ng-ntip-fxr"
+      ],
+      "sourceType": "Direct visual transcription of user-supplied résumé Honors & Awards image, corroborated by first-person project-to-award links",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Award titles and years are as self-reported in the image; specific project associations arise from the interview, not the text of the awards alone. No independent issuer confirmation.",
+      "releaseBoundary": "Only public-safe award names and years; no internal invention disclosures, sensitive implementation detail, or unpublished documents.",
+      "nextQuestion": "Would you like to explore the 2021 ultra-wideband, high-shock/high-temperature antenna work, or the 2023 Mass Detection Payload Innovation Award next?"
     }
   ]
 }

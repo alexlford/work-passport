@@ -19,9 +19,10 @@
     "type": "Co-author",
     "status": "documented",
     "work": "Prototyping an S-Band Conformal Line Array Antenna on a Partial Wing Surface",
-    "description": "IEEE program session TH-A5.2A.4, by Thomas G. Spence, Alexander L. Ford and Christopher C. Roberts.",
-    "url": "https://2020apsursi.org/Papers/ViewSession.asp?Sessionid=1212",
-    "note": "Conference-paper authorship verified; physical attendance not assumed."
+    "description": "Co-authored an IEEE paper reporting the design, additive fabrication, characterization and laboratory testing of an S-band conformal five-element array on a partial wing surface. The publication reports agreement between measured and modeled RF performance.",
+    "url": "https://doi.org/10.1109/IEEECONF35879.2020.9329463",
+    "note": "Paper: Thomas G. Spence, Alexander L. Ford, Christopher C. Roberts; copyright © 2020 Northrop Grumman, Distribution Statement A / public release #20-0020. Authorship documented; in-person attendance not asserted. Full personally licensed IEEE PDF not copied to public repo.",
+    "evidenceType": "2020 IEEE paper supplied by user; explicitly authorized for public release"
   },
   {
     "id": "ieee-past-2019",
@@ -37,15 +38,16 @@
   },
   {
     "id": "gsaw",
-    "title": "Ground System Architecture Workshop",
-    "where": "Venue / year to verify",
-    "year": "Date to confirm",
-    "type": "Panelist",
+    "title": "Ground System Architectures Workshop (GSAW)",
+    "where": "Los Angeles, California (Renaissance Los Angeles Airport Hotel)",
+    "year": "2024",
+    "type": "Working Group E panelist",
     "status": "documented",
     "work": "Leaping into the Future: How Innovations and Technological Advances Will Enable Economically Sustainable Next Generation Ground and Flight System Architectures",
-    "description": "Public LinkedIn profile lists panel participation; date and session materials still need independent confirmation.",
+    "description": "Named panelist for Working Group E in the February 29, 2024 outbrief. The public-release working group addressed sustainable ground and flight architectures, commercial approaches, interoperability, cloud financial operations, AI/ML, and optical communications.",
     "url": "https://www.linkedin.com/in/alexlford",
-    "note": "Panel role recorded on LinkedIn."
+    "note": "Panelist name and 2024 date explicitly listed in supplied Aerospace Corporation GSAW Working Group E outbrief, marked approved for public release (OTR 2024-00514). Does not attribute every collective working-group conclusion to any one participant.",
+    "evidenceType": "Approved-for-public-release conference outbrief provided by user"
   },
   {
     "id": "ku-talk-2026",
@@ -64,11 +66,12 @@
     "title": "IEEE Aerospace Conference · Track 4",
     "where": "Big Sky, Montana",
     "year": "2027 · upcoming",
-    "type": "Session co-chair",
+    "type": "Listed session organizer · upcoming",
     "status": "planned",
-    "work": "Communication & Navigation Systems & Technologies",
-    "description": "LinkedIn lists an IEEE Aerospace Conference Track 4 session co-chair role beginning in May 2026; the future event is not marked attended.",
-    "url": "https://www.linkedin.com/in/alexlford",
-    "note": "Organizational role; future conference attendance not presumed."
+    "work": "Sessions 4.01 Evolving Space Communication Architectures & 4.02 Communication Protocols and Services for Space Networks",
+    "description": "The 2027 IEEE Aerospace Conference Call for Papers lists Alexander Ford as an organizer for both Track 4 sessions 4.01 and 4.02, alongside Shervin Shambayati; event scheduled March 6–13, 2027, in Big Sky, Montana.",
+    "url": "https://www.aeroconf.org/",
+    "note": "Primary source: user-provided 2027 IEEE Aerospace Call for Papers, page 9. Future conference organizing assignment, not a statement of attendance or accepted paper.",
+    "evidenceType": "Published 2027 Call for Papers provided by user"
   }
 ]

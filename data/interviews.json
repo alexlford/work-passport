@@ -97,13 +97,27 @@
       "timeframe": "Baltimore period; precise dates not established",
       "question": "Did your FXR antenna design advance into physical fabrication or laboratory testing, or did it remain a design concept?",
       "answer": "Yes.",
-      "interpretation": "The affirmative response indicates progression beyond the design-only stage through physical fabrication and/or laboratory testing; exactly which one or whether both remains ambiguous.",
-      "publicSummary": "The antenna/integrated-filter work progressed beyond a design-only concept; specific fabrication and test milestones remain to be confirmed.",
+      "interpretation": "An initial 'yes' confirmed advancement beyond a design-only concept; a subsequent explicit answer confirms both physical fabrication and laboratory testing.",
+      "publicSummary": "The integrated-filter antenna design was physically fabricated and laboratory-tested.",
       "sourceType": "Direct first-person recollection",
       "sourceDate": "2026-10-27",
-      "evidenceLimits": "Do not infer completed fabrication and completed laboratory testing separately. No performance, qualification, production, selection, or deployment evidence claimed.",
+      "evidenceLimits": "Fabrication and laboratory testing confirmed by user; test outcomes, measured performance, qualification, production, selection and deployment remain unverified.",
       "releaseBoundary": "No proprietary design, test procedures or results.",
-      "nextQuestion": "For your FXR integrated-filter antenna, was it physically fabricated, laboratory-tested, or both?"
+      "nextQuestion": "Were the fabrication and lab-testing activities successful in demonstrating the integrated-filter antenna concept, or was the principal outcome learning and iteration?"
+    },
+    {
+      "id": "baltimore-fxr-question-9-fabricated-and-tested",
+      "chapter": "baltimore",
+      "workplace": "Northrop Grumman, Baltimore/BWI",
+      "timeframe": "Baltimore period; exact milestone dates not established",
+      "question": "For your FXR integrated-filter antenna, was it physically fabricated, laboratory-tested, or both?",
+      "answer": "Both fabricated and laboratory-tested.",
+      "publicSummary": "Designed an antenna incorporating an additively manufactured integrated filter for the proposed Navy FXR offering; the design was physically fabricated and laboratory-tested.",
+      "sourceType": "Direct first-person recollection",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "No assumptions about test success, measured results, qualification, contract awards, production, or deployment.",
+      "releaseBoundary": "No proprietary manufacturing processes, hardware specifications, performance metrics or test procedures.",
+      "nextQuestion": "What was the main outcome of fabricating and laboratory-testing the FXR integrated-filter antenna? Did it demonstrate the design as intended, or primarily inform further design iterations?"
     }
   ]
 }

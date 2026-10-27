@@ -386,6 +386,25 @@
       "sourceDate": "2026-10-27",
       "evidenceLimits": "Dayton-based staff supported NASIC at Wright-Patterson. No personal visit to Wright-Patterson confirmed.",
       "nextQuestion": "Which hiring or people-development moment are you most proud of from managing that distributed organization?"
+    },
+    {
+      "id": "boulder-technical-fellow-2023-personal-meaning",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman Space Systems",
+      "timeframe": "2023 Technical Fellow selection while serving as Systems Engineering Manager 3",
+      "question": "What did becoming a Technical Fellow in 2023 mean to you personally?",
+      "answer": "The recognition meant a lot to me personally. I was working really hard as a functional manager to stay technical and getting that distinction meant that that hard work was being seen.",
+      "publicSummary": "Being named a Technical Fellow in 2023 was meaningful confirmation that the effort to stay technically engaged while serving as a functional manager was recognized.",
+      "sourceType": "Direct first-person interview",
+      "sourceDate": "2026-10-27",
+      "linkedRoleIds": [
+        "ng-boulder-se-manager"
+      ],
+      "linkedRecognitionIds": [
+        "ng-technical-fellow-2023"
+      ],
+      "evidenceLimits": "Personal meaning, not a claim of award selection criteria or specific nomination deliberations.",
+      "nextQuestion": "What aspect of your technical work did you most enjoy during those management years?"
     }
   ]
 }

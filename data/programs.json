@@ -88,14 +88,17 @@
       }
     ],
     "recognition": {
-      "label": "Northrop Grumman New Technology / IP recognition",
-      "connection": "User-confirmed association between this workstream and internal New Technology/IP award recognition",
-      "evidence": "First-person confirmations on 2026-10-27",
-      "awardName": "Not yet specified",
+      "label": "Northrop Grumman New Technology / IP Award",
+      "connection": "One distinct internal recognition award for this workstream, confirmed by user",
+      "evidence": "Direct first-person interview, October 27, 2026",
+      "awardName": "Official title not yet documented",
       "year": null,
-      "distinctAwardId": null,
-      "note": "At least three workstreams were associated with recognition; not evidence of three distinct awards."
-    }
+      "distinctAwardId": "ng-ntip-raptr",
+      "note": "Three separate awards confirmed: one each for the CEM toolkit, RAPTR and FXR workstreams. Official dates and names remain unverified."
+    },
+    "awardIds": [
+      "ng-ntip-raptr"
+    ]
   },
   {
     "id": "sewip",
@@ -145,14 +148,17 @@
     ],
     "evidence": "First-person interview (2026-10-27) confirming connection between the new computational method, prior résumé-reported performance improvement and subsequent use/integration; exact metric basis and adoption route remain to be clarified.",
     "recognition": {
-      "label": "Northrop Grumman New Technology / IP recognition",
-      "connection": "User-confirmed association between this workstream and internal New Technology/IP award recognition",
-      "evidence": "First-person confirmations on 2026-10-27",
-      "awardName": "Not yet specified",
+      "label": "Northrop Grumman New Technology / IP Award",
+      "connection": "One distinct internal recognition award for this workstream, confirmed by user",
+      "evidence": "Direct first-person interview, October 27, 2026",
+      "awardName": "Official title not yet documented",
       "year": null,
-      "distinctAwardId": null,
-      "note": "At least three workstreams were associated with recognition; not evidence of three distinct awards."
-    }
+      "distinctAwardId": "ng-ntip-cem",
+      "note": "Three separate awards confirmed: one each for the CEM toolkit, RAPTR and FXR workstreams. Official dates and names remain unverified."
+    },
+    "awardIds": [
+      "ng-ntip-cem"
+    ]
   },
   {
     "id": "fxr",
@@ -213,14 +219,17 @@
       }
     ],
     "recognition": {
-      "label": "Northrop Grumman New Technology / IP recognition",
-      "connection": "User-confirmed association between this workstream and internal New Technology/IP award recognition",
-      "evidence": "First-person confirmations on 2026-10-27",
-      "awardName": "Not yet specified",
+      "label": "Northrop Grumman New Technology / IP Award",
+      "connection": "One distinct internal recognition award for this workstream, confirmed by user",
+      "evidence": "Direct first-person interview, October 27, 2026",
+      "awardName": "Official title not yet documented",
       "year": null,
-      "distinctAwardId": null,
-      "note": "At least three workstreams were associated with recognition; not evidence of three distinct awards."
-    }
+      "distinctAwardId": "ng-ntip-fxr",
+      "note": "Three separate awards confirmed: one each for the CEM toolkit, RAPTR and FXR workstreams. Official dates and names remain unverified."
+    },
+    "awardIds": [
+      "ng-ntip-fxr"
+    ]
   },
   {
     "id": "oysters",

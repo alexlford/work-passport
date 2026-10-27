@@ -321,3 +321,18 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 @media(prefers-reduced-motion:reduce){
  .program,.program .media img{transition:none}
 }
+
+/* Guam field memories linked to their separately maintained Adventures records. */
+.guam-field-notes{margin:22px 0 23px;border-top:1px solid rgba(205,168,115,.4);padding-top:18px}
+.guam-field-label{font-size:10px;color:var(--gold);font-weight:700;letter-spacing:.13em;margin-bottom:11px}
+.guam-field-note{border-bottom:1px solid rgba(255,255,255,.16);padding:8px 0 12px}
+.guam-field-note summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:27px 1fr 18px;gap:9px;align-items:center;font-size:13px;line-height:1.45;font-weight:700;color:#f2e9db;padding:8px 0}
+.guam-field-note summary::-webkit-details-marker{display:none}
+.guam-field-index{font-size:11px;color:var(--gold);font-weight:700}
+.guam-field-toggle{font-size:19px;color:var(--gold);text-align:right;font-weight:400}
+.guam-field-note[open] .guam-field-toggle{transform:rotate(45deg)}
+.guam-field-note p{font-size:12px;line-height:1.75;color:#c1d0d2;margin:10px 0}
+.guam-field-note a{display:inline-block;font-size:12px;font-weight:700;color:#e3c18f;text-decoration:none;margin:6px 0}
+.guam-field-note a:hover{text-decoration:underline}
+.guam-field-note small{display:block;color:#94aeb6;font-size:10px;line-height:1.6;margin:4px 0}
+.guam-field-note summary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}

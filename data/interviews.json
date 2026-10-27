@@ -28,6 +28,15 @@
       "evidenceLimits": "Objective and nature of the work confirmed by interview; quantitative speedups, problem sizes, implementation details, and deployment outcomes not yet established.",
       "releaseBoundary": "No proprietary algorithm, underlying code, architecture, simulation details or sensitive benchmarks included.",
       "nextQuestion": "Were there measurable outcomes or an important adoption milestone you can describe publicly? Did the previously mentioned tool speed improvement relate to this method?"
+    },
+    {
+      "id": "baltimore-cem-outcome",
+      "chapter": "baltimore",
+      "question": "Did the new CEM method produce the performance improvement described in your résumé, and was it adopted or incorporated into the toolkit?",
+      "answer": "Yes.",
+      "publicSummary": "Confirmed a reported 100–250% performance improvement attributable to the new CEM method, and subsequent use or incorporation of the method.",
+      "sourceDate": "2026-10-27",
+      "qualification": "Reported figure from earlier résumé; basis and exact route of downstream adoption remain to be clarified."
     }
   ]
 }

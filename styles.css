@@ -338,3 +338,19 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 .guam-field-note summary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 
 .guam-field-note .guam-pub-link{display:block;color:#dcb878;font-weight:700;margin-top:1px;margin-bottom:7px}
+
+/* Distributed-team leadership chapter: scannable themes and connected map locations. */
+.management-details{margin:17px 0 0;border:1px solid rgba(205,168,115,.24);background:rgba(21,47,58,.52);padding:0 17px}
+.management-details summary{cursor:pointer;padding:15px 0;font-size:12px;font-weight:700;color:var(--gold);list-style-position:outside}
+.management-details summary:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.management-themes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;border-top:1px solid var(--line);padding:18px 0 4px}
+.management-theme{padding:2px 0 13px}
+.management-theme strong{font-size:12px;color:#f4e7d1}
+.management-theme p{font-size:12px;line-height:1.6;color:#b5c5c9;margin:5px 0 0}
+.management-places{border-top:1px solid var(--line);padding:16px 0 20px}
+.management-places>strong{font-size:11px;color:var(--gold)}
+.management-places>div{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.management-places a{font-size:11px;text-decoration:none;padding:7px 10px;border:1px solid rgba(205,168,115,.37);color:#e8d6b1}
+.management-places a:hover{background:rgba(205,168,115,.12)}
+.management-places small{display:block;font-size:10px;color:#9bb0b8;margin-top:12px}
+@media(max-width:600px){.management-themes{grid-template-columns:1fr;gap:7px}.management-details{padding:0 13px}}

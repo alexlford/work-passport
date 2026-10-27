@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ng-technical-fellow-2025",
+    "year": 2025,
+    "title": "Technical Fellow",
+    "detail": "Payload and Ground Systems Division",
+    "issuer": "Northrop Grumman",
+    "type": "Professional recognition",
+    "visibility": "public",
+    "note": "Listed as 2025 in supplied résumé excerpt; scope and basis of recognition not further characterized.",
+    "sourceType": "User-supplied résumé image, Honors & Awards, provided 2026-10-27"
+  },
+  {
+    "id": "ieee-senior-member-2024",
+    "year": 2024,
+    "title": "Senior Member, IEEE",
+    "detail": "IEEE Antennas and Propagation Society (AP-S)",
+    "issuer": "IEEE / AP-S",
+    "type": "Professional membership distinction",
+    "visibility": "public",
+    "note": "Member-grade recognition as listed in supplied résumé excerpt.",
+    "sourceType": "User-supplied résumé image, Honors & Awards, provided 2026-10-27"
+  },
+  {
+    "id": "ng-technical-fellow-2023",
+    "year": 2023,
+    "title": "Technical Fellow",
+    "detail": "Payload and Ground Systems Division",
+    "issuer": "Northrop Grumman",
+    "type": "Professional recognition",
+    "visibility": "public",
+    "note": "Listed separately for 2023 and 2025 in résumé; whether subsequent reappointment or separate recognition not inferred.",
+    "sourceType": "User-supplied résumé image, Honors & Awards, provided 2026-10-27"
+  },
+  {
+    "id": "nae-frontiers-nomination-2022",
+    "year": 2022,
+    "title": "Frontiers of Engineering Nomination",
+    "detail": "National Academy of Engineering",
+    "issuer": "Northrop Grumman (listed nominator)",
+    "type": "Nomination",
+    "visibility": "public",
+    "note": "Nomination only; not asserted selected as an NAE Frontiers of Engineering participant.",
+    "sourceType": "User-supplied résumé image, Honors & Awards, provided 2026-10-27"
+  },
+  {
+    "id": "ku-slossen-2016",
+    "year": 2016,
+    "title": "E. E. Slossen Award",
+    "detail": "Outstanding Graduate Teaching Assistant",
+    "issuer": "University of Kansas",
+    "type": "Award",
+    "visibility": "context_only",
+    "note": "Listed in supplied résumé image; predates the Work Passport's August 2017 start and is preserved in source data but omitted from the public Work Passport chronology.",
+    "sourceType": "User-supplied résumé image, Honors & Awards, provided 2026-10-27"
+  }
+]

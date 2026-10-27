@@ -1,32 +1,26 @@
 [
   {
-    "years": "2010–2017",
-    "place": "LAWRENCE",
-    "title": "A physicist at heart",
-    "summary": "PhD research, plasma kinetics, astrophysics, computational methods and teaching at the University of Kansas."
+    "years": "AUG 2017–JAN 2018",
+    "place": "CHARLESTON / TRANSITION",
+    "title": "From physics to products",
+    "summary": "The Work Passport begins in August 2017, after the PhD chapter. A transition into industry led to the Physics Project Manager role at Hawkes Learning (November 2017–January 2018), coordinating physics courseware development. August is the archive boundary, not a claimed employment start date."
   },
   {
-    "years": "2017–2018",
-    "place": "CHARLESTON",
-    "title": "From research to delivery",
-    "summary": "Physics project management at Hawkes Learning and a transition from academia to product-oriented work."
-  },
-  {
-    "years": "2018–2021",
+    "years": "JAN 2018–SEP 2021",
     "place": "BALTIMORE / BWI",
     "title": "Antennas, arrays & leadership",
-    "summary": "RF architecture, computational electromagnetics, additive manufacturing, RAPTR, SEWIP and a 16-person engineering organization."
+    "summary": "Principal RF and microwave engineering followed by hardware engineering management: computational electromagnetics, additive antennas, phased arrays, RAPTR, SEWIP and leadership of a 16-person engineering group."
   },
   {
-    "years": "2021–2025",
+    "years": "SEP 2021–2025",
     "place": "BOULDER",
     "title": "Systems at mission scale",
-    "summary": "OPIR ground systems, SEIT, relay stations and organizational leadership across multidisciplinary engineering teams."
+    "summary": "Systems engineering leadership for OPIR ground systems, SEIT, relay ground stations, multidisciplinary integration and an engineering organization of approximately 50 people."
   },
   {
     "years": "2025–PRESENT",
     "place": "AURORA",
     "title": "Back to the technical core",
-    "summary": "Senior Staff and lead systems engineering in space and missile defense, carrying the full systems lifecycle from architecture to integration."
+    "summary": "Senior Staff and lead systems engineering across high-reliability space and missile-defense missions, connecting architecture, requirements, technical risk and integration."
   }
 ]

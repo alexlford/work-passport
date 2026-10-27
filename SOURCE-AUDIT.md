@@ -1,5 +1,7 @@
 # Work Passport — Public source and link audit (2026-10-27)
 
+**Scope:** Records in Work Passport begin **August 2017**. The separately maintained Life Map may include earlier career/research history. Public early-career research can still be cited as background without becoming passport chronology.
+
 The public portfolio is evidence-led: records labeled **documented** are directly named in Alex Ford's published résumé, website or LinkedIn. "Candidate" means the company/program and site are independently public, but personal participation has **not** been established.
 
 ## Historically broken URLs and surviving replacements

@@ -336,3 +336,5 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 .guam-field-note a:hover{text-decoration:underline}
 .guam-field-note small{display:block;color:#94aeb6;font-size:10px;line-height:1.6;margin:4px 0}
 .guam-field-note summary:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+.guam-field-note .guam-pub-link{display:block;color:#dcb878;font-weight:700;margin-top:1px;margin-bottom:7px}

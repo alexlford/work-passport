@@ -8,7 +8,7 @@
     "place": "Boulder / Guam",
     "period": "2021–2025",
     "role": "RF technical-volume author on capture team; SEIT lead during program execution; Scrum Master",
-    "narrative": "RGS-A became my first major space-to-ground communications assignment after moving to Boulder. I started with the capture team and wrote the RF content of the technical proposal volume. I continued onto the program as Systems Engineering, Integration & Test (SEIT) lead. That transition took me from applying radar and RF expertise during the pursuit to broader systems engineering leadership as the six relay ground stations on Guam moved through development and critical design review. My 2021 University of Chicago Booth Capture Strategy executive program is linked as relevant professional development, without assuming whether I completed it before or after the proposal.",
+    "narrative": "RGS-A became my first major space-to-ground communications assignment after moving to Boulder. I joined the capture team and authored the RF content of the technical proposal volume before continuing as Systems Engineering, Integration & Test (SEIT) lead. During execution, my biggest challenges were coordinating multiple engineering disciplines and standing up the program's systems engineering processes from scratch. This work supported the development of six relay ground stations on Guam through critical design review. My 2021 University of Chicago Booth Capture Strategy executive program is linked as relevant professional development, without assuming the certificate preceded capture.",
     "media": "https://cdn.northropgrumman.com/-/media/NEWS/Imports/Northrop-Grummans-Rapid-Completion-of-Critical-Design-Review-Supports-Future-Missile-Warning-Satellites-in-Pacific-Region_hero.jpg?h=768&hash=CD6422AE0F0EDDEEE3C116ED80D9FCD4&iar=0&w=1280",
     "mediaCredit": "Northrop Grumman public RGS-A program imagery; not a personal project photograph",
     "links": [
@@ -21,7 +21,7 @@
         "url": "https://militaryembedded.com/unmanned/sensors/northrop-grumman-to-develop-next-generation-relay-ground-station-for-us-naval-information-warfare-center-pacific"
       }
     ],
-    "evidence": "User confirmation, October 27, 2026, of RGS-A capture technical-volume RF authorship and subsequent SEIT lead role; June 2026 CV corroborates RGS-A engineering work and 2021 U Chicago Capture Strategy executive program. Course-to-capture timing unverified. No proposal details reproduced.",
+    "evidence": "First-person interview, October 27, 2026: RGS-A RF technical-volume authorship during capture, continuation as SEIT lead, and the two main execution challenges of multidisciplinary coordination and establishing systems engineering processes from scratch. June 2026 CV corroborates the program role and 2021 U Chicago Capture Strategy executive program; precise sequencing of training and capture is unverified.",
     "phases": [
       {
         "label": "Capture",
@@ -29,7 +29,7 @@
       },
       {
         "label": "Execution",
-        "contribution": "Continued on RGS-A as SEIT lead, through critical design review"
+        "contribution": "Continued as SEIT lead, coordinating engineering disciplines and establishing systems engineering processes from scratch during program execution through critical design review"
       }
     ],
     "relatedProfessionalDevelopmentIds": [

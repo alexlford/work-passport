@@ -1,0 +1,53 @@
+name: Validate Work Passport
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Data and loading resilience
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate data, references and local assets
+        run: python scripts/validate.py
+      - name: Check JavaScript syntax
+        run: node --check app.js
+      - name: Test source failures, malformed data, retry and independent loading
+        run: node --test scripts/test_loading.cjs
+
+  browser-smoke:
+    name: Browser smoke
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned browser QA dependency
+        run: npm install --no-save --no-package-lock playwright@1.56.1
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Check phone, tablet and desktop UI and recovery controls
+        run: node scripts/smoke_browser.mjs
+      - name: Save layout screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: work-browser-screenshots
+          path: test-results/screenshots/
+          if-no-files-found: ignore
+          retention-days: 7

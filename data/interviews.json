@@ -131,7 +131,26 @@
       "sourceDate": "2026-10-27",
       "evidenceLimits": "Qualitative demonstration and iteration confirmed; no quantified performance, qualification, fielding, or FXR acquisition outcome asserted.",
       "releaseBoundary": "Do not publish internal antenna specifications, laboratory measurements, test procedures, implementation details or proprietary lessons learned.",
-      "nextQuestion": "Was the FXR integrated-filter antenna effort connected to one of your Northrop Grumman New Technology/IP awards, or was that recognition for a different antenna concept?"
+      "nextQuestion": "Were the FXR antenna effort and a New Technology/IP award related, or was the award associated with a different project?"
+    },
+    {
+      "id": "baltimore-internal-ip-recognition-three-workstreams",
+      "chapter": "baltimore",
+      "workplace": "Northrop Grumman, Baltimore/BWI",
+      "timeframe": "Baltimore period; exact award dates not recorded",
+      "question": "Was the FXR integrated-filter antenna effort connected to a Northrop Grumman New Technology/IP award, or a different effort?",
+      "answer": "Yes it was. And so was RAPTR. And so was my work on the internal CEM toolkit.",
+      "publicSummary": "The FXR integrated-filter antenna, RAPTR, and the internal CEM toolkit work were each associated with Northrop Grumman internal New Technology/IP recognition.",
+      "sourceType": "Direct first-person interview statements",
+      "sourceDate": "2026-10-27",
+      "linkedProgramIds": [
+        "fxr",
+        "raptr",
+        "cem"
+      ],
+      "evidenceLimits": "This answer establishes three connections to internal recognition but does not establish three distinct awards, which award covers which workstream, award titles, or dates.",
+      "releaseBoundary": "High-level internal recognition only. Do not publish sensitive invention disclosures, patent details or proprietary designs without an approved public record.",
+      "nextQuestion": "Were these three separate New Technology/IP awards, or were some of the projects recognized together?"
     }
   ]
 }

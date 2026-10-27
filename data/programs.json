@@ -241,8 +241,8 @@
     "period": "Baltimore chapter",
     "role": "Linked on personal professional project page; specific contribution to be added",
     "narrative": "A Northrop Grumman technology-for-conservation initiative used remote sensing, imaging, sonar and data analysis to improve reef monitoring. Listed among my projects on alexlford.com; my precise role still needs to be described before making individual achievement claims.",
-    "media": "https://images.squarespace-cdn.com/content/v1/5f5a37130cec2145c74c6485/1614371419046-IG1Z0OV2SK2MROT4H4KA/IMG_0406.jpeg",
-    "mediaCredit": "Personal alexlford.com image; geographic mood image, not an oyster-monitoring project photograph",
+    "media": "./assets/cbf-oyster.webp",
+    "mediaCredit": "User-provided personal photograph, shared for Work Passport use (2026-10-27). Shows a Northrop Grumman volunteer or colleague aboard a boat; photo is associated with the oyster-monitoring project archive but no date or activity details are inferred.",
     "links": [
       {
         "label": "Current Northrop Grumman oyster-monitoring page",
@@ -250,7 +250,9 @@
       }
     ],
     "originalUrl": "https://www.northropgrumman.com/corporate-responsibility-old/technology-for-conservation/chesapeake-bay-oyster-monitoring/",
-    "evidence": "Project listed on alexlford.com; contribution details incomplete."
+    "evidence": "Project listed on alexlford.com; contribution details incomplete. Personal project photograph supplied by user and approved for public website use on 2026-10-27; it does not establish precise project tasks, date or location.",
+    "mediaAlt": "Personal project photograph: Northrop Grumman team member wearing a mask on a boat",
+    "mediaKind": "User-supplied photo, optimized WebP copy stored in repository"
   },
   {
     "id": "rmwt",

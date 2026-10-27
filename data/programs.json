@@ -56,9 +56,9 @@
     "place": "Baltimore / BWI",
     "period": "2019–2021",
     "role": "Deputy hardware leadership / CEM & RF management",
-    "narrative": "Hardware architecture and computational electromagnetics leadership related to a modular, scalable tactical radar antenna. A central theme was adapting advanced radar building blocks to varying mission and platform constraints.",
-    "media": "https://cdn.northropgrumman.com/-/media/Project/Northrop-Grumman/ngc/what-we-do/mission-solutions/radars/sabr-scalable-agile-beam-radar/sabr-scalable-agile-beam-radar-hero.jpg?h=1000&hash=A2F971BADDDC4F4A84D0C88E8761F891&iar=0&w=2000",
-    "mediaCredit": "Illustrative Northrop Grumman AESA technology photograph, showing SABR rather than RAPTR",
+    "narrative": "After my initial CEM toolkit and SEWIP assignments, RAPTR became my next major radar program in Baltimore. It was developed as a scalable, product-line radar offering targeting the U.S. Army's Future Vertical Lift (FVL) opportunity, alongside drone radar applications. My responsibilities included deputy hardware leadership and RF/CEM engineering management. The product approach sought adaptability across different platform and mission needs; these were target applications, not claims of selection for specific platforms. A separate, publicly documented RAPTR flight demonstration for FVL followed in December 2022, after my Baltimore tenure, and is included solely as program context.",
+    "media": "https://cdn.northropgrumman.com/-/media/Project/Northrop-Grumman/ngc/what-we-do/aircraft/future-vertical-lift/RAPTR-increased-battlefield-sensing-capabilities-future-vertical-lift.jpg?rev=dff700f2aa274031a4c8cd5acc7e2324",
+    "mediaCredit": "Northrop Grumman official RAPTR/Future Vertical Lift concept illustration; depicts a program vision, not a personal photograph or documented individual contribution.",
     "links": [
       {
         "label": "2019 RAPTR announcement · contemporary republication",
@@ -67,10 +67,26 @@
       {
         "label": "2019 coverage · Military Aerospace",
         "url": "https://www.militaryaerospace.com/commercial-aerospace/article/14230535/re-scalable-aperture-for-precision-targeting-radar-uses-building-block-approach-for-scalability"
+      },
+      {
+        "label": "2022 RAPTR and Mini-CNI FVL flight demonstration (later program milestone)",
+        "url": "https://verticalmag.com/press-releases/northrop-grumman-successfully-integrates-multifunction-raptr-sensor-and-mini-cni-in-flight/"
       }
     ],
     "originalUrl": "https://news.northropgrumman.com/news/releases/northrop-grumman-introduces-next-generation-scalable-radar-antenna",
-    "evidence": "Personal CV, alexlford.com featured recent project, 2019 program reporting."
+    "evidence": "First-person interview (2026-10-27) identifies RAPTR as next major work, FVL and drone radar applications as intended markets. 2019 Army contract announcement supports scalable tactical radar positioning; 2022 Northrop Grumman press release documents later FVL flight demonstration, not personal participation.",
+    "targetMarkets": [
+      {
+        "name": "U.S. Army Future Vertical Lift (FVL)",
+        "relationship": "User-confirmed target market; independently supported by later public program reporting",
+        "selectionClaim": false
+      },
+      {
+        "name": "Drone radar applications",
+        "relationship": "User-confirmed target market; drone radar role/platform context not yet specified",
+        "selectionClaim": false
+      }
+    ]
   },
   {
     "id": "sewip",

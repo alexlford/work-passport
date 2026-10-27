@@ -1,0 +1,32 @@
+[
+  {
+    "years": "2010–2017",
+    "place": "LAWRENCE",
+    "title": "A physicist at heart",
+    "summary": "PhD research, plasma kinetics, astrophysics, computational methods and teaching at the University of Kansas."
+  },
+  {
+    "years": "2017–2018",
+    "place": "CHARLESTON",
+    "title": "From research to delivery",
+    "summary": "Physics project management at Hawkes Learning and a transition from academia to product-oriented work."
+  },
+  {
+    "years": "2018–2021",
+    "place": "BALTIMORE / BWI",
+    "title": "Antennas, arrays & leadership",
+    "summary": "RF architecture, computational electromagnetics, additive manufacturing, RAPTR, SEWIP and a 16-person engineering organization."
+  },
+  {
+    "years": "2021–2025",
+    "place": "BOULDER",
+    "title": "Systems at mission scale",
+    "summary": "OPIR ground systems, SEIT, relay stations and organizational leadership across multidisciplinary engineering teams."
+  },
+  {
+    "years": "2025–PRESENT",
+    "place": "AURORA",
+    "title": "Back to the technical core",
+    "summary": "Senior Staff and lead systems engineering in space and missile defense, carrying the full systems lifecycle from architecture to integration."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ieee-aero-2026",
+    "title": "IEEE Aerospace Conference",
+    "where": "Big Sky, Montana",
+    "year": "2026",
+    "type": "Paper author",
+    "status": "documented",
+    "work": "Lunar Relay Ground Stations",
+    "description": "A comparative analysis of terrestrial MIL-STD baselines and lunar environmental, autonomy, EMI/EMC and communications requirements.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Paper listed on alexlford.com and LinkedIn; presentation specifics may be refined."
+  },
+  {
+    "id": "aps-ursi-2020",
+    "title": "IEEE AP-S/URSI Symposium",
+    "where": "Montréal (2020 conference; personal travel not asserted)",
+    "year": "2020",
+    "type": "Co-author",
+    "status": "documented",
+    "work": "Prototyping an S-Band Conformal Line Array Antenna on a Partial Wing Surface",
+    "description": "IEEE program session TH-A5.2A.4, by Thomas G. Spence, Alexander L. Ford and Christopher C. Roberts.",
+    "url": "https://2020apsursi.org/Papers/ViewSession.asp?Sessionid=1212",
+    "note": "Conference-paper authorship verified; physical attendance not assumed."
+  },
+  {
+    "id": "ieee-past-2019",
+    "title": "IEEE International Symposium on Phased Array Systems & Technology",
+    "where": "Waltham, Massachusetts",
+    "year": "2019",
+    "type": "Attended",
+    "status": "documented",
+    "work": "Phased-array systems and radar technology",
+    "description": "Work travel to the October 15–18, 2019 IEEE symposium recorded in the independent Life Map archive.",
+    "url": "https://alexlford.github.io/life-map/?embed=1&mode=work",
+    "note": "Life Map attendance record; sessions and panels still to be added."
+  },
+  {
+    "id": "gsaw",
+    "title": "Ground System Architecture Workshop",
+    "where": "Venue / year to verify",
+    "year": "Date to confirm",
+    "type": "Panelist",
+    "status": "documented",
+    "work": "Leaping into the Future: How Innovations and Technological Advances Will Enable Economically Sustainable Next Generation Ground and Flight System Architectures",
+    "description": "Public LinkedIn profile lists panel participation; date and session materials still need independent confirmation.",
+    "url": "https://www.linkedin.com/in/alexlford",
+    "note": "Panel role recorded on LinkedIn."
+  },
+  {
+    "id": "ku-talk-2026",
+    "title": "University of Kansas Physics & Astronomy Colloquium",
+    "where": "Lawrence, Kansas",
+    "year": "2026",
+    "type": "Invited talk",
+    "status": "documented",
+    "work": "The Value of First Principles Thinking",
+    "description": "Invited department talk, April 2026, connecting theory, technical problem-solving and engineering leadership.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Published LinkedIn / personal site listing."
+  },
+  {
+    "id": "aps-2017",
+    "title": "APS April Meeting",
+    "where": "Venue to confirm",
+    "year": "2017",
+    "type": "Abstract / co-author",
+    "status": "documented",
+    "work": "Numerical studies of SMBH magnetospheres and observational predictions for AGNs and inner jets",
+    "description": "Paper or abstract listed in historical CV and personal publication record.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Conference abstract linked; attendance and presenter to confirm."
+  },
+  {
+    "id": "aps-2014",
+    "title": "APS April Meeting",
+    "where": "Venue to confirm",
+    "year": "2014",
+    "type": "Abstract / co-author",
+    "status": "documented",
+    "work": "Electron-positron cascade in magnetospheres of spinning black holes",
+    "description": "Earlier conference entry tied to subsequent Physical Review D research.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Conference abstract linked; attendance and presenter to confirm."
+  },
+  {
+    "id": "aps-2013",
+    "title": "APS April Meeting",
+    "where": "Venue to confirm",
+    "year": "2013",
+    "type": "Abstract / co-author",
+    "status": "documented",
+    "work": "Theory of Interactions of Non-Relativistic Flavor-Mixed Particles and its Possible Implications to Dark Matter and the Cosmic Neutrino Background",
+    "description": "Early graduate research conference abstract; related to the University of Kansas master's thesis.",
+    "url": "https://www.alexlford.com/pubs",
+    "note": "Conference abstract linked; attendance and presenter to confirm."
+  },
+  {
+    "id": "ieee-aero-2027",
+    "title": "IEEE Aerospace Conference · Track 4",
+    "where": "Big Sky, Montana",
+    "year": "2027 · upcoming",
+    "type": "Session co-chair",
+    "status": "planned",
+    "work": "Communication & Navigation Systems & Technologies",
+    "description": "LinkedIn lists an IEEE Aerospace Conference Track 4 session co-chair role beginning in May 2026; the future event is not marked attended.",
+    "url": "https://www.linkedin.com/in/alexlford",
+    "note": "Organizational role; future conference attendance not presumed."
+  }
+]

@@ -69,3 +69,18 @@
 .academic-related{margin-top:17px;font-size:12px}
 .academic-related a,.publication-affil a{color:var(--gold)}
 .publication-affil{margin-top:9px;font-size:12px;font-weight:700}
+
+/* KU adjunct affiliation and peer-reviewed paper cross-link. */
+.academic-section{margin-top:60px;border-top:1px solid var(--line);padding-top:35px}
+.academic-section h3{font-size:clamp(25px,3vw,38px);margin:0 0 10px}
+.academic-section>p{font-size:13px;color:#b6c6c8}
+.academic-affiliations{margin-top:22px;max-width:1090px}
+.academic-row{display:grid;grid-template-columns:190px 1fr;gap:25px;padding:25px;background:#152d39;border:1px solid rgba(220,184,120,.35)}
+.academic-year{font-size:12px;color:var(--gold);font-weight:700}
+.academic-row h4{font:700 20px 'Manrope',Arial,sans-serif;margin:0 0 8px}
+.academic-where{font-size:12px;color:var(--gold)}
+.academic-row p{font-size:13px;color:#b6c7cb;margin:11px 0 0}
+.academic-works{margin-top:16px}
+.academic-works a{color:var(--gold);font-size:12px;overflow-wrap:anywhere}
+.publication-row{scroll-margin-top:28px}
+@media(max-width:640px){.academic-row{grid-template-columns:1fr;gap:10px;padding:20px}}

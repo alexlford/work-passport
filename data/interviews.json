@@ -228,6 +228,17 @@
       "evidenceLimits": "Confirms PI leadership of the sonar IRAD component, not the entire project; test participation, technical milestones, deployment, performance and program dates remain to be established.",
       "releaseBoundary": "Only user-confirmed high-level role and public program context. Avoid unreleased sonar specifications, data, architecture or internal IRAD artifacts.",
       "nextQuestion": "Did you personally participate in the oyster-monitoring sonar tests on the water in 2020, or was your contribution primarily technical direction and development?"
+    },
+    {
+      "id": "boulder-manager-3-move-motivation",
+      "chapter": "boulder",
+      "question": "What motivated your September 2021 move from Baltimore to Boulder?",
+      "answer": "It was a bump up in title. Manager 2 vs Manager 3 or manager vs senior manager (depending on the organization)",
+      "publicSummary": "The 2021 transition was a step up in management level, from Manager 2 in Baltimore to Manager 3 in Boulder, broadly corresponding to manager versus senior manager depending on the organization.",
+      "sourceType": "Direct first-person recollection",
+      "sourceDate": "2026-10-27",
+      "evidenceLimits": "Do not infer Colorado lifestyle, specific mission, compensation, or other motivations.",
+      "nextQuestion": "What was the scope of the team and mission you inherited when you became Systems Engineering Manager 3 in Boulder?"
     }
   ]
 }

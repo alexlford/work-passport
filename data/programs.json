@@ -105,7 +105,7 @@
     "place": "Baltimore / BWI",
     "period": "2018–2021",
     "role": "Algorithm development / computational electromagnetics → hardware engineering management",
-    "narrative": "One of my first assignments after joining Northrop Grumman in Baltimore was algorithmic development for an internal computational electromagnetics (CEM) toolkit. I developed a new computational method aimed at enabling larger electromagnetic simulations and improving execution speed. Separately, I performed CEM analysis in support of SEWIP. Later responsibilities expanded into RF modeling, simulation-tool development and engineering management.",
+    "narrative": "One of my first assignments at Northrop Grumman in Baltimore was developing a new computational method for an internal computational electromagnetics (CEM) toolkit, with the goals of handling larger electromagnetic problems and improving execution speed. I confirmed that this work produced a previously reported 100–250% performance improvement, and that the method was subsequently adopted or incorporated into the toolkit; the precise adoption route and benchmark basis have not yet been documented. Separately, I performed CEM analysis supporting SEWIP. Later responsibilities expanded to RF modeling, simulation R&D and engineering management.",
     "media": "https://cdn.northropgrumman.com/-/media/Project/Northrop-Grumman/ngc/what-we-do/mission-solutions/radars/sabr-scalable-agile-beam-radar/sabr-scalable-agile-beam-radar-hero.jpg?h=1000&hash=A2F971BADDDC4F4A84D0C88E8761F891&iar=0&w=2000",
     "mediaCredit": "Northrop Grumman AESA technology image, used illustratively",
     "links": [
@@ -118,7 +118,7 @@
         "url": "https://doi.org/10.1109/IEEECONF35879.2020.9329463"
       }
     ],
-    "evidence": "Direct interview recollections (2026-10-27), including development of a new computational method and its scaling/performance goals; résumé documents subsequent leadership. No numerical gain claimed."
+    "evidence": "First-person interview (2026-10-27) confirming connection between the new computational method, prior résumé-reported performance improvement and subsequent use/integration; exact metric basis and adoption route remain to be clarified."
   },
   {
     "id": "oysters",

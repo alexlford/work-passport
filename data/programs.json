@@ -137,6 +137,39 @@
     "evidence": "First-person interview (2026-10-27) confirming connection between the new computational method, prior résumé-reported performance improvement and subsequent use/integration; exact metric basis and adoption route remain to be clarified."
   },
   {
+    "id": "fxr",
+    "title": "Future X-Band Radar — Additive-Manufactured Antenna Offering",
+    "label": "FXR / Navy",
+    "group": "Naval Radar · Antenna Research",
+    "status": "documented",
+    "place": "Baltimore / BWI",
+    "period": "Baltimore period · precise dates to confirm",
+    "role": "Additive-manufactured antenna development supporting a proposed company offering",
+    "narrative": "During my Baltimore Northrop Grumman period, my additive-manufactured antenna work was primarily focused on the company's offering for the U.S. Navy's Future X-Band Radar (FXR). This records my personally confirmed technical focus, not a claim that the offering was selected, the hardware fielded, or that I participated in later Navy demonstrations. FXR is publicly described by the Navy as a planned successor to the AN/SPQ-9B radar.",
+    "media": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2204/7149047/1000w_q95.jpg",
+    "mediaCredit": "U.S. Navy / NSWC Dahlgren FXR-related test site, photographed in 2022 (DVIDS). Illustrative Navy program context only; not Northrop Grumman equipment, my antenna design, or a personal project photo.",
+    "links": [
+      {
+        "label": "U.S. Navy · FXR request for information (2022)",
+        "url": "https://sam.gov/opp/37f38a0e20c14bffa034c81b7e59c5be/view"
+      },
+      {
+        "label": "Navy Dahlgren · FXR research infrastructure (2022)",
+        "url": "https://www.dvidshub.net/news/418795/nswc-dahlgren-division-searches-out-future-radar-systems-potomac-river"
+      },
+      {
+        "label": "U.S. Naval Research Laboratory · additive-manufactured antennas (separate research)",
+        "url": "https://www.navy.mil/Press-Office/News-Stories/Article/2501925/new-nrl-3d-printed-antenna-designs-reduce-cost-weight-and-size/"
+      }
+    ],
+    "evidence": "Direct first-person interview recollection (2026-10-27): additive-manufactured antenna work focused primarily on the company's Navy FXR offering. Navy public notices establish the broader program; they do not independently verify the company's proposed design or individual contribution.",
+    "relatedRecords": [
+      "cem",
+      "raptr"
+    ],
+    "caveat": "Do not treat an offering as a government contract award, selection, fielded product, or link this individual to the separate Navy/NRL demonstrators."
+  },
+  {
     "id": "oysters",
     "title": "Chesapeake Bay Oyster Monitoring",
     "label": "Save the Bay",

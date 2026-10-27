@@ -37,10 +37,14 @@
     "officialTitle": "Ultra-small, Ultra-wideband Antenna for High Shock and High Temperature Environments",
     "awardDate": "2021",
     "city": "Baltimore / BWI · period inferred from employment",
-    "recognition": "Northrop Grumman Innovation Award in 2021 for an ultra-small, ultra-wideband antenna intended for high-shock and high-temperature environments.",
-    "sourceType": "User-provided Honors & Awards image, 2026-10-27",
-    "confirmation": "Award title and year listed in the user's résumé image; link to specific workstream not yet confirmed.",
-    "publicationBoundary": "No nonpublic fabrication, design or specification claims."
+    "recognition": "2021 Northrop Grumman Innovation Award for the ultra-small, ultra-wideband antenna developed for high-shock and high-temperature environments. User confirmed this was the same effort as the projectile-tip antenna described in their CV.",
+    "sourceType": "User-provided Honors & Awards résumé image and full CV, plus direct firsthand confirmation (2026-10-27).",
+    "confirmation": "User explicitly confirmed on 2026-10-27 that the 2021 Innovation Award and projectile-tip antenna design referred to the same work.",
+    "publicationBoundary": "Do not post confidential detailed geometry, internal design disclosures, specifications, performance data or testing procedures.",
+    "relatedWorkIds": [
+      "projectile-tip-antenna"
+    ],
+    "projectDescription": "Small wideband patch antenna developed for the tip of a projectile; the curriculum vitae describes a cavity resonance within the projectile. General details derive from the user-provided CV; no unreleased drawings or performance data published."
   },
   {
     "id": "ng-ntip-cem",

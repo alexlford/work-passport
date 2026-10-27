@@ -56,7 +56,7 @@
     "place": "Baltimore / BWI",
     "period": "2019–2021",
     "role": "Deputy hardware leadership / CEM & RF management",
-    "narrative": "After my initial CEM toolkit and SEWIP assignments, RAPTR became my next major radar program in Baltimore. It was developed as a scalable, product-line radar offering targeting the U.S. Army's Future Vertical Lift (FVL) opportunity, alongside drone radar applications. My responsibilities included deputy hardware leadership and RF/CEM engineering management. The product approach sought adaptability across different platform and mission needs; these were target applications, not claims of selection for specific platforms. A separate, publicly documented RAPTR flight demonstration for FVL followed in December 2022, after my Baltimore tenure, and is included solely as program context. The work was associated with internal Northrop Grumman New Technology/IP recognition; specific award attribution and dates remain to be established.",
+    "narrative": "After my initial CEM toolkit and SEWIP assignments, RAPTR became my next major radar program in Baltimore. It was developed as a scalable, product-line radar offering targeting the U.S. Army's Future Vertical Lift (FVL) opportunity, alongside drone radar applications. My responsibilities included deputy hardware leadership and RF/CEM engineering management. The product approach sought adaptability across different platform and mission needs; these were target applications, not claims of selection for specific platforms. A separate, publicly documented RAPTR flight demonstration for FVL followed in December 2022, after my Baltimore tenure, and is included solely as program context. The work was recognized by a 2020 Northrop Grumman Good Engineering Award.",
     "media": "https://cdn.northropgrumman.com/-/media/Project/Northrop-Grumman/ngc/what-we-do/aircraft/future-vertical-lift/RAPTR-increased-battlefield-sensing-capabilities-future-vertical-lift.jpg?rev=dff700f2aa274031a4c8cd5acc7e2324",
     "mediaCredit": "Northrop Grumman official RAPTR/Future Vertical Lift concept illustration; depicts a program vision, not a personal photograph or documented individual contribution.",
     "links": [
@@ -88,13 +88,13 @@
       }
     ],
     "recognition": {
-      "label": "Northrop Grumman New Technology / IP Award",
-      "connection": "One distinct internal recognition award for this workstream, confirmed by user",
-      "evidence": "Direct first-person interview, October 27, 2026",
-      "awardName": "Official title not yet documented",
-      "year": null,
+      "label": "Northrop Grumman Good Engineering Award (2020)",
+      "connection": "Distinct workstream recognition based on user interview and award-title image",
+      "evidence": "User-provided Honors & Awards résumé excerpt (2026-10-27), plus first-person confirmation of project association",
+      "awardName": "A Novel Re-Scalable, Wideband, Common Panel Aperture with Innovative Second Harmonic Suppression",
+      "year": 2020,
       "distinctAwardId": "ng-ntip-raptr",
-      "note": "Three separate awards confirmed: one each for the CEM toolkit, RAPTR and FXR workstreams. Official dates and names remain unverified."
+      "note": "Title, category, and year transcribed from résumé image; association to project confirmed by user. This does not establish public patents or program production."
     },
     "awardIds": [
       "ng-ntip-raptr"
@@ -133,7 +133,7 @@
     "place": "Baltimore / BWI",
     "period": "2018–2021",
     "role": "Algorithm development / computational electromagnetics → hardware engineering management",
-    "narrative": "One of my first assignments at Northrop Grumman in Baltimore was developing a new computational method for an internal computational electromagnetics (CEM) toolkit, with the goals of handling larger electromagnetic problems and improving execution speed. I confirmed that this work produced a previously reported 100–250% performance improvement, and that the method was subsequently adopted or incorporated into the toolkit; the precise adoption route and benchmark basis have not yet been documented. Separately, I performed CEM analysis supporting SEWIP. Later responsibilities expanded to RF modeling, simulation R&D and engineering management. The work was associated with internal Northrop Grumman New Technology/IP recognition; specific award attribution and dates remain to be established.",
+    "narrative": "One of my first assignments at Northrop Grumman in Baltimore was developing a new computational method for an internal computational electromagnetics (CEM) toolkit, with the goals of handling larger electromagnetic problems and improving execution speed. I confirmed that this work produced a previously reported 100–250% performance improvement, and that the method was subsequently adopted or incorporated into the toolkit; the precise adoption route and benchmark basis have not yet been documented. Separately, I performed CEM analysis supporting SEWIP. Later responsibilities expanded to RF modeling, simulation R&D and engineering management. The work was recognized by a 2020 Northrop Grumman New Technology Award.",
     "media": "https://cdn.northropgrumman.com/-/media/Project/Northrop-Grumman/ngc/what-we-do/mission-solutions/radars/sabr-scalable-agile-beam-radar/sabr-scalable-agile-beam-radar-hero.jpg?h=1000&hash=A2F971BADDDC4F4A84D0C88E8761F891&iar=0&w=2000",
     "mediaCredit": "Northrop Grumman AESA technology image, used illustratively",
     "links": [
@@ -148,13 +148,13 @@
     ],
     "evidence": "First-person interview (2026-10-27) confirming connection between the new computational method, prior résumé-reported performance improvement and subsequent use/integration; exact metric basis and adoption route remain to be clarified.",
     "recognition": {
-      "label": "Northrop Grumman New Technology / IP Award",
-      "connection": "One distinct internal recognition award for this workstream, confirmed by user",
-      "evidence": "Direct first-person interview, October 27, 2026",
-      "awardName": "Official title not yet documented",
-      "year": null,
+      "label": "Northrop Grumman New Technology Award (2020)",
+      "connection": "Distinct workstream recognition based on user interview and award-title image",
+      "evidence": "User-provided Honors & Awards résumé excerpt (2026-10-27), plus first-person confirmation of project association",
+      "awardName": "A Novel 1-D Periodic CEM Algorithm Enabling Fast High Fidelity RF Platform Optimization",
+      "year": 2020,
       "distinctAwardId": "ng-ntip-cem",
-      "note": "Three separate awards confirmed: one each for the CEM toolkit, RAPTR and FXR workstreams. Official dates and names remain unverified."
+      "note": "Title, category, and year transcribed from résumé image; association to project confirmed by user. This does not establish public patents or program production."
     },
     "awardIds": [
       "ng-ntip-cem"
@@ -169,7 +169,7 @@
     "place": "Baltimore / BWI",
     "period": "Baltimore period · precise dates to confirm",
     "role": "Antenna design — additively manufactured integrated filter",
-    "narrative": "During my Baltimore Northrop Grumman period, I designed an antenna with an additively manufactured integrated filter for the company's proposed U.S. Navy Future X-Band Radar (FXR) offering. The design was physically fabricated and laboratory-tested. The testing successfully demonstrated the design concept and also informed further design iterations. This confirms a research-and-development milestone, not a program selection, production qualification, fielded capability, or measured performance claim. The work was associated with internal Northrop Grumman New Technology/IP recognition; specific award attribution and dates remain to be established.",
+    "narrative": "During my Baltimore Northrop Grumman period, I designed an antenna with an additively manufactured integrated filter for the company's proposed U.S. Navy Future X-Band Radar (FXR) offering. The design was physically fabricated and laboratory-tested. The testing successfully demonstrated the design concept and also informed further design iterations. This confirms a research-and-development milestone, not a program selection, production qualification, fielded capability, or measured performance claim. The work was recognized by a 2023 Northrop Grumman New Technology Award.",
     "media": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2204/7149047/1000w_q95.jpg",
     "mediaCredit": "U.S. Navy / NSWC Dahlgren FXR-related test site, photographed in 2022 (DVIDS). Illustrative Navy program context only; not Northrop Grumman equipment, my antenna design, or a personal project photo.",
     "links": [
@@ -219,13 +219,13 @@
       }
     ],
     "recognition": {
-      "label": "Northrop Grumman New Technology / IP Award",
-      "connection": "One distinct internal recognition award for this workstream, confirmed by user",
-      "evidence": "Direct first-person interview, October 27, 2026",
-      "awardName": "Official title not yet documented",
-      "year": null,
+      "label": "Northrop Grumman New Technology Award (2023)",
+      "connection": "Distinct workstream recognition based on user interview and award-title image",
+      "evidence": "User-provided Honors & Awards résumé excerpt (2026-10-27), plus first-person confirmation of project association",
+      "awardName": "Array Aperture With Low Loss On-Grid Integrated Elemental Filtering For Radar Systems",
+      "year": 2023,
       "distinctAwardId": "ng-ntip-fxr",
-      "note": "Three separate awards confirmed: one each for the CEM toolkit, RAPTR and FXR workstreams. Official dates and names remain unverified."
+      "note": "Title, category, and year transcribed from résumé image; association to project confirmed by user. This does not establish public patents or program production."
     },
     "awardIds": [
       "ng-ntip-fxr"

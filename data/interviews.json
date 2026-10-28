@@ -440,6 +440,26 @@
       ],
       "evidenceLimits": "First-person confirmation establishes capture participation, subsequent program team assignment, and GEP Lead title. It does not independently establish specific dates, tranche, contract award, GEP sites, component details, budgets, program milestones, or technical outcomes.",
       "nextQuestion": "When you took on GEP Lead responsibilities for RMWT GMI, what made the assignment distinctive compared with RGS-A?"
+    },
+    {
+      "id": "boulder-rmwt-gmi-rf-focused-international-gep",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman Space Systems",
+      "timeframe": "RMWT GMI GEP Lead chapter; precise dates to confirm",
+      "question": "How did your GEP Lead responsibilities on RMWT GMI differ from your earlier SEIT leadership on RGS-A?",
+      "answer": "Now my focus is solely on the RF system. I get to inherited GEP sites and continue to build out and international network",
+      "publicSummary": "Unlike the broader systems engineering and integration leadership on RGS-A, the RMWT GMI Ground Entry Point Lead role is specifically focused on RF systems, working with inherited GEP sites and helping expand an international ground-entry-point network.",
+      "sourceType": "Direct first-person interview",
+      "sourceDate": "2026-10-27",
+      "linkedProgramIds": [
+        "rmwt",
+        "rgs-a"
+      ],
+      "linkedRoleIds": [
+        "ng-boulder-senior-staff"
+      ],
+      "evidenceLimits": "Preserves the user's original wording including apparent dictation errors. It does not establish specific countries, site visits, operating locations, site ownership or operations, procurement scope, subcontractors, security-sensitive details, project schedule or architectural specifications.",
+      "nextQuestion": "What has been the most memorable experience of building out the international GEP network so far?"
     }
   ]
 }

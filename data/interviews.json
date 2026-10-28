@@ -421,6 +421,25 @@
       ],
       "evidenceLimits": "The answer explains what the user enjoyed; how or when the user joined the team and particular inventions, deliberations or intellectual-property actions are not established.",
       "nextQuestion": "What led you to leave functional management and take a Senior Staff technical-leadership role in November 2025?"
+    },
+    {
+      "id": "boulder-rmwt-gmi-capture-to-gep-lead",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman Space Systems",
+      "timeframe": "In the Senior Staff technical-leadership interview chapter; exact project assignment dates not yet established",
+      "question": "Which capture or follow-on assignment should we explore next after the Plano technical review?",
+      "answer": "Let’s move into RMWT GMI, I assisted with the capture effort and then joined the team as the GEP Lead.",
+      "publicSummary": "Contributed to the RMWT GMI capture effort, then transitioned onto the program team as the Ground Entry Point (GEP) Lead.",
+      "sourceType": "Direct first-person interview",
+      "sourceDate": "2026-10-27",
+      "linkedProgramIds": [
+        "rmwt"
+      ],
+      "linkedRoleIds": [
+        "ng-boulder-senior-staff"
+      ],
+      "evidenceLimits": "First-person confirmation establishes capture participation, subsequent program team assignment, and GEP Lead title. It does not independently establish specific dates, tranche, contract award, GEP sites, component details, budgets, program milestones, or technical outcomes.",
+      "nextQuestion": "When you took on GEP Lead responsibilities for RMWT GMI, what made the assignment distinctive compared with RGS-A?"
     }
   ]
 }

@@ -334,7 +334,7 @@
     "place": "Boulder · United Kingdom (work trip)",
     "period": "Dates to confirm",
     "role": "Capture support → Ground Entry Point (GEP) Lead",
-    "narrative": "After supporting the RMWT GMI capture effort, I joined the team as Ground Entry Point (GEP) Lead. In contrast to the broad SEIT responsibilities I held on RGS-A, this role focuses specifically on RF systems. I work with inherited GEP sites and help develop an international network. The most memorable experience so far has been a trip to the United Kingdom: staying in Cambridge while working at RAF Molesworth.",
+    "narrative": "After supporting the RMWT GMI capture effort, I joined the team as Ground Entry Point (GEP) Lead. In contrast to the broad SEIT responsibilities I held on RGS-A, this role focuses specifically on RF systems. I work with inherited GEP sites and help develop an international network. The most memorable experience so far has been a trip to the United Kingdom: staying in Cambridge while working at RAF Molesworth. Outside work, I particularly enjoyed Cambridge's pubs and punting on the river.",
     "media": null,
     "mediaCredit": "Editorial title treatment; no verified imagery of this assignment is published.",
     "links": [
@@ -393,7 +393,12 @@
       "exactWorkScope": null,
       "evidence": "First-person interview dated 2026-10-27: most memorable part of RMWT GMI international network work so far was 'my trip to the UK. Staying in Cambridge and working at RAF Molesworth'.",
       "limits": "Confirmed visit and accommodation city only. Does not establish that RAF Molesworth is an operational GEP, the details of on-site activities, the length of trip, travel route, or any particular international node's status.",
-      "riverMemory": "Enjoyed punting on the river while staying in Cambridge."
+      "riverMemory": "Enjoyed punting on the river while staying in Cambridge.",
+      "offDutyMemories": [
+        "Enjoyed Cambridge pubs",
+        "Punting on the river"
+      ],
+      "memoryCorrection": "October 27, 2026 user correction: 'puns' was a typo for 'pubs'. No specific pub names established."
     }
   },
   {

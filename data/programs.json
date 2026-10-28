@@ -334,7 +334,7 @@
     "place": "Work locations not yet established",
     "period": "Dates to confirm",
     "role": "Capture support → Ground Entry Point (GEP) Lead",
-    "narrative": "I assisted with the RMWT GMI capture effort and subsequently joined the program team as Ground Entry Point (GEP) Lead. My involvement therefore spans the pursuit and a follow-on technical leadership assignment. The specific dates, site locations, scope of responsibilities, and program milestones remain to be established through the interview.",
+    "narrative": "After supporting the RMWT GMI capture effort, I joined the team as Ground Entry Point (GEP) Lead. In contrast to the broad SEIT responsibilities I had on RGS-A, this role focuses specifically on the RF system. I work with inherited GEP sites and help build out an international ground-entry-point network, combining technical depth with the challenge of extending a distributed communications capability.",
     "media": null,
     "mediaCredit": "Editorial title treatment; no verified imagery of this assignment is published.",
     "links": [
@@ -347,21 +347,33 @@
         "url": "https://www.sda.mil/sda-requests-proposals-for-resilient-missile-warning-and-tracking-rmwt-low-earth-orbit-leo-ground-entry-points/"
       }
     ],
-    "evidence": "Direct first-person confirmation, October 27, 2026: 'Let’s move into RMWT GMI, I assisted with the capture effort and then joined the team as the GEP Lead.' SDA public documentation provides general context on GMI and ground entry points but does not independently establish the individual's personal participation or identify the exact procurement or tranche.",
+    "evidence": "Direct first-person confirmation, October 27, 2026: 'Let’s move into RMWT GMI, I assisted with the capture effort and then joined the team as the GEP Lead.' SDA public documentation provides general context on GMI and ground entry points but does not independently establish the individual's personal participation or identify the exact procurement or tranche. Follow-up first-person interview, October 27, 2026: 'Now my focus is solely on the RF system. I get to inherited GEP sites and continue to build out and international network.' Public narrative lightly normalizes apparent dictation errors as 'work with inherited GEP sites' and 'build out an international network.'",
     "phases": [
       {
         "label": "Capture",
         "contribution": "Supported the RMWT GMI capture effort"
       },
       {
-        "label": "Team assignment",
-        "contribution": "Joined the team as Ground Entry Point (GEP) Lead"
+        "label": "RF technical leadership",
+        "contribution": "Joined as Ground Entry Point Lead, with a dedicated focus on the RF system"
+      },
+      {
+        "label": "Network expansion",
+        "contribution": "Work with inherited GEP sites and continue developing an international GEP network"
       }
     ],
     "sourceType": "First-person interview (direct personal assignment confirmation)",
     "dateStatus": "Program and assignment dates unverified",
-    "roleEvidence": "Confirmed by user; do not infer a specific contract win, subcontractor, customer mission detail, acquisition tranche, work location, GEP site, or proprietary architecture.",
-    "mediaAlt": null
+    "roleEvidence": "Confirmed by user; do not infer a specific contract win, subcontractor, customer mission detail, acquisition tranche, work location, GEP site, or proprietary architecture. October 27 first-person description confirms RF-system focus, inherited GEP sites, and international network development, without naming any sites, customers, countries, architecture, technical parameters, or security-sensitive details.",
+    "mediaAlt": null,
+    "technicalFocus": "RF system for Ground Entry Points",
+    "siteContext": {
+      "inheritedGepSites": true,
+      "internationalNetworkExpansion": true,
+      "specificLocations": null,
+      "travelConfirmed": false,
+      "source": "Direct first-person statement, October 27, 2026"
+    }
   },
   {
     "id": "gws",

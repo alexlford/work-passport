@@ -366,3 +366,10 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 /* First-person reflections distinguish the meaning of a distinction from its formal award details. */
 .recognition-reflection{margin:13px 0 3px;padding:3px 0 3px 16px;border-left:2px solid var(--gold);font:italic 14px/1.7 Georgia,serif;color:#dfd7c7;max-width:680px}
 @media(max-width:640px){.recognition-reflection{font-size:13px;padding-left:12px}}
+
+/* Program imagery fallback: typographic editorial plate, not a technical rendering. */
+.media-project-label{height:100%;width:100%;min-height:230px;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;padding:35px 27px 32px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 84% 17%,rgba(197,151,89,.19),transparent 47%),linear-gradient(135deg,#123342 0%,#09232e 76%);color:#eee0c6}
+.media-project-label::before{content:"";position:absolute;width:320px;height:320px;right:-110px;top:-145px;border:1px solid rgba(227,188,126,.32);border-radius:50%;box-shadow:0 0 0 43px rgba(227,188,126,.04),0 0 0 95px rgba(227,188,126,.03);pointer-events:none}
+.media-project-label span{position:relative;font-size:10px;letter-spacing:.18em;font-weight:700;color:#d9b984;margin-bottom:16px}
+.media-project-label strong{position:relative;font-size:clamp(26px,3vw,42px);line-height:1.1;letter-spacing:.03em;color:#f3e8d6}
+.media-project-label em{position:relative;font:normal 12px/1.4 sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#bbcbd0;margin-top:9px}

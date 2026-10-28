@@ -23,6 +23,8 @@ jobs:
           node-version: '22'
       - name: Validate data, references and local assets
         run: python scripts/validate.py
+      - name: Test image and editorial title-treatment validation
+        run: python -m unittest discover -s scripts -p 'test_validation.py'
       - name: Check JavaScript syntax
         run: node --check app.js
       - name: Test source failures, malformed data, retry and independent loading
@@ -51,3 +53,4 @@ jobs:
           path: test-results/screenshots/
           if-no-files-found: ignore
           retention-days: 7
+

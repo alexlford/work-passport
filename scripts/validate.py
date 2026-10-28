@@ -9,7 +9,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 FIELDS = {
-    "programs": "id status title group place period role narrative media mediaCredit evidence",
+    "programs": "id status title group place period role narrative mediaCredit evidence",
     "chapters": "years place title summary",
     "conferences": "id year title where type work description note url",
     "awards": "id awardDate kind displayTitle issuer recognition",
@@ -46,6 +46,16 @@ def url(value, context, local=False):
         target = (ROOT / unquote(parts.path)).resolve()
         require(target.is_relative_to(ROOT) and target.is_file(),
                 f"{context}: missing local asset {value}")
+
+
+def program_media(row, context):
+    require("media" in row, f"{context}.media: provide an image URL or explicit null")
+    if row["media"] is None:
+        # The renderer supports an editorial title treatment instead of imagery.
+        require(isinstance(row.get("label"), str) and bool(row["label"].strip()),
+                f"{context}.label: title treatment requires a nonempty label")
+    else:
+        url(row["media"], context + ".media", local=True)
 
 
 def children(row, field, fields, context):
@@ -102,7 +112,7 @@ def main():
         context = f"program {row['id']}"
         require(row["status"] in {"documented", "candidate", "planned"},
                 f"{context}: unknown confidence status")
-        url(row["media"], context + ".media", local=True)
+        program_media(row, context)
         require(isinstance(row.get("links"), list), f"{context}.links: expected an array")
         for link in children(row, "links", "label url", context):
             url(link["url"], context + ".links")
@@ -161,3 +171,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

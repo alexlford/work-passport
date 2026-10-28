@@ -406,7 +406,9 @@
         "exactNumber": null,
         "followUpStatus": "deferred_at_user_request",
         "nextAction": "Ask again during a future Cambridge/Culture Passport interview, without inventing venues or dates."
-      }
+      },
+      "puntSteeredByUser": true,
+      "puntingFirstPersonAnswer": "I did it myself"
     }
   },
   {

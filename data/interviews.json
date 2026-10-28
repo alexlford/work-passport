@@ -460,6 +460,29 @@
       ],
       "evidenceLimits": "Preserves the user's original wording including apparent dictation errors. It does not establish specific countries, site visits, operating locations, site ownership or operations, procurement scope, subcontractors, security-sensitive details, project schedule or architectural specifications.",
       "nextQuestion": "What has been the most memorable experience of building out the international GEP network so far?"
+    },
+    {
+      "id": "boulder-rmwt-gmi-uk-trip-cambridge-molesworth",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman Space Systems / RMWT GMI",
+      "timeframe": "GEP Lead international-network chapter, trip dates not established",
+      "question": "What's been the most memorable or rewarding experience of helping expand the international GEP network so far?",
+      "answer": "So far, be my trip to the UK. Staying in Cambridge and working at RAF Molesworth",
+      "publicSummary": "The standout international work experience so far was a United Kingdom trip, staying in Cambridge while working at RAF Molesworth.",
+      "sourceType": "Direct first-person interview",
+      "sourceDate": "2026-10-27",
+      "linkedProgramIds": [
+        "rmwt"
+      ],
+      "linkedRoleIds": [
+        "ng-boulder-senior-staff"
+      ],
+      "linkedMapPlaceIds": [
+        "cambridge-england",
+        "raf-molesworth"
+      ],
+      "evidenceLimits": "The trip, Cambridge stay and work at RAF Molesworth are personally confirmed; travel dates, lodging, colleagues, daily activities, any connection to actual GEP operational locations, and specific mission or facility details remain unknown. Do not imply a visit to RAF Alconbury.",
+      "nextQuestion": "Outside of work at RAF Molesworth, what do you remember most about your time staying in Cambridge?"
     }
   ]
 }

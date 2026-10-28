@@ -114,6 +114,15 @@
       }
     ],
     "earlyTechnicalReturn": "An early specialist engineering review associated with Plano, Texas let me fully immerse myself in technical work again. Being seen as a subject-matter expert made the experience especially rewarding and affirmed my decision to return to a technical role.",
-    "technicalReturnReflection": "It was great to fully dive into technical work again. Being seen as a SME"
+    "technicalReturnReflection": "It was great to fully dive into technical work again. Being seen as a SME",
+    "confirmedProgramAssignments": [
+      {
+        "programId": "rmwt",
+        "sequence": "Capture contributor, then joined team as Ground Entry Point Lead",
+        "timing": "Exact assignment period not confirmed",
+        "source": "October 27, 2026 first-person interview",
+        "boundary": "Not to be conflated with unrelated or separately dated RMWT GEP procurements; do not infer contract win or site assignment."
+      }
+    ]
   }
 ]

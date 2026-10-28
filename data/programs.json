@@ -331,10 +331,10 @@
     "label": "RMWT / GMI",
     "group": "Space · Ground",
     "status": "documented",
-    "place": "Work locations not yet established",
+    "place": "Boulder · United Kingdom (work trip)",
     "period": "Dates to confirm",
     "role": "Capture support → Ground Entry Point (GEP) Lead",
-    "narrative": "After supporting the RMWT GMI capture effort, I joined the team as Ground Entry Point (GEP) Lead. In contrast to the broad SEIT responsibilities I had on RGS-A, this role focuses specifically on the RF system. I work with inherited GEP sites and help build out an international ground-entry-point network, combining technical depth with the challenge of extending a distributed communications capability.",
+    "narrative": "After supporting the RMWT GMI capture effort, I joined the team as Ground Entry Point (GEP) Lead. In contrast to the broad SEIT responsibilities I held on RGS-A, this role focuses specifically on RF systems. I work with inherited GEP sites and help develop an international network. The most memorable experience so far has been a trip to the United Kingdom: staying in Cambridge while working at RAF Molesworth.",
     "media": null,
     "mediaCredit": "Editorial title treatment; no verified imagery of this assignment is published.",
     "links": [
@@ -345,9 +345,17 @@
       {
         "label": "SDA · public RMWT Ground Entry Points overview (separate solicitation, context only)",
         "url": "https://www.sda.mil/sda-requests-proposals-for-resilient-missile-warning-and-tracking-rmwt-low-earth-orbit-leo-ground-entry-points/"
+      },
+      {
+        "label": "Life Map · Cambridge stay",
+        "url": "https://alexlford.github.io/life-map/?mode=work&place=cambridge-england"
+      },
+      {
+        "label": "Life Map · RAF Molesworth work visit",
+        "url": "https://alexlford.github.io/life-map/?mode=work&place=raf-molesworth"
       }
     ],
-    "evidence": "Direct first-person confirmation, October 27, 2026: 'Let’s move into RMWT GMI, I assisted with the capture effort and then joined the team as the GEP Lead.' SDA public documentation provides general context on GMI and ground entry points but does not independently establish the individual's personal participation or identify the exact procurement or tranche. Follow-up first-person interview, October 27, 2026: 'Now my focus is solely on the RF system. I get to inherited GEP sites and continue to build out and international network.' Public narrative lightly normalizes apparent dictation errors as 'work with inherited GEP sites' and 'build out an international network.'",
+    "evidence": "Direct first-person confirmation, October 27, 2026: 'Let’s move into RMWT GMI, I assisted with the capture effort and then joined the team as the GEP Lead.' SDA public documentation provides general context on GMI and ground entry points but does not independently establish the individual's personal participation or identify the exact procurement or tranche. Follow-up first-person interview, October 27, 2026: 'Now my focus is solely on the RF system. I get to inherited GEP sites and continue to build out and international network.' Public narrative lightly normalizes apparent dictation errors as 'work with inherited GEP sites' and 'build out an international network.' On October 27, 2026, user directly confirmed a UK work trip, staying in Cambridge and working at RAF Molesworth, as the most memorable experience to date. No exact date, hotel, operational site role, or GEP installation attribution is assumed.",
     "phases": [
       {
         "label": "Capture",
@@ -373,6 +381,18 @@
       "specificLocations": null,
       "travelConfirmed": false,
       "source": "Direct first-person statement, October 27, 2026"
+    },
+    "ukTravel": {
+      "status": "confirmed_first_person",
+      "purposeContext": "RMWT GMI Ground Entry Point Lead chapter",
+      "country": "United Kingdom",
+      "stayedIn": "Cambridge, England",
+      "workedAt": "RAF Molesworth, England",
+      "exactTripDates": null,
+      "exactAccommodation": null,
+      "exactWorkScope": null,
+      "evidence": "First-person interview dated 2026-10-27: most memorable part of RMWT GMI international network work so far was 'my trip to the UK. Staying in Cambridge and working at RAF Molesworth'.",
+      "limits": "Confirmed visit and accommodation city only. Does not establish that RAF Molesworth is an operational GEP, the details of on-site activities, the length of trip, travel route, or any particular international node's status."
     }
   },
   {

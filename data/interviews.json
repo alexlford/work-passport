@@ -537,6 +537,29 @@
       "followUpTopic": "Which pubs in Cambridge did you visit?",
       "followUpWhen": "Later Cambridge / Culture Passport interview after other chapters; not an automatic scheduled alert.",
       "nextQuestion": "On the Cambridge punting outing, did you steer the punt yourself or take a guided ride?"
+    },
+    {
+      "id": "boulder-rmwt-molesworth-base-and-summer",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman Space Systems / RMWT GMI UK work trip",
+      "timeframe": "UK trip during summer; year and dates unspecified",
+      "question": "What stands out most about the people you worked with during the UK trip?",
+      "answer": "Quite base. Hot summer in England.",
+      "publicSummary": "A hot summer in England stands out in memories of working at RAF Molesworth; the original description 'Quite base' remains unclarified.",
+      "sourceType": "Direct first-person interview",
+      "sourceDate": "2026-10-27",
+      "linkedProgramIds": [
+        "rmwt"
+      ],
+      "linkedRoleIds": [
+        "ng-boulder-senior-staff"
+      ],
+      "linkedMapPlaceIds": [
+        "raf-molesworth",
+        "cambridge-england"
+      ],
+      "evidenceLimits": "'Quite base' is preserved verbatim and may mean 'quiet base'; do not describe the base as quiet without confirmation. 'Hot summer' supports the season and subjective conditions but not a year, specific temperatures, or weather records. User did not identify any coworkers or relationships.",
+      "nextQuestion": "When you said 'Quite base', did you mean RAF Molesworth was a quiet base?"
     }
   ]
 }

@@ -409,7 +409,11 @@
       },
       "puntSteeredByUser": true,
       "puntingFirstPersonAnswer": "I did it myself",
-      "puntingConfidence": "I was pretty good. Got the hang of it quickly"
+      "puntingConfidence": "I was pretty good. Got the hang of it quickly",
+      "season": "summer",
+      "weatherMemory": "Hot summer in England",
+      "baseDescriptionRaw": "Quite base",
+      "baseDescriptionStatus": "awaiting clarification: possibly 'quiet base'"
     }
   },
   {

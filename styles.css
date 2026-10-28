@@ -373,3 +373,15 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 .media-project-label span{position:relative;font-size:10px;letter-spacing:.18em;font-weight:700;color:#d9b984;margin-bottom:16px}
 .media-project-label strong{position:relative;font-size:clamp(26px,3vw,42px);line-height:1.1;letter-spacing:.03em;color:#f3e8d6}
 .media-project-label em{position:relative;font:normal 12px/1.4 sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#bbcbd0;margin-top:9px}
+
+
+/* Independent Passport navigation: static links remain usable without scripts. */
+.passport-navigation{min-width:0}
+.passport-label{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin:0 0 13px}
+.passport-links{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.passport-links>a,.passport-links>span{display:inline-flex;align-items:center;flex-wrap:wrap;gap:7px;max-width:100%;min-height:44px;border:1px solid var(--line);border-radius:4px;padding:9px 12px;font-size:12px;line-height:1.4;letter-spacing:0;text-decoration:none}
+.passport-links small{font-size:9px;grid-column:auto;letter-spacing:.02em}
+.passport-links>a:hover{text-decoration:underline;text-underline-offset:3px}
+.passport-links>a:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.passport-pending{border-style:dashed!important}
+footer .passport-navigation{flex-basis:100%}.passport-label{color:var(--gold)}.passport-links>[aria-current="true"]{border-color:var(--gold);color:var(--gold)}

@@ -81,3 +81,13 @@ not deploy the website.
 
 The uploaded ZIP contains original letters, conference attendance and paper records, the 2023/2024 Astrophysical Journal paper, a 2025 Technical Fellow re-nomination roster, and a set of approved-for-public-release 2020 Chesapeake Bay oyster-testing photographs. The archive and confidential originals were **not copied to this public repository**. Publications link to publisher DOI pages; award event descriptions exclude trade-secret contents, internal identifiers and compensation information. The CV's 2023 ApJ entry reflects online publication on December 18, 2023; the paper appears in the journal's January 2024 issue. The 2020 AP-S/URSI attendance certificate explicitly states **virtual attendance**, not travel to Montréal.
 
+
+
+## Independent Passport navigation
+
+The footer names the current Passport and preserves the existing Sports,
+Adventures, and Personal Atlas destinations. The unpublished sibling Passport
+is labeled **In development**, without a speculative public URL. Activating it
+requires a separately verified launch change and an updated navigation contract.
+The component is static HTML and has no cross-repository JavaScript or data
+dependency. Each Passport retains its own content, styling, and release process.

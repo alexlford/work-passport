@@ -483,6 +483,28 @@
       ],
       "evidenceLimits": "The trip, Cambridge stay and work at RAF Molesworth are personally confirmed; travel dates, lodging, colleagues, daily activities, any connection to actual GEP operational locations, and specific mission or facility details remain unknown. Do not imply a visit to RAF Alconbury.",
       "nextQuestion": "Outside of work at RAF Molesworth, what do you remember most about your time staying in Cambridge?"
+    },
+    {
+      "id": "boulder-rmwt-cambridge-puns-punting-on-river",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman Space Systems / RMWT GMI",
+      "timeframe": "UK work trip; dates not confirmed",
+      "question": "Outside of work at RAF Molesworth, what do you remember most about staying in Cambridge?",
+      "answer": "Loved the puns and punting on the river",
+      "publicSummary": "Punting on the river was a favorite off-duty memory of staying in Cambridge during the RAF Molesworth work trip.",
+      "sourceType": "Direct first-person interview",
+      "sourceDate": "2026-10-27",
+      "linkedProgramIds": [
+        "rmwt"
+      ],
+      "linkedRoleIds": [
+        "ng-boulder-senior-staff"
+      ],
+      "linkedMapPlaceIds": [
+        "cambridge-england"
+      ],
+      "evidenceLimits": "'Puns' is preserved as written; it may refer to wordplay or be a typo for pubs, so do not interpret it as a confirmed pub visit. No boat operator, specific river reach, dates, or companions established. Cambridge river name not asserted in the first-person answer.",
+      "nextQuestion": "On the river in Cambridge, did you try steering a punt yourself, or did you let someone else handle the pole?"
     }
   ]
 }

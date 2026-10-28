@@ -9,6 +9,18 @@ import {chromium} from 'playwright';
 const root = process.cwd();
 const read = name => JSON.parse(readFileSync(path.join(root, 'data', name + '.json'), 'utf8'));
 const programs = read('programs');
+const linkedCandidate = programs.find(row => row.status === 'candidate');
+const awardProject = read('awards').find(row => row.programId)?.programId;
+assert.ok(linkedCandidate && awardProject, 'project-link fixtures are available');
+
+async function waitForProject(page, id) {
+  await page.waitForFunction(expected => {
+    const target = document.getElementById(expected);
+    if (!target || document.activeElement !== target) return false;
+    const rect = target.getBoundingClientRect();
+    return rect.top >= -4 && rect.top < innerHeight - 40;
+  }, id);
+}
 const screenshots = path.join(root, 'test-results', 'screenshots');
 mkdirSync(screenshots, {recursive: true});
 const types = {'.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.webp': 'image/webp'};
@@ -87,7 +99,47 @@ try {
     assert.equal(await page.locator('.section-error').count(), 0);
     await page.screenshot({path: path.join(screenshots, name + '.png'), fullPage: true, animations: 'disabled'});
     console.log('PASS', name, 'layout, data sections, filters and independent map links');
+    await page.goto(base + '/#' + linkedCandidate.id, {waitUntil: 'domcontentloaded'});
+    await waitForProject(page, linkedCandidate.id);
+    assert.equal(await page.locator('[data-filter="all"]').getAttribute('aria-pressed'), 'true');
+    assert.ok((await page.locator('#' + linkedCandidate.id + ' .tag').innerText()).includes('Unverified'));
+
+    // Award links must reveal documented projects even from the candidate filter.
+    await page.locator('[data-filter="candidate"]').click();
+    const related = page.locator('.award-footer a[href="#' + awardProject + '"]').first();
+    await related.click();
+    await waitForProject(page, awardProject);
+    assert.equal(new URL(page.url()).hash, '#' + awardProject);
+    await page.locator('[data-filter="candidate"]').click();
+    await related.click();
+    await waitForProject(page, awardProject);
+    await page.goBack();
+    await waitForProject(page, linkedCandidate.id);
+    await page.goForward();
+    await waitForProject(page, awardProject);
+    console.log('PASS', name, 'shared project links, hidden targets, repeat clicks and Back/Forward');
     await page.close();
+  }
+
+  // A delayed program response must still honor the initial shared link.
+  const delayedPage = await context.newPage();
+  await delayedPage.setViewportSize({width: 390, height: 900});
+  let releasePrograms;
+  const pendingPrograms = new Promise(resolve => { releasePrograms = resolve; });
+  await delayedPage.route('**/data/programs.json', async route => {
+    await pendingPrograms;
+    await route.continue();
+  });
+  try {
+    await delayedPage.goto(base + '/#' + linkedCandidate.id, {waitUntil: 'domcontentloaded'});
+    await delayedPage.locator('#role-timeline .role-row').first().waitFor();
+    assert.equal(await delayedPage.locator('.program').count(), 0);
+    releasePrograms();
+    await waitForProject(delayedPage, linkedCandidate.id);
+    console.log('PASS', 'delayed project data preserves the shared-link destination');
+  } finally {
+    releasePrograms();
+    await delayedPage.close();
   }
 
   // Recover one failed source using the actual button, without reloading others.
@@ -139,4 +191,5 @@ try {
   if (browser) await browser.close();
   await new Promise(resolve => server.close(resolve));
 }
+
 

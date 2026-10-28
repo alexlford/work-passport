@@ -51,6 +51,7 @@ async function loadSource(key) {
     loadStates[key] = 'loaded';
     source.render();
     for (const id of source.hosts) document.getElementById(id)?.setAttribute('aria-busy', 'false');
+    if (key === 'programs') syncProgramLink();
   } catch (err) {
     data[key] = [];
     loadStates[key] = 'error';
@@ -61,6 +62,45 @@ async function loadSource(key) {
     clearTimeout(timeout);
   }
 }
+
+function selectProgramFilter(filter) {
+  currentFilter = filter;
+  document.querySelectorAll('[data-filter]').forEach(button => {
+    const active = button.dataset.filter === filter;
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
+  showPrograms();
+}
+
+function syncProgramLink() {
+  if (loadStates.programs !== 'loaded') return false;
+  let id;
+  try {
+    id = decodeURIComponent(window.location.hash.slice(1));
+  } catch {
+    return false;
+  }
+  const program = data.programs.find(row => row.id === id);
+  if (!program) return false;
+  if (currentFilter !== 'all' && currentFilter !== program.status) selectProgramFilter('all');
+  const target = document.getElementById(program.id);
+  if (!target) return false;
+  target.setAttribute('tabindex', '-1');
+  target.focus({preventScroll: true});
+  target.scrollIntoView({block: 'start', behavior: 'auto'});
+  return true;
+}
+
+// Native fragments preserve shareable URLs and browser Back/Forward history.
+window.addEventListener('hashchange', syncProgramLink);
+document.addEventListener('click', event => {
+  if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  const anchor = event.target.closest?.('a[href^="#"]');
+  if (!anchor || (anchor.target && anchor.target !== '_self')) return;
+  // The browser emits no hashchange when the current fragment is clicked again.
+  if (anchor.hash === window.location.hash && syncProgramLink()) event.preventDefault();
+});
 
 function boot() {
   return Promise.allSettled(Object.keys(sources).map(loadSource));
@@ -102,4 +142,6 @@ function renderAffiliations(){const el=document.getElementById('academic-affilia
 
 function showPrograms(){if(loadStates.programs!=='loaded')return;let p=data.programs.filter(p=>currentFilter==='all'||p.status===currentFilter);document.getElementById('programs-grid').innerHTML=p.map(p=>'<article class="program '+(p.id==='rgs-a'?'program-featured':'')+'" id="'+esc(p.id)+'"><div class="media">'+(p.media?'<img loading="lazy" src="'+esc(p.media)+'" alt="'+esc(p.mediaAlt||p.label+' — public imagery; see media credit')+'">':'<div class="media-project-label" role="img" aria-label="Editorial project title treatment"><span>SPACE SYSTEMS / GROUND</span><strong>'+esc(p.label||'Ground systems')+'</strong><em>Ground Entry Points</em></div>')+'<span class="tag">'+esc(statusText[p.status])+'</span></div><div class="body"><div class="overline">'+esc(p.group)+' / '+esc(p.place)+' / '+esc(p.period)+'</div><h3>'+esc(p.title)+'</h3><span class="role">'+esc(p.role)+'</span><p>'+esc(p.narrative)+'</p>'+(p.phases?.length?'<div class="project-phases"><div class="project-phases-title">From pursuit to delivery</div>'+p.phases.map((phase,i)=>'<div class="project-phase"><span class="phase-index">0'+(i+1)+'</span><div><strong>'+esc(phase.label)+'</strong><p>'+esc(phase.contribution)+'</p></div></div>').join('')+'</div>':'')+(p.relatedProfessionalDevelopmentIds?.length?'<div class="project-training" data-program-training="'+esc(p.id)+'">'+programTrainingMarkup(p)+'</div>':'')+(p.id==='rgs-a'?'<div class="project-training"><strong>Agile adoption · team turning point</strong><p>A team accustomed to waterfall learned Jira boards and daily stand-ups. The team hit its stride between preliminary design review (PDR) and critical design review (CDR).</p></div>':'')+(p.travelStories?.length?'<section class="guam-field-notes" aria-label="Guam field memories"><div class="guam-field-label">FIELD NOTES / TWO TRIPS TO GUAM</div>'+p.travelStories.map((t,i)=>'<details class="guam-field-note"'+(i===0?' open':'')+'><summary><span class="guam-field-index">0'+esc(t.sequence)+'</span><span>'+esc(t.title)+'</span><span class="guam-field-toggle" aria-hidden="true">+</span></summary><p>'+esc(t.narrative)+'</p><a href="'+esc(t.adventureUrl)+'" target="_blank" rel="noopener noreferrer">Explore the '+esc(t.hike)+' hike in Adventures ↗</a>'+(t.pubMapsUrl?'<a class="guam-pub-link" href="'+esc(t.pubMapsUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(t.pubName)+' · Apple Maps ↗</a>':'')+'<small>Hike recorded '+esc(t.hikeRecordDate)+' · Exact work trip dates not established</small></details>').join('')+'</section>':'')+'<small class="credit">'+esc(p.mediaCredit)+'</small><div class="source-list">'+p.links.map(l=>link(l.label,l.url)).join('')+(p.originalUrl?link('Original historical URL (may be unavailable)',p.originalUrl):'')+'</div><div class="evidence">Evidence: '+esc(p.evidence)+'</div></div></article>').join('')}
 
-document.querySelectorAll('[data-filter]').forEach(el=>el.addEventListener('click',()=>{currentFilter=el.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===el);b.setAttribute('aria-pressed',String(b===el))});showPrograms()}));boot();
+document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => selectProgramFilter(button.dataset.filter)));
+boot();
+

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+.program:focus-visible{outline:3px solid #307d91;outline-offset:4px}
 
 /* Section failures remain local and offer an accessible retry. */
 .section-loading,.section-error{grid-column:1/-1;padding:20px;border:1px solid currentColor;font-size:14px;line-height:1.6}
@@ -385,3 +386,4 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 .passport-links>a:focus-visible{outline:3px solid currentColor;outline-offset:3px}
 .passport-pending{border-style:dashed!important}
 footer .passport-navigation{flex-basis:100%}.passport-label{color:var(--gold)}.passport-links>[aria-current="true"]{border-color:var(--gold);color:var(--gold)}
+

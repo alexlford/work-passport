@@ -504,9 +504,39 @@
         "cambridge-england"
       ],
       "evidenceLimits": "The user clarified that 'puns' was a typo for 'pubs'. Pub visits and punting are confirmed but no venue names, boat operator, river reach, dates, or companions have been established.",
-      "nextQuestion": "Which Cambridge pub stands out most, and what do you remember about it?",
+      "nextQuestion": "DEFERRED: Which Cambridge pubs did you visit? Ask again during a future Cambridge/Culture Passport interview, not now.",
       "originalTypedAnswer": "Loved the puns and punting on the river",
-      "correction": "The user explicitly corrected 'puns' to 'pubs' later on October 27, 2026."
+      "correction": "The user explicitly corrected 'puns' to 'pubs' later on October 27, 2026.",
+      "pubVisitDetails": {
+        "visited": "several Cambridge pubs",
+        "names": "unknown",
+        "exactCount": "not established",
+        "confirmationDate": "2026-10-27",
+        "status": "confirmed_visits_venue_identification_deferred"
+      },
+      "followUpStatus": "deferred_at_user_request",
+      "followUpInstruction": "Return to identifying Cambridge pubs in a later Work or Culture Passport interview. Ask one at a time, using descriptions and photographs as memory aids. Do not re-ask immediately."
+    },
+    {
+      "id": "boulder-cambridge-punting-explainer-pubs-deferred",
+      "chapter": "boulder",
+      "workplace": "RMWT GMI UK work trip / Cambridge",
+      "question": "Please explain what punting is, and revisit identifying the Cambridge pubs later.",
+      "answer": "Make sure to explain what punting is. There was several. Remember to ask me again in the future.",
+      "publicSummary": "Punting is the traditional Cambridge activity of traveling along the river in a long, flat-bottomed boat, propelled by someone pushing a long pole against the riverbed. Several Cambridge pubs were visited; their names remain to be identified in a later interview.",
+      "sourceType": "Direct first-person clarification (pub count and deferred follow-up) plus general cultural context (punting definition)",
+      "sourceDate": "2026-10-27",
+      "linkedProgramIds": [
+        "rmwt"
+      ],
+      "linkedMapPlaceIds": [
+        "cambridge-england"
+      ],
+      "evidenceLimits": "'Several' confirms multiple pub visits, without exact number or names. River Cam is contextual Cambridge geography; specific route, punt driver, and operator are not established.",
+      "followUpStatus": "deferred",
+      "followUpTopic": "Which pubs in Cambridge did you visit?",
+      "followUpWhen": "Later Cambridge / Culture Passport interview after other chapters; not an automatic scheduled alert.",
+      "nextQuestion": "On the Cambridge punting outing, did you steer the punt yourself or take a guided ride?"
     }
   ]
 }

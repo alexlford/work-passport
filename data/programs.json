@@ -408,7 +408,8 @@
         "nextAction": "Ask again during a future Cambridge/Culture Passport interview, without inventing venues or dates."
       },
       "puntSteeredByUser": true,
-      "puntingFirstPersonAnswer": "I did it myself"
+      "puntingFirstPersonAnswer": "I did it myself",
+      "puntingConfidence": "I was pretty good. Got the hang of it quickly"
     }
   },
   {

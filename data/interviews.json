@@ -405,6 +405,22 @@
       ],
       "evidenceLimits": "Personal meaning, not a claim of award selection criteria or specific nomination deliberations.",
       "nextQuestion": "What aspect of your technical work did you most enjoy during those management years?"
+    },
+    {
+      "id": "boulder-space-sector-ip-team-innovation-and-protection",
+      "chapter": "boulder",
+      "workplace": "Northrop Grumman Space Systems",
+      "timeframe": "During Boulder management years; exact joining date unknown",
+      "question": "How did you become involved with the Space Sector intellectual property team, and what did you enjoy most about participating?",
+      "answer": "I enjoy seeing and helping to protect all of the innovation our company does",
+      "publicSummary": "I enjoyed seeing the range of innovation across the company and helping protect that work through participation in the Space Sector intellectual property community.",
+      "sourceType": "Direct first-person interview",
+      "sourceDate": "2026-10-27",
+      "linkedRoleIds": [
+        "ng-boulder-se-manager"
+      ],
+      "evidenceLimits": "The answer explains what the user enjoyed; how or when the user joined the team and particular inventions, deliberations or intellectual-property actions are not established.",
+      "nextQuestion": "What led you to leave functional management and take a Senior Staff technical-leadership role in November 2025?"
     }
   ]
 }

@@ -102,7 +102,7 @@ try {
     await page.goto(base + '/#' + linkedCandidate.id, {waitUntil: 'domcontentloaded'});
     await waitForProject(page, linkedCandidate.id);
     assert.equal(await page.locator('[data-filter="all"]').getAttribute('aria-pressed'), 'true');
-    assert.ok((await page.locator('#' + linkedCandidate.id + ' .tag').innerText()).includes('Unverified'));
+    assert.equal((await page.locator('#' + linkedCandidate.id + ' .tag').textContent()).trim(), 'Unverified · research lead');
 
     // Award links must reveal documented projects even from the candidate filter.
     await page.locator('[data-filter="candidate"]').click();

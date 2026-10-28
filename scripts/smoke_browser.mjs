@@ -67,6 +67,19 @@ try {
     assert.ok(layout.documentWidth <= layout.width + 3, name + ': horizontal overflow ' + JSON.stringify(layout));
     assert.equal(layout.ids.length, new Set(layout.ids).size, 'duplicate rendered IDs');
     assert.deepEqual(layout.missingAnchors, [], 'broken rendered section links');
+    const passportNav = page.getByRole('navigation', {name: 'Passports', exact: true});
+    const passportItems = await passportNav.locator('[data-passport]').evaluateAll(nodes => nodes.map(node => ({
+      id: node.dataset.passport, current: node.getAttribute('aria-current'), href: node.getAttribute('href'),
+      text: node.textContent, height: node.getBoundingClientRect().height,
+    })));
+    assert.equal(passportItems.length, 5);
+    assert.deepEqual(passportItems.filter(item => item.current === 'true').map(item => item.id), ['work']);
+    assert.ok(passportItems.find(item => item.id === 'culture').text.includes('In development'));
+    assert.equal(passportItems.find(item => item.id === 'culture').href, null);
+    assert.ok(passportItems.every(item => item.height >= 44), 'Passport touch targets');
+    await passportNav.locator('[data-passport="sports"]').focus();
+    await page.keyboard.press('Tab');
+    assert.equal(await page.evaluate(() => document.activeElement.dataset.passport), 'adventures');
     const mapURL = new URL(await page.locator('#work-life-map').getAttribute('src'));
     assert.equal(mapURL.searchParams.get('mode'), 'work');
     assert.equal(mapURL.searchParams.get('embed'), '1');
@@ -126,3 +139,4 @@ try {
   if (browser) await browser.close();
   await new Promise(resolve => server.close(resolve));
 }
+

@@ -85,9 +85,16 @@ The uploaded ZIP contains original letters, conference attendance and paper reco
 
 ## Independent Passport navigation
 
+Project links such as `index.html#rgs-a` reveal and focus their target after
+the program data loads. If a filter hides that project, the site selects
+All records while retaining each project's documented or unverified status.
+Related-project links, repeated clicks, and browser Back/Forward use the same
+fragment navigation. Unknown section fragments retain normal browser behavior.
+
 The footer names the current Passport and preserves the existing Sports,
 Adventures, and Personal Atlas destinations. The unpublished sibling Passport
 is labeled **In development**, without a speculative public URL. Activating it
 requires a separately verified launch change and an updated navigation contract.
 The component is static HTML and has no cross-repository JavaScript or data
 dependency. Each Passport retains its own content, styling, and release process.
+

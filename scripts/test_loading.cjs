@@ -25,7 +25,7 @@ class Element {
   querySelector() { return this.button ||= new Element(); }
 }
 
-async function start(respond = async file => ({ok: true, json: async () => read(file)}), timers = {setTimeout, clearTimeout}) {
+async function start(respond = async file => ({ok: true, json: async () => read(file)}), timers = {setTimeout, clearTimeout}, hash = '') {
   const nodes = new Map(Object.values(sections).map(([id]) => [id, new Element()]));
   const buttons = ['documented', 'all', 'candidate'].map(filter => {
     const button = new Element();
@@ -35,17 +35,36 @@ async function start(respond = async file => ({ok: true, json: async () => read(
   });
   const requests = [];
   const errors = [];
+  const windowHandlers = {};
+  const documentHandlers = {};
+  const location = {hash};
+  const scrollTargets = [];
+  const dynamicNodes = new Map();
+  const document = {
+    getElementById(id) {
+      if (nodes.has(id)) return nodes.get(id);
+      if (!nodes.get('programs-grid').innerHTML.includes('id="' + id + '"')) return undefined;
+      if (!dynamicNodes.has(id)) {
+        const node = new Element();
+        node.id = id;
+        node.focus = () => { document.activeElement = node; };
+        node.scrollIntoView = () => scrollTargets.push(id);
+        dynamicNodes.set(id, node);
+      }
+      return dynamicNodes.get(id);
+    },
+    querySelectorAll: selector => selector === '[data-filter]' ? buttons : [],
+    addEventListener: (event, handler) => { documentHandlers[event] = handler; },
+  };
   const context = vm.createContext({
     AbortController, ...timers,
+    window: {location, addEventListener: (event, handler) => { windowHandlers[event] = handler; }},
     console: {error: (...args) => errors.push(args)},
     fetch: (file, options) => { requests.push(file); return respond(file, options); },
-    document: {
-      getElementById: id => nodes.get(id),
-      querySelectorAll: selector => selector === '[data-filter]' ? buttons : [],
-    },
+    document,
   });
   const finished = vm.runInContext(code, context);
-  return {nodes, buttons, requests, errors, context, finished};
+  return {nodes, buttons, requests, errors, context, finished, document, location, windowHandlers, documentHandlers, scrollTargets};
 }
 
 function assertOtherSections(app, failedFile) {
@@ -66,6 +85,83 @@ test('all independent sources render and program filters work', async () => {
     const expected = read('data/programs.json').filter(row => button.dataset.filter === 'all' || row.status === button.dataset.filter).length;
     assert.equal((app.nodes.get('programs-grid').innerHTML.match(/class="program /g) || []).length, expected);
   }
+});
+
+test('an initial link reveals a project outside the default filter', async () => {
+  const candidate = read('data/programs.json').find(row => row.status === 'candidate');
+  assert.ok(candidate, 'fixture includes an unverified project');
+  const app = await start(undefined, undefined, '#' + candidate.id);
+  await app.finished;
+  assert.ok(app.document.getElementById(candidate.id), 'linked candidate is rendered');
+  assert.equal(app.buttons.find(button => button.dataset.filter === 'all').attributes['aria-pressed'], 'true');
+  assert.equal(app.document.activeElement?.id, candidate.id);
+  assert.ok(app.scrollTargets.includes(candidate.id));
+  assert.equal(app.errors.length, 0);
+});
+
+test('hash navigation restores a documented project hidden by a filter', async () => {
+  const app = await start();
+  await app.finished;
+  app.buttons.find(button => button.dataset.filter === 'candidate').handlers.click();
+  const project = read('data/programs.json').find(row => row.status === 'documented');
+  assert.equal(app.document.getElementById(project.id), undefined);
+  app.location.hash = '#' + project.id;
+  app.windowHandlers.hashchange?.();
+  assert.ok(app.document.getElementById(project.id));
+  assert.equal(app.document.activeElement?.id, project.id);
+});
+
+test('repeated current-fragment clicks recover a hidden project without hijacking modified clicks', async () => {
+  const project = read('data/programs.json').find(row => row.status === 'documented');
+  const app = await start(undefined, undefined, '#' + project.id);
+  await app.finished;
+  app.buttons.find(button => button.dataset.filter === 'candidate').handlers.click();
+  let prevented = false;
+  const event = {
+    button: 0, ctrlKey: true,
+    target: {closest: () => ({hash: '#' + project.id, target: ''})},
+    preventDefault: () => { prevented = true; },
+  };
+  app.documentHandlers.click(event);
+  assert.equal(prevented, false);
+  assert.equal(app.document.getElementById(project.id), undefined);
+  event.ctrlKey = false;
+  app.documentHandlers.click(event);
+  assert.equal(prevented, true);
+  assert.ok(app.document.getElementById(project.id));
+});
+
+test('unknown and malformed fragments leave the current filter and content alone', async () => {
+  const app = await start();
+  await app.finished;
+  const before = app.nodes.get('programs-grid').innerHTML;
+  for (const hash of ['#awards', '#missing-project', '#%E0%A4%A']) {
+    app.location.hash = hash;
+    app.windowHandlers.hashchange();
+    assert.equal(app.nodes.get('programs-grid').innerHTML, before);
+  }
+  assert.equal(app.scrollTargets.length, 0);
+  assert.equal(app.errors.length, 0);
+});
+
+test('an initial project link resolves when its data finishes loading', async () => {
+  let release;
+  const pending = new Promise(resolve => { release = resolve; });
+  const candidate = read('data/programs.json').find(row => row.status === 'candidate');
+  const app = await start(async file => {
+    if (file === 'data/programs.json') await pending;
+    return {ok: true, json: async () => read(file)};
+  }, undefined, '#' + candidate.id);
+  try {
+    await new Promise(resolve => setImmediate(resolve));
+    assertOtherSections(app, 'data/programs.json');
+    assert.equal(app.document.getElementById(candidate.id), undefined);
+  } finally {
+    release();
+    await app.finished;
+  }
+  assert.ok(app.document.getElementById(candidate.id));
+  assert.equal(app.document.activeElement?.id, candidate.id);
 });
 
 for (const failedFile of [...Object.keys(sections), 'data/professional-development.json']) {
@@ -152,3 +248,4 @@ test('a stalled request times out locally and offers retry', async () => {
   assert.ok(app.nodes.get('awards-grid').innerHTML.includes('Try again'));
   assert.equal(pendingTimers.size, 0);
 });
+

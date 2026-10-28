@@ -334,7 +334,7 @@
     "place": "Boulder · United Kingdom (work trip)",
     "period": "Dates to confirm",
     "role": "Capture support → Ground Entry Point (GEP) Lead",
-    "narrative": "After supporting the RMWT GMI capture effort, I joined the team as Ground Entry Point (GEP) Lead. In contrast to the broad SEIT responsibilities I held on RGS-A, this role focuses specifically on RF systems. I work with inherited GEP sites and help develop an international network. The most memorable experience so far has been a trip to the United Kingdom: staying in Cambridge while working at RAF Molesworth. Outside work, I particularly enjoyed Cambridge's pubs and punting on the river.",
+    "narrative": "After supporting the RMWT GMI capture effort, I joined the team as Ground Entry Point (GEP) Lead. In contrast to the broad SEIT responsibilities I held on RGS-A, this role focuses specifically on RF systems. I work with inherited GEP sites and help develop an international network. The most memorable experience so far has been a trip to the United Kingdom: staying in Cambridge while working at RAF Molesworth. Outside work, I particularly enjoyed visiting several Cambridge pubs and punting on the river. Punting is a traditional Cambridge activity: riding in a long, flat-bottomed boat propelled by a person pushing a long pole against the riverbed.",
     "media": null,
     "mediaCredit": "Editorial title treatment; no verified imagery of this assignment is published.",
     "links": [
@@ -355,7 +355,7 @@
         "url": "https://alexlford.github.io/life-map/?mode=work&place=raf-molesworth"
       }
     ],
-    "evidence": "Direct first-person confirmation, October 27, 2026: 'Let’s move into RMWT GMI, I assisted with the capture effort and then joined the team as the GEP Lead.' SDA public documentation provides general context on GMI and ground entry points but does not independently establish the individual's personal participation or identify the exact procurement or tranche. Follow-up first-person interview, October 27, 2026: 'Now my focus is solely on the RF system. I get to inherited GEP sites and continue to build out and international network.' Public narrative lightly normalizes apparent dictation errors as 'work with inherited GEP sites' and 'build out an international network.' On October 27, 2026, user directly confirmed a UK work trip, staying in Cambridge and working at RAF Molesworth, as the most memorable experience to date. No exact date, hotel, operational site role, or GEP installation attribution is assumed.",
+    "evidence": "Direct first-person confirmation, October 27, 2026: 'Let’s move into RMWT GMI, I assisted with the capture effort and then joined the team as the GEP Lead.' SDA public documentation provides general context on GMI and ground entry points but does not independently establish the individual's personal participation or identify the exact procurement or tranche. Follow-up first-person interview, October 27, 2026: 'Now my focus is solely on the RF system. I get to inherited GEP sites and continue to build out and international network.' Public narrative lightly normalizes apparent dictation errors as 'work with inherited GEP sites' and 'build out an international network.' On October 27, 2026, user directly confirmed a UK work trip, staying in Cambridge and working at RAF Molesworth, as the most memorable experience to date. No exact date, hotel, operational site role, or GEP installation attribution is assumed. On October 27, 2026, the user confirmed several Cambridge pub visits and explicitly requested that pub identification be asked again in a future interview. The explanatory definition of punting is general cultural context, not a description of the exact boat, guide or route used.",
     "phases": [
       {
         "label": "Capture",
@@ -398,7 +398,15 @@
         "Enjoyed Cambridge pubs",
         "Punting on the river"
       ],
-      "memoryCorrection": "October 27, 2026 user correction: 'puns' was a typo for 'pubs'. No specific pub names established."
+      "memoryCorrection": "October 27, 2026 user correction: 'puns' was a typo for 'pubs'. No specific pub names established.",
+      "puntingExplanation": "Punting is a traditional Cambridge activity: riding in a long, flat-bottomed boat propelled by a person pushing a long pole against the riverbed.",
+      "cambridgePubs": {
+        "visited": "several",
+        "specificNames": [],
+        "exactNumber": null,
+        "followUpStatus": "deferred_at_user_request",
+        "nextAction": "Ask again during a future Cambridge/Culture Passport interview, without inventing venues or dates."
+      }
     }
   },
   {

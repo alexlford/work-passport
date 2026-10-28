@@ -329,25 +329,39 @@
     "id": "rmwt",
     "title": "Resilient Missile Warning & Tracking / Ground Management & Integration",
     "label": "RMWT / GMI",
-    "group": "Potential program link",
-    "status": "candidate",
-    "place": "Colorado / SDA mission ecosystem",
-    "period": "Date not confirmed",
-    "role": "Possible program association, not established personal assignment",
-    "narrative": "Public Space Development Agency materials confirm continuing resilient missile-warning-and-tracking ground segment initiatives. The available sources do not connect this specific workstream to a personal role; treat as a research lead pending confirmation.",
+    "group": "Space · Ground",
+    "status": "documented",
+    "place": "Work locations not yet established",
+    "period": "Dates to confirm",
+    "role": "Capture support → Ground Entry Point (GEP) Lead",
+    "narrative": "I assisted with the RMWT GMI capture effort and subsequently joined the program team as Ground Entry Point (GEP) Lead. My involvement therefore spans the pursuit and a follow-on technical leadership assignment. The specific dates, site locations, scope of responsibilities, and program milestones remain to be established through the interview.",
     "media": "https://cdn.northropgrumman.com/-/jssmedia/Project/Northrop-Grumman/ngc/what-we-do/space/spacecraft/ngp/ngp_satellite_500x500-01.png?mw=3840&rev=b97cddcefa47479baf1449a52cfdfa7e",
-    "mediaCredit": "Illustrative NG Next Gen Polar image; different program from SDA RMWT",
+    "mediaCredit": "Illustrative NG Next Gen Polar satellite artwork; different program, not RMWT GMI",
     "links": [
       {
-        "label": "Space Development Agency · RMWT ground framework",
-        "url": "https://www.sda.mil/sda-seeks-sources-for-the-performance-enhanced-real-time-ground-environment-peregrine-sentry-effort/"
+        "label": "SDA · public background on Ground, Management & Integration (GMI)",
+        "url": "https://www.sda.mil/sda-releases-call-for-proposal-under-stec-baa-tranche-2-ground-management-and-integration-layer-phase-0/"
       },
       {
-        "label": "SDA ground-entry-points presolicitation",
-        "url": "https://sam.gov/opp/deab807a905c40968581de707fc821a1/view"
+        "label": "SDA · public RMWT Ground Entry Points overview (separate solicitation, context only)",
+        "url": "https://www.sda.mil/sda-requests-proposals-for-resilient-missile-warning-and-tracking-rmwt-low-earth-orbit-leo-ground-entry-points/"
       }
     ],
-    "evidence": "Public SDA documents only; personal involvement unverified."
+    "evidence": "Direct first-person confirmation, October 27, 2026: 'Let’s move into RMWT GMI, I assisted with the capture effort and then joined the team as the GEP Lead.' SDA public documentation provides general context on GMI and ground entry points but does not independently establish the individual's personal participation or identify the exact procurement or tranche.",
+    "phases": [
+      {
+        "label": "Capture",
+        "contribution": "Supported the RMWT GMI capture effort"
+      },
+      {
+        "label": "Team assignment",
+        "contribution": "Joined the team as Ground Entry Point (GEP) Lead"
+      }
+    ],
+    "sourceType": "First-person interview (direct personal assignment confirmation)",
+    "dateStatus": "Program and assignment dates unverified",
+    "roleEvidence": "Confirmed by user; do not infer a specific contract win, subcontractor, customer mission detail, acquisition tranche, work location, GEP site, or proprietary architecture.",
+    "mediaAlt": "Generic public Northrop Grumman satellite illustration from an unrelated Next Gen Polar program; not imagery of RMWT GMI"
   },
   {
     "id": "gws",

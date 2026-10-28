@@ -485,13 +485,13 @@
       "nextQuestion": "Outside of work at RAF Molesworth, what do you remember most about your time staying in Cambridge?"
     },
     {
-      "id": "boulder-rmwt-cambridge-puns-punting-on-river",
+      "id": "boulder-rmwt-cambridge-pubs-punting-on-river",
       "chapter": "boulder",
       "workplace": "Northrop Grumman Space Systems / RMWT GMI",
       "timeframe": "UK work trip; dates not confirmed",
       "question": "Outside of work at RAF Molesworth, what do you remember most about staying in Cambridge?",
-      "answer": "Loved the puns and punting on the river",
-      "publicSummary": "Punting on the river was a favorite off-duty memory of staying in Cambridge during the RAF Molesworth work trip.",
+      "answer": "Loved the pubs and punting on the river",
+      "publicSummary": "The pubs and punting on the river were favorite off-duty memories of staying in Cambridge during the RAF Molesworth work trip.",
       "sourceType": "Direct first-person interview",
       "sourceDate": "2026-10-27",
       "linkedProgramIds": [
@@ -503,8 +503,10 @@
       "linkedMapPlaceIds": [
         "cambridge-england"
       ],
-      "evidenceLimits": "'Puns' is preserved as written; it may refer to wordplay or be a typo for pubs, so do not interpret it as a confirmed pub visit. No boat operator, specific river reach, dates, or companions established. Cambridge river name not asserted in the first-person answer.",
-      "nextQuestion": "On the river in Cambridge, did you try steering a punt yourself, or did you let someone else handle the pole?"
+      "evidenceLimits": "The user clarified that 'puns' was a typo for 'pubs'. Pub visits and punting are confirmed but no venue names, boat operator, river reach, dates, or companions have been established.",
+      "nextQuestion": "Which Cambridge pub stands out most, and what do you remember about it?",
+      "originalTypedAnswer": "Loved the puns and punting on the river",
+      "correction": "The user explicitly corrected 'puns' to 'pubs' later on October 27, 2026."
     }
   ]
 }

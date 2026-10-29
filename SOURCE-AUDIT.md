@@ -88,3 +88,14 @@ The user confirmed on October 27, 2026 that images they provide may be uploaded 
 - **2020 NG Innovation Exchange poster acceptance** establishes selection for a July campus poster; participation itself is not independently confirmed.
 
 Public archival policy: only non-proprietary, user-supplied and public-safe career facts; never expose full invention-disclosure letters, internal IDs, payment values, staff rosters, COVID access documents or licensed PDFs.
+
+
+## October 28, 2026 — Interview-to-site synthesis
+
+The new Engineering & Leadership editorial section and Baltimore-to-Boulder reflection are based on direct, first-person Work Passport interview responses (Questions 43–102). These are personal reflections rather than independently verifiable external claims. Direct phrases preserved include "steady, competent, and servant," "consistency and clarity," "the grass isn't always greener," and "Every week. I'm always learning."
+
+RGS-A: the user reconfirmed that authoring the RF portion of the technical volume was their first capture-team assignment. GWS IDT: the user directly confirmed ongoing responsibility as Phased Array Architect. Public Northrop Grumman [GWS program background](https://www.northropgrumman.com/what-we-do/missile-defense/ground-based-midcourse-system) supports the existence of phased-array interceptor communications work, but not an individual's role. The former candidate status was updated only on the strength of first-person confirmation. The previous "Integrated Digital Test" expansion was unsupported and was removed.
+
+RMWT GMI: the public copy includes only high-level RF integration, inherited baselines and RF site survey communication. This neither attributes the survey to a specific site nor discloses any antenna specification, GFE inventory or test result. No Australian site is plotted or claimed.
+
+Interview entries are curated summaries in a public repository. Do not copy a complete private interview transcript, internal correspondence, customer presentations or test documents into the public site.

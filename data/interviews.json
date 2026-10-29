@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "scope": "Public-safe summaries of directly supplied recollections; not a confidential engineering log.",
   "entries": [
     {
@@ -562,6 +562,136 @@
       "nextQuestion": "Outside the quiet base itself, what was your most memorable experience with the colleagues you met during the UK trip?",
       "originalTypedAnswer": "Quite base. Hot summer in England.",
       "correction": "User explicitly clarified 'Quite base' meant 'quiet base' on October 27, 2026."
+    },
+    {
+      "id": "work-q49-execution",
+      "chapter": "boulder",
+      "question": "What would success in the current GEP role look like?",
+      "answer": "Building, testing, and delivering everything to the government on time.",
+      "publicSummary": "Defines future success as execution and on-time delivery; this is a goal, not a completed milestone.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q52-fellow-aspiration",
+      "chapter": "boulder",
+      "question": "What is the long-term professional ambition?",
+      "answer": "Become an NG Fellow and own the ground-based radar technical portfolio and strategy.",
+      "publicSummary": "Long-term aspiration: influence ground-based radar technical portfolio and strategy, not a current title or responsibility.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q55-cross-domain-strategy",
+      "chapter": "boulder",
+      "question": "How would you connect technology across company organizations?",
+      "answer": "Build relationships with technical experts, then collaboratively develop technology roadmaps.",
+      "publicSummary": "Technical relationships precede cross-domain roadmapping; an aspirational approach to enterprise strategy.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q58-first-capture",
+      "chapter": "boulder",
+      "question": "What made the RGS-A win significant?",
+      "answer": "I authored the RF part of the technical volume; it was my first capture team.",
+      "publicSummary": "RGS-A was the user's first capture team assignment; contributed the RF portion of the technical proposal volume.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q59-gws-role",
+      "chapter": "boulder",
+      "question": "What is your ongoing role and professional satisfaction on GWS IDT?",
+      "answer": "Phased Array Architect; making a real technical impact on communications-system maturation.",
+      "publicSummary": "Current Phased Array Architect contribution to communications-system technical maturation; specific design and test details excluded.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q69-leadership-style",
+      "chapter": "boulder",
+      "question": "How do you describe your leadership style?",
+      "answer": "Steady, competent, and servant.",
+      "publicSummary": "Leads by technical competence, steadiness and providing support for team success.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q70-servant-leadership",
+      "chapter": "boulder",
+      "question": "What does servant leadership mean?",
+      "answer": "I'm there to help my team succeed. If they need an explanation or help or top cover, I provide it.",
+      "publicSummary": "Helps engineers succeed through explanation, practical help and leadership support.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q92-supported-growth",
+      "chapter": "boulder",
+      "question": "How do you use growth assignments?",
+      "answer": "Give them growth assignments when there is a safety net. Expect struggle and provide the infrastructure to help.",
+      "publicSummary": "Growth assignments should stretch an engineer but include an appropriate support structure.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q98-quality",
+      "chapter": "boulder",
+      "question": "What defines a strong technical deliverable?",
+      "answer": "Consistency and clarity.",
+      "publicSummary": "Consistency indicates rigor; clarity suggests sufficiently deep understanding to communicate the work.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q99-reviews",
+      "chapter": "boulder",
+      "question": "How do you address unclear or inconsistent work products?",
+      "answer": "Walk through them together with the engineer.",
+      "publicSummary": "Technical reviews are collaborative opportunities to improve both work products and engineering judgment.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q100-learning",
+      "chapter": "boulder",
+      "question": "How often do engineers challenge your thinking?",
+      "answer": "Every week. I'm always learning.",
+      "publicSummary": "The user actively values ongoing learning from other engineers, even while serving as technical authority.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q102-first-principles",
+      "chapter": "boulder",
+      "question": "How do you begin a first-principles problem?",
+      "answer": "Figure out what is fundamental: energy, size, power or something else.",
+      "publicSummary": "Identify the controlling constraint before selecting an engineering approach.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
+    },
+    {
+      "id": "work-q77-reflection-deferred",
+      "chapter": "boulder",
+      "question": "What makes an extremely competent engineer?",
+      "answer": "I'd like time to think about that.",
+      "publicSummary": "Question remains open; do not fabricate a finished answer.",
+      "sourceType": "Direct first-person interview (curated public-safe summary)",
+      "sourceDate": "2026-10-28",
+      "releaseBoundary": "Only high-level professional themes permitted in public content. This entry is not authorization to publish detailed internal system, personnel or customer information."
     }
   ]
 }

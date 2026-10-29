@@ -98,3 +98,17 @@ requires a separately verified launch change and an updated navigation contract.
 The component is static HTML and has no cross-repository JavaScript or data
 dependency. Each Passport retains its own content, styling, and release process.
 
+
+
+## Interview-to-site editorial layer (October 28, 2026)
+
+The first synthesis of the extended Work Passport interview is now visible in the public website:
+
+- **Approach**: a new first-person Engineering & Leadership section grounded in the user's stated philosophy: *steady, competent, and servant*; first principles; consistency and clarity; supported growth; and continuous learning.
+- **Career reflection**: a short Baltimore-to-Boulder transition narrative emphasizing family, career tradeoffs, patience and listening, without publishing internal organizational criticism.
+- **Selected work**: updated RGS-A first-capture significance and RMWT GMI RF leadership; GWS IDT moved from unverified candidate to first-person-documented ongoing participation. External program sources confirm program context, **not** the individual's participation.
+- **Interview provenance**: additional concise, high-level interview records in `data/interviews.json`. The interview file is a public-safe editorial record, not a verbatim transcript or a private vault.
+
+### Release rules for ongoing work
+
+Do not publish nonpublic architecture, technical parameters, detailed test results, readiness claims, government-furnished-equipment inventories, sensitive site identification or customer discussions. Aspirations are labeled as such; active work is not represented as completed. In particular, user-described GWS IDT test activities are not included as technical specifics on the public site. The independent Life Map remains the sole source of geographic data. Culture, Sports and Adventures Passports remain independent repositories.

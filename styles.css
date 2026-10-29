@@ -387,3 +387,30 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 .passport-pending{border-style:dashed!important}
 footer .passport-navigation{flex-basis:100%}.passport-label{color:var(--gold)}.passport-links>[aria-current="true"]{border-color:var(--gold);color:var(--gold)}
 
+
+
+/* Interview-derived editorial layer: clear hierarchy and accessible mobile layouts. */
+.career-reflection{margin-top:56px;padding:31px 32px;background:rgba(220,184,120,.07);border:1px solid rgba(220,184,120,.29);display:grid;grid-template-columns:.85fr 1.5fr;gap:36px}
+.reflection-kicker,.approach-kicker{font-size:10px;letter-spacing:.16em;font-weight:700;color:var(--gold)}
+.career-reflection h3{font-size:clamp(21px,2.7vw,31px);line-height:1.25;margin:15px 0 0}
+.career-reflection p{font-size:14px;color:#d0dad9;line-height:1.8;margin:0 0 14px}
+.career-reflection .reflection-quote{font:italic 25px/1.4 Georgia,serif;color:var(--gold);margin:20px 0 6px}
+.career-reflection .reflection-note{font-size:11px;color:#aabcbf;margin:0}
+.approach-section{background:#172c38;color:var(--paper)}
+.approach-section .section-heading p{color:#c1ced0}
+.approach-feature{display:grid;grid-template-columns:.95fr 1.05fr;gap:48px;align-items:end;padding:clamp(28px,4vw,56px);background:radial-gradient(circle at 20% 90%,#284c53,transparent 55%),#0b202c;border:1px solid rgba(220,184,120,.27)}
+.approach-feature h3{margin:19px 0 0;font-size:clamp(40px,5.4vw,82px);line-height:1.04;letter-spacing:-.055em}
+.approach-feature h3 em{font:italic .9em Georgia,serif;color:var(--gold)}
+.approach-feature-copy p{font-size:clamp(14px,1.3vw,17px);color:#d5e0df;line-height:1.8;margin:0 0 17px}
+.approach-feature-copy p:last-child{margin-bottom:0}
+.approach-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-top:18px}
+.principle-card{border:1px solid rgba(230,225,211,.18);padding:29px 24px 32px;background:#203844}
+.principle-count{font-size:10px;letter-spacing:.13em;font-weight:700;color:#dbba81}
+.principle-card h3{font-size:clamp(19px,1.9vw,25px);line-height:1.23;letter-spacing:-.04em;margin:25px 0 17px}
+.principle-card p{font-size:13px;line-height:1.8;color:#c5d2d5;margin:0}
+.approach-bottom{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;margin-top:31px;padding:27px 0;border-top:1px solid var(--line)}
+.approach-bottom blockquote{margin:0;font:italic clamp(27px,3.2vw,46px)/1.25 Georgia,serif;color:var(--gold)}
+.approach-bottom span{font-size:10px;letter-spacing:.14em;font-weight:700;color:#dcc08b}
+.approach-bottom p{font-size:13px;line-height:1.75;color:#cbd7d8;margin:9px 0 0}
+@media(max-width:1050px){.approach-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.career-reflection,.approach-feature,.approach-bottom{grid-template-columns:1fr;gap:18px}.career-reflection{padding:24px 22px}.approach-feature{padding:31px 26px}.approach-feature h3{font-size:clamp(44px,11vw,67px)}.approach-grid{grid-template-columns:1fr;gap:10px}.principle-card{padding:24px 23px}.principle-card h3{margin:16px 0 11px}.approach-bottom{gap:20px}}

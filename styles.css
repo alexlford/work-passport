@@ -115,7 +115,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 .hero{grid-template-columns:1.03fr .97fr;min-height:clamp(610px,75vh,770px)}
 .hero-copy{padding:clamp(70px,7.8vw,122px) clamp(32px,6vw,110px) 78px;background:radial-gradient(ellipse at 2% 95%,#173744 0,transparent 52%)}
 .hero .eyebrow{margin-bottom:40px;font-size:10px;letter-spacing:.16em}
-.hero h1{font-size:clamp(72px,8.5vw,132px);line-height:.98;letter-spacing:-.08em;margin-bottom:35px}
+.hero h1{font-size:clamp(38px, 4.8vw, 76px);line-height:.98;letter-spacing:-.08em;margin-bottom:35px}
 .hero h1 em{font-size:.96em}
 .hero .lead{font-size:clamp(16px,1.35vw,19px);line-height:1.75;max-width:520px;color:#d1dcdd}
 .hero-actions{margin-top:33px}
@@ -248,7 +248,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
  .site-header nav a{font-size:10px}
  .hero{grid-template-columns:1fr;min-height:unset}
  .hero-copy{padding:78px clamp(26px,7vw,60px) 65px}
- .hero h1{font-size:clamp(70px,12vw,110px)}
+ .hero h1{font-size:clamp(44px, 7vw, 68px)}
  .hero-note{margin-top:45px}
  .hero-visual{min-height:375px;max-height:450px}
  .hero-visual:after{background:linear-gradient(0deg,rgba(9,24,34,.8),transparent 55%)}
@@ -275,7 +275,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
  .site-header nav a{font-size:10px}
  .hero-copy{padding:66px 26px 58px}
  .hero .eyebrow{font-size:9px;margin-bottom:24px}
- .hero h1{font-size:clamp(69px,17vw,93px);margin-bottom:24px}
+ .hero h1{font-size:clamp(38px, 9vw, 54px);margin-bottom:24px}
  .hero .lead{font-size:16px;line-height:1.7}
  .hero-actions{gap:18px;margin-top:22px}
  .hero-actions .button{padding:13px 17px}

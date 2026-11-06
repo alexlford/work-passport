@@ -179,8 +179,10 @@
     "period": "2018–2019",
     "role": "Installed-performance computational electromagnetics analysis",
     "narrative": "Performed computational electromagnetics (CEM) analysis focused on installed performance in support of SEWIP during my early Northrop Grumman period in Baltimore. This work was separate from algorithmic development on an internal CEM toolkit. Specific platforms, simulation models, technical results, and internal details are not described in this public archive.",
-    "media": "https://cdn.northropgrumman.com/-/media/wp-content/uploads/SEWIP-01.jpg?h=917&iar=0&w=800&rev=955ef1f27d874dd0b1e255ec27bb4eba",
-    "mediaCredit": "Northrop Grumman SEWIP anechoic test imagery",
+    "media": null,
+    "mediaKicker": "ELECTRONIC WARFARE",
+    "mediaSubtitle": "Installed-performance analysis",
+    "mediaCredit": "Editorial project title.",
     "links": [
       {
         "label": "Northrop Grumman · SEWIP official program page",

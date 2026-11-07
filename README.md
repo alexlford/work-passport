@@ -4,7 +4,7 @@ A public, illustrated, source-backed professional archive of Alex Ford beginning
 
 ## Site
 
-The root `index.html` is a responsive static site requiring no build tools. GitHub Pages can serve this repository from `main` at repository root. **Repository deployment must be enabled separately if not already configured.** No custom domain is committed until DNS and Pages configuration are confirmed.
+The root `index.html` is a responsive static site requiring no build tools. GitHub Pages can serve this repository from `main` at repository root. **Repository deployment must be enabled separately if not already configured.** `CNAME` records the intended custom domain, `work.alexlford.com`. Launch also requires GitHub Pages configuration, a DNS CNAME from `work` to `alexlford.github.io`, and a valid HTTPS certificate; committing this file alone does not establish that the website is live.
 
 ## Pages and content
 

@@ -63,6 +63,10 @@ try {
       '.academic-card': read('academic-affiliations').length,
     };
     for (const [selector, expected] of Object.entries(counts)) assert.equal(await page.locator(selector).count(), expected, name + ' ' + selector);
+    assert.equal(await page.locator('.wordmark .logo').innerText(), 'AF', name + ': typographic monogram');
+    assert.equal(await page.locator('.award-rule').count(), counts['.award-card'], name + ': understated award rules');
+    assert.equal(await page.locator('.award-symbol').count(), 0, name + ': legacy award ornaments removed');
+    assert.ok(!(await page.locator('body').innerText()).includes('✳'), name + ': no emoji starburst');
     for (const filter of ['all', 'candidate', 'documented']) {
       const button = page.locator('[data-filter="' + filter + '"]');
       await button.focus();

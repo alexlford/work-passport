@@ -67,6 +67,8 @@ try {
     assert.equal(await page.locator('.award-rule').count(), counts['.award-card'], name + ': understated award rules');
     assert.equal(await page.locator('.award-symbol').count(), 0, name + ': legacy award ornaments removed');
     assert.ok(!(await page.locator('body').innerText()).includes('✳'), name + ': no emoji starburst');
+    assert.ok(await page.locator('.link-arrow').count() >= 10, name + ': vector link icons present');
+    assert.ok(!(await page.locator('body').innerText()).includes('↗'), name + ': no iOS arrow emoji');
     for (const filter of ['all', 'candidate', 'documented']) {
       const button = page.locator('[data-filter="' + filter + '"]');
       await button.focus();

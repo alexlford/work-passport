@@ -69,6 +69,21 @@ try {
     assert.ok(!(await page.locator('body').innerText()).includes('✳'), name + ': no emoji starburst');
     assert.ok(await page.locator('.link-arrow').count() >= 10, name + ': vector link icons present');
     assert.ok(!(await page.locator('body').innerText()).includes('↗'), name + ': no iOS arrow emoji');
+    const emojiLike = await page.evaluate(() => {
+      // Validate rendered text and CSS-generated content, not only source literals.
+      const forbidden = /[\u2194-\u2199\u21A9-\u21AA\u23E9-\u23FA\u25AA-\u25AB\u25B6\u25C0\u25FB-\u25FE\u2600-\u27BF\uFE0F\u20E3\u{1F000}-\u{1FAFF}]/u;
+      const found = new Set([...document.body.innerText].filter(ch => forbidden.test(ch)));
+      for (const node of document.body.querySelectorAll('*')) {
+        for (const pseudo of ['::before', '::after']) {
+          const content = getComputedStyle(node, pseudo).content;
+          if (content && content !== 'none' && content !== 'normal') {
+            for (const ch of content) if (forbidden.test(ch)) found.add(ch);
+          }
+        }
+      }
+      return [...found];
+    });
+    assert.deepEqual(emojiLike, [], name + ': no emoji-presentation glyphs in rendered page or CSS ornaments');
     for (const filter of ['all', 'candidate', 'documented']) {
       const button = page.locator('[data-filter="' + filter + '"]');
       await button.focus();
